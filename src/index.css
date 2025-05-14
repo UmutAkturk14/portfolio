@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@theme {
+  --font-heading: Croissant One, cursive;
+}
+
+@theme inline {
+  --font-sans: Lora;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));

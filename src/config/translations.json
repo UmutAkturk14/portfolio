@@ -1,0 +1,64 @@
+{
+  "de": {
+    "about": {},
+    "contact": {},
+    "hero": {
+      "title": "Frontend Entwickler"
+    },
+    "projects": {},
+    "techStack": {},
+    "writing": {}
+  },
+  "en": {
+    "about": {},
+    "contact": {},
+    "hero": {
+      "services": {},
+      "title": "Front End Developer"
+    },
+    "projects": {
+      "project1": {
+        "links": [],
+        "projectName": "name",
+        "stack": [],
+        "tags": []
+      }
+    },
+    "techStack": {
+      "back-end": {},
+      "front-end": {},
+      "tools": {}
+    },
+    "writing": {}
+  },
+  "es": {
+    "about": {},
+    "contact": {},
+    "hero": {
+      "title": "Desarrollador Front-End"
+    },
+    "projects": {},
+    "techStack": {},
+    "writing": {}
+  },
+  "fr": {
+    "about": {},
+    "contact": {},
+    "hero": {
+      "title": "Développeur Front End"
+    },
+    "projects": {},
+    "techStack": {},
+    "writing": {}
+  },
+    "tr": {
+    "about": {},
+    "contact": {},
+    "hero": {
+      "title": "Front End Developer"
+    },
+    "projects": {},
+    "techStack": {},
+    "writing": {}
+  }
+}
