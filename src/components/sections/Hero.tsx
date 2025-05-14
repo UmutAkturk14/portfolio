@@ -20,9 +20,11 @@ function Hero() {
 
   return (
     <div className="hero flex items-center justify-center h-screen flex-col">
-      <p className="font-heading text-6xl dark:text-white">Umut Akturk</p>
+      <p className="font-heading text-4xl md:text-6xl lg:text-9xl dark:text-white">
+        Umut Akturk
+      </p>
       <p
-        className={`transition-opacity text-2xl duration-300 ease-in-out dark:text-white ${
+        className={`transition-opacity text-xl lg:text-3xl duration-300 ease-in-out dark:text-white ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >

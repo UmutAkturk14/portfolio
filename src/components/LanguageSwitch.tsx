@@ -9,12 +9,26 @@ const LanguageSwitch = () => {
   };
 
   return (
-    <select value={language} onChange={handleLanguageChange}>
-      <option value="en">🇬🇧 English</option>
-      <option value="fr">🇫🇷 Français</option>
-      <option value="de">🇩🇪 Deutsch</option>
-      <option value="es">🇪🇸 Español</option>
-      <option value="tr">🇹🇷 Türkçe</option>
+    <select
+      value={language}
+      onChange={handleLanguageChange}
+      className="focus:outline-none focus:ring-0"
+    >
+      <option className="dark:bg-gray-900 bg:gray-50" value="en">
+        🇬🇧 English
+      </option>
+      <option className="dark:bg-gray-900 bg:gray-50" value="fr">
+        🇫🇷 Français
+      </option>
+      <option className="dark:bg-gray-900 bg:gray-50" value="de">
+        🇩🇪 Deutsch
+      </option>
+      <option className="dark:bg-gray-900 bg:gray-50" value="es">
+        🇪🇸 Español
+      </option>
+      <option className="dark:bg-gray-900 bg:gray-50" value="tr">
+        🇹🇷 Türkçe
+      </option>
     </select>
   );
 };
