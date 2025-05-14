@@ -3,18 +3,52 @@
     "about": {},
     "contact": {},
     "hero": {
-      "title": "Frontend Entwickler"
+      "title": "Frontend Entwickler",
+      "services": [
+        "Moderne Frontend-Webentwicklung",
+        "Design von Einzelseiten-Websites",
+        "Entwicklung statischer Webseiten",
+        "Individuelle Webanwendungen",
+        "Website-Überarbeitung & Neugestaltung"
+      ],
+      "motto": "Schnell. Klar. Wartbar."
     },
     "projects": {},
     "techStack": {},
-    "writing": {}
+    "writing": {},
+    "buttons": {
+      "viewProjects": "Projekte ansehen",
+      "contact": "Kontaktieren Sie mich",
+      "cv": "Lebenslauf herunterladen",
+      "seeCode": "Code ansehen",
+      "liveDemo": "Live-Demo",
+      "readMore": "Mehr erfahren",
+      "backToTop": "Nach oben",
+      "hireMe": "Stellen Sie mich ein",
+      "learnMore": "Mehr erfahren",
+      "goBack": "Zurück",
+      "visitWebsite": "Webseite besuchen",
+      "githubRepo": "GitHub-Repository",
+      "showMore": "Mehr anzeigen",
+      "showLess": "Weniger anzeigen",
+      "download": "Herunterladen",
+      "copyEmail": "E-Mail kopieren",
+      "openInNewTab": "In neuem Tab öffnen"
+    }
   },
   "en": {
     "about": {},
     "contact": {},
     "hero": {
-      "services": {},
-      "title": "Front End Developer"
+      "title": "Front End Developer",
+      "services": [
+          "Front End Web Development",
+          "One-Page Website Design",
+          "Static Website Development",
+          "Custom Web Application Development",
+          "Website Redesign and Revamp"
+      ],
+      "motto": "Simple. Fast. Maintainable."
     },
     "projects": {
       "project1": {
@@ -29,36 +63,137 @@
       "front-end": {},
       "tools": {}
     },
-    "writing": {}
+    "writing": {},
+    "buttons": {
+      "viewProjects": "View Projects",
+      "contact": "Contact Me",
+      "cv": "Download CV",
+      "seeCode": "See Code",
+      "liveDemo": "Live Demo",
+      "readMore": "Read More",
+      "backToTop": "Back to Top",
+      "hireMe": "Hire Me",
+      "learnMore": "Learn More",
+      "goBack": "Go Back",
+      "visitWebsite": "Visit Website",
+      "githubRepo": "GitHub Repo",
+      "showMore": "Show More",
+      "showLess": "Show Less",
+      "download": "Download",
+      "copyEmail": "Copy Email",
+      "openInNewTab": "Open in New Tab"
+    }
+
   },
   "es": {
     "about": {},
     "contact": {},
     "hero": {
-      "title": "Desarrollador Front-End"
+      "title": "Desarrollador Front-End",
+      "services": [
+        "Desarrollo Front-End Profesional",
+        "Diseño de Sitios Web de Una Sola Página",
+        "Desarrollo de Páginas Estáticas",
+        "Aplicaciones Web Personalizadas",
+        "Rediseño y Modernización de Sitios Web"
+      ],
+      "motto": "Ágil. Claro. Sostenible."
     },
     "projects": {},
     "techStack": {},
-    "writing": {}
+    "writing": {},
+    "buttons": {
+      "viewProjects": "Ver proyectos",
+      "contact": "Contáctame",
+      "cv": "Descargar CV",
+      "seeCode": "Ver código",
+      "liveDemo": "Demo en vivo",
+      "readMore": "Leer más",
+      "backToTop": "Volver arriba",
+      "hireMe": "Contrátame",
+      "learnMore": "Aprender más",
+      "goBack": "Volver",
+      "visitWebsite": "Visitar sitio web",
+      "githubRepo": "Repositorio GitHub",
+      "showMore": "Mostrar más",
+      "showLess": "Mostrar menos",
+      "download": "Descargar",
+      "copyEmail": "Copiar correo",
+      "openInNewTab": "Abrir en nueva pestaña"
+    }
   },
   "fr": {
     "about": {},
     "contact": {},
     "hero": {
-      "title": "Développeur Front End"
+      "title": "Développeur Front End",
+      "services": [
+        "Développement Front-End Moderne",
+        "Conception de Sites Web One-Page",
+        "Création de Sites Web Statiques",
+        "Applications Web Sur Mesure",
+        "Refonte et Modernisation de Sites Web"
+      ],
+      "motto": "Rapide. Élégant. Facile à maintenir."
     },
     "projects": {},
     "techStack": {},
-    "writing": {}
+    "writing": {},
+    "buttons": {
+      "viewProjects": "Voir les projets",
+      "contact": "Me contacter",
+      "cv": "Télécharger le CV",
+      "seeCode": "Voir le code",
+      "liveDemo": "Démo en direct",
+      "readMore": "En savoir plus",
+      "backToTop": "Haut de page",
+      "hireMe": "Engagez-moi",
+      "learnMore": "En savoir plus",
+      "goBack": "Retour",
+      "visitWebsite": "Visiter le site",
+      "githubRepo": "Dépôt GitHub",
+      "showMore": "Afficher plus",
+      "showLess": "Afficher moins",
+      "download": "Télécharger",
+      "copyEmail": "Copier l’e-mail",
+      "openInNewTab": "Ouvrir dans un nouvel onglet"
+    }
   },
     "tr": {
     "about": {},
     "contact": {},
     "hero": {
-      "title": "Front End Developer"
+      "title": "Front End Developer",
+      "services": [
+        "Modern Ön Yüz Geliştirme",
+        "Tek Sayfalık Web Sitesi Tasarımı",
+        "Statik Web Sitesi Geliştirme",
+        "Özel Web Uygulama Geliştirme",
+        "Web Sitesi Yenileme ve Revizyon"
+      ],
+      "motto": "Hızlı. Temiz. Sürdürülebilir."
     },
     "projects": {},
     "techStack": {},
-    "writing": {}
+    "writing": {},
+    "buttons": {
+      "viewProjects": "Projeleri Görüntüle",
+      "contact": "Benimle İletişime Geç",
+      "cv": "CV'yi İndir",
+      "seeCode": "Kodu Gör",
+      "liveDemo": "Canlı Demo",
+      "readMore": "Daha Fazla Oku",
+      "backToTop": "Başa Dön",
+      "hireMe": "Beni İşe Al",
+      "learnMore": "Daha Fazla Bilgi",
+      "goBack": "Geri Dön",
+      "visitWebsite": "Web Sitesini Ziyaret Et",
+      "githubRepo": "GitHub Reposu",
+      "showMore": "Daha Fazlasını Göster",
+      "showLess": "Daha Azını Göster",
+      "download": "İndir",
+      "copyEmail": "E-postayı Kopyala",
+      "openInNewTab": "Yeni Sekmede Aç"
+    }
   }
 }

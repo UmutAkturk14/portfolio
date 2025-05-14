@@ -1,28 +1,45 @@
 // src/context/LanguageContext.tsx
 import { createContext, useContext, useState, useEffect } from "react";
 import type { ReactNode } from "react";
-import translations from "../config/translations.json"; // Import translations directly
+import translations from "../config/translations.json";
 
 type Language = "en" | "fr" | "de" | "es" | "tr";
 
 const LanguageContext = createContext<{
   language: Language;
   setLanguage: (lang: Language) => void;
-  translations: Record<string, any>; // Store translations globally
+  translations: Record<string, any>;
 }>({
   language: "en",
   setLanguage: () => {},
-  translations: translations, // Set initial translations
+  translations: translations,
 });
 
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
-  const [language, setLanguage] = useState<Language>("en");
-  const [currentTranslations, setCurrentTranslations] = useState(translations); // Load translations only once
+  const [language, setLanguageState] = useState<Language>("en");
+  const [currentTranslations] = useState(translations);
 
+  // Get saved language from localStorage or fall back to browser language
   useEffect(() => {
-    // Here, you can dynamically load translations if needed (e.g., from an API or a file)
-    // This is where you'd make an async call to fetch translations if not static
-  }, []); // Empty dependency array ensures it runs once
+    const savedLang = localStorage.getItem(
+      "preferredLanguage"
+    ) as Language | null;
+
+    if (savedLang && translations[savedLang]) {
+      setLanguageState(savedLang);
+    } else {
+      const browserLang = navigator.language.slice(0, 2); // e.g., "en", "fr"
+      const supportedLang = ["en", "fr", "de", "es", "tr"].includes(browserLang)
+        ? (browserLang as Language)
+        : "en";
+      setLanguageState(supportedLang);
+    }
+  }, []);
+
+  const setLanguage = (lang: Language) => {
+    localStorage.setItem("preferredLanguage", lang);
+    setLanguageState(lang);
+  };
 
   return (
     <LanguageContext.Provider
