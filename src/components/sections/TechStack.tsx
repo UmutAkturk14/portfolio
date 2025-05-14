@@ -1,4 +1,3 @@
-import { useLanguage } from "../../context/languageContext";
 import TechStackCarousel from "../sectionComponents/TechStackCarousel";
 
 const TechStack = () => {
@@ -8,11 +7,7 @@ const TechStack = () => {
         My Tech Stack
       </h1>
 
-      <TechStackCarousel category="front-end" />
-
-      <TechStackCarousel category="back-end" />
-
-      <TechStackCarousel category="tools" />
+      <TechStackCarousel />
 
       <div className="space-y-16"></div>
     </section>
