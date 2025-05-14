@@ -37,9 +37,9 @@ type CTAButtonProps = {
 };
 
 const sizeClasses = {
-  sm: "text-sm px-3 py-1.5",
-  md: "text-base px-4 py-2",
-  lg: "text-lg px-6 py-3",
+  sm: "text-xs sm:text-sm md:text-base lg:text-md px-2 sm:px-3 py-1 sm:py-1.5",
+  md: "text-sm sm:text-base lg:text-lg xl:text-xl px-3 sm:px-4 py-1.5 sm:py-2",
+  lg: "text-base sm:text-lg lg:text-xl xl:text-2xl px-4 sm:px-6 py-2 sm:py-3",
 };
 
 const variantClasses = {
@@ -85,12 +85,12 @@ export const CallToActionButton: FC<CTAButtonProps> = ({
   icon: Icon,
   iconPosition = "left",
   variant = "solid",
-  size = "md",
-  external = false,
+  size = "sm",
+  external = true,
   className = "",
 }) => {
   const commonClasses = clsx(
-    "justify-center inline-flex items-center gap-2 font-medium rounded transition-all duration-200 text-sm md:text-md",
+    "justify-center inline-flex items-center gap-2 font-medium rounded transition-all duration-500",
     sizeClasses[size],
     variantClasses[variant],
     className

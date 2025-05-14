@@ -4,7 +4,7 @@ import LanguageSwitch from "../ui/LanguageSwitch";
 const Navbar = () => {
   return (
     <nav
-      className="w-full z-50 md:fixed top-0 bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-white flex justify-between transition duration-500"
+      className="w-full z-50 md:fixed top-0 bg-surface text-primary flex justify-between smooth"
       id="navbar"
     >
       <div className="flex">

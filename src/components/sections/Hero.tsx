@@ -1,7 +1,7 @@
 import { useLanguage } from "../../context/languageContext";
 import { useEffect, useState } from "react";
-import AnimatedServices from "./AnimatedServices";
-import HeroCallToActions from "./HeroCallToActions";
+import AnimatedServices from "../sectionComponents/AnimatedServices";
+import HeroCallToActions from "../sectionComponents/HeroCallToActions";
 
 function Hero() {
   const { language, translations } = useLanguage();
@@ -23,11 +23,11 @@ function Hero() {
   return (
     <>
       <div className="hero flex items-center justify-center min-h-[100svh] flex-col">
-        <p className="font-heading text-4xl md:text-6xl lg:text-9xl dark:text-white">
+        <p className="font-heading text-4xl md:text-6xl lg:text-9xl text-primary">
           Umut Akturk
         </p>
         <p
-          className={`transition-opacity text-xl lg:text-3xl duration-300 ease-in-out dark:text-white ${
+          className={`smooth text-xl lg:text-3xl ease-in-out text-secondary ${
             isVisible ? "opacity-100" : "opacity-0"
           }`}
         >

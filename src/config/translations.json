@@ -59,9 +59,32 @@
       }
     },
     "techStack": {
-      "back-end": {},
-      "front-end": {},
-      "tools": {}
+      "front-end": [
+        {
+          "name": "React",
+          "description": "A JavaScript library for building user interfaces.",
+          "icon": "/portfolio/src/assets/icons/react.svg"
+        },
+        {
+          "name": "Tailwind CSS",
+          "description": "A utility-first CSS framework.",
+          "icon": "/portfolio/src/assets/icons/tailwindcss.svg"
+        }
+      ],
+      "back-end": [
+        {
+          "name": "Node.js",
+          "description": "JavaScript runtime for scalable network applications.",
+          "icon": "/portfolio/src/assets/icons/nodejs.svg"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Git",
+          "description": "Version control system for tracking code changes.",
+          "icon": "/portfolio/src/assets/icons/git.svg"
+        }
+      ]
     },
     "writing": {},
     "buttons": {
