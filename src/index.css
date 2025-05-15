@@ -12,10 +12,6 @@
 
 @layer utilities {
   /* === Backgrounds === */
-  .bg-surface {
-    @apply bg-gray-50 dark:bg-gray-900;
-  }
-
   .bg-card {
     @apply bg-white dark:bg-gray-800;
   }
@@ -24,9 +20,19 @@
     @apply bg-gray-100 dark:bg-gray-700;
   }
 
+  .bg-surface {
+    @apply bg-gradient-to-br from-yellow-50 via-white to-green-50 dark:from-gray-800 dark:via-gray-950 dark:to-gray-900;
+  }
+
+  /* === Borders === */
+
+  .border-default {
+    @apply border-gray-300 dark:border-gray-700
+  }
+
   /* === Text === */
   .text-primary {
-    @apply text-black dark:text-white;
+    @apply text-black dark:text-gray-50;
   }
 
   .text-primary-contrast {

@@ -14,7 +14,9 @@
       "motto": "Schnell. Klar. Wartbar."
     },
     "projects": {},
-    "techStack": [
+    "techStack": {
+      "title": "Meine Tech-Tools",
+      "stack": [
       {
         "name": "JavaScript",
         "description": "Die zentrale Skriptsprache für die Webentwicklung, die dynamische Inhalte und Interaktivität ermöglicht.",
@@ -23,7 +25,7 @@
       {
         "name": "TypeScript",
         "description": "Eine stark typisierte Obermenge von JavaScript, die die Produktivität der Entwickler und die Codequalität verbessert.",
-        "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg"
+        "icon": "https://www.svgrepo.com/show/374144/typescript.svg"
       },
       {
         "name": "React",
@@ -80,7 +82,8 @@
         "description": "Ein fortschrittliches Open-Source-Relationaldatenbanksystem, das für Robustheit, Erweiterbarkeit und Standardkonformität bekannt ist.",
         "icon": "https://www.svgrepo.com/show/354200/postgresql.svg"
       }
-    ],
+    ]
+    },
     "writing": {},
     "buttons": {
       "viewProjects": "Projekte ansehen",
@@ -124,7 +127,9 @@
         "tags": []
       }
     },
-    "techStack": [
+    "techStack": {
+      "title": "What I Code With",
+      "stack": [
       {
         "name": "JavaScript",
         "description": "The core scripting language for web development, enabling dynamic content and interactivity.",
@@ -190,7 +195,8 @@
         "description": "An advanced open-source relational database system known for its robustness, extensibility, and standards compliance.",
         "icon": "https://www.svgrepo.com/show/354200/postgresql.svg"
       }
-    ],
+    ]
+    },
     "writing": {},
     "buttons": {
       "viewProjects": "View Projects",
@@ -227,7 +233,9 @@
       "motto": "Ágil. Claro. Sostenible."
     },
     "projects": {},
-    "techStack": [
+    "techStack": {
+      "title": "Mis herramientas de desarrollo",
+      "stack": [
       {
         "name": "JavaScript",
         "description": "El lenguaje de secuencias de comandos principal para el desarrollo web, que permite contenido dinámico e interactividad.",
@@ -293,7 +301,8 @@
         "description": "Un sistema de base de datos relacional de código abierto avanzado, conocido por su robustez, extensibilidad y cumplimiento de estándares.",
         "icon": "https://www.svgrepo.com/show/354200/postgresql.svg"
       }
-    ],
+    ]
+    },
     "writing": {},
     "buttons": {
       "viewProjects": "Ver proyectos",
@@ -330,7 +339,9 @@
       "motto": "Rapide. Élégant. Facile à maintenir."
     },
     "projects": {},
-    "techStack": [
+    "techStack": {
+      "title": "Mes outils de développement",
+      "stack": [
       {
         "name": "JavaScript",
         "description": "Le langage de script principal pour le développement web, permettant du contenu dynamique et de l’interactivité.",
@@ -396,7 +407,8 @@
         "description": "Un système de base de données relationnelle open-source avancé, réputé pour sa robustesse, son extensibilité et sa conformité aux normes.",
         "icon": "https://www.svgrepo.com/show/354200/postgresql.svg"
       }
-    ],
+    ]
+    },
     "writing": {},
     "buttons": {
       "viewProjects": "Voir les projets",
@@ -433,7 +445,9 @@
       "motto": "Hızlı. Temiz. Sürdürülebilir."
     },
     "projects": {},
-    "techStack": [
+    "techStack": {
+      "title": "Teknolojiler",
+      "stack": [
       {
         "name": "JavaScript",
         "description": "Web geliştirme için temel betik dili olup, dinamik içerik ve etkileşim sağlar.",
@@ -499,7 +513,8 @@
         "description": "Gelişmiş, açık kaynaklı, güvenilirliği, genişletilebilirliği ve standartlara uygunluğu ile tanınan ilişkisel veritabanı sistemidir.",
         "icon": "https://www.svgrepo.com/show/354200/postgresql.svg"
       }
-    ],
+    ]
+    },
     "writing": {},
     "buttons": {
       "viewProjects": "Projeleri Görüntüle",

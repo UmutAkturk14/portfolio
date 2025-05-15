@@ -1,0 +1,13 @@
+/* carouselAnimations.css */
+
+@keyframes float {
+  0%   { transform: translateY(0px) translateX(0px); }
+  50%  { transform: translateY(-20px) translateX(5px); }
+  100% { transform: translateY(0px) translateX(0px); }
+}
+
+@media (max-width: 640px) {
+  .float-anim {
+    animation: none !important;
+  }
+}

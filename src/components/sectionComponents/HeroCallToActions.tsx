@@ -20,7 +20,7 @@ const HeroCallToActions = () => {
 
   return (
     <div
-      className={`xl:-mt-16 -mt-24 w-full flex justify-center gap-4 md:gap-12 xl:gap-24 smooth ease-in-out ${
+      className={`mt-96 md:mt-80 w-full flex justify-center gap-4 md:gap-12 xl:gap-24 smooth ease-in-out ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
     >
