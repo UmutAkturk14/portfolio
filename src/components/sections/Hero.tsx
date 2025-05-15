@@ -34,8 +34,9 @@ function Hero() {
           {text}
         </p>
         <AnimatedServices />
-        <HeroCallToActions />
       </div>
+
+      <HeroCallToActions />
     </>
   );
 }

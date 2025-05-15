@@ -13,7 +13,7 @@ const Carousel = () => {
   > = stack ?? {};
 
   const techClasses =
-    "flex-shrink-0 flex flex-col justify-between items-center h-70 xl:h-80 w-50 sm:w-60 select-none border-2 hover:border-gray-400 border-gray-200 dark:border-gray-800 rounded-3xl hover:bg-gradient-to-br hover:dark:from-gray-800 hover:dark:via-gray-950 hover:dark:to-gray-900";
+    "tech-card flex-shrink-0 flex flex-col justify-between items-center h-80 xl:h-80 w-50 sm:w-60 select-none border-2 hover:border-gray-400 border-gray-200 dark:border-gray-800 rounded-3xl hover:bg-gradient-to-br hover:dark:from-gray-800 hover:dark:via-gray-950 hover:dark:to-gray-900";
 
   useEffect(() => {
     setIsVisible(false);
