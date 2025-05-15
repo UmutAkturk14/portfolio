@@ -1,14 +1,16 @@
 import "./App.css";
 import Navbar from "./components/sections/Navbar";
 import Hero from "./components/sections/Hero";
-import Carousel from "./components/sectionComponents/Carousel";
+import TechGrid from "./components/sections/TechGrid";
+import ProjectsCarousel from "./components/sections/ProjectsCarousel";
 
 const App = () => {
   return (
     <>
       <Navbar />
       <Hero />
-      <Carousel />
+      <TechGrid />
+      <ProjectsCarousel />
     </>
   );
 };

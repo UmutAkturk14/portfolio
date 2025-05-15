@@ -1,13 +1,13 @@
 /* carouselAnimations.css */
 
 @keyframes float {
-  0%   { transform: translateY(0px) translateX(0px); }
-  50%  { transform: translateY(-20px) translateX(5px); }
-  100% { transform: translateY(0px) translateX(0px); }
+  0%   { transform: translateY(10px) translateX(0px); }
+  50%  { transform: translateY(-40px) translateX(15px); }
+  100% { transform: translateY(10px) translateX(0px); }
 }
 
 @media screen and (max-width: 767px) {
   .tech-card {
-    width: 40vw;
+    width: 45vw;
   }
 }
