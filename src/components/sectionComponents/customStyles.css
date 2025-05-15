@@ -2,7 +2,7 @@
 
 @keyframes float {
   0%   { transform: translateY(10px) translateX(0px); }
-  50%  { transform: translateY(-40px) translateX(15px); }
+  50%  { transform: translateY(-30px) translateX(40px); }
   100% { transform: translateY(10px) translateX(0px); }
 }
 

@@ -119,14 +119,24 @@
       ],
       "motto": "Simple. Fast. Maintainable."
     },
-    "projects": {
-      "project1": {
-        "links": [],
-        "projectName": "name",
-        "stack": [],
+    "projects": [
+      {
+        "id": "1",
+        "title": "title",
+        "description": "desc",
+        "color": "color",
+        "icon": "url",
+        "links": {
+          "github": "url",
+          "deployment": "url"
+        },
+        "stack": {
+          "tool": "TypeScript",
+          "icon": "url"
+        },
         "tags": []
       }
-    },
+    ],
     "techStack": {
       "title": "What I Code With",
       "stack": [

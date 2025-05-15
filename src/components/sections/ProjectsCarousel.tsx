@@ -1,5 +1,5 @@
-/* components/FruitCarousel.tsx */
 import { useState } from "react";
+import { useLanguage } from "../../context/languageContext";
 
 /** ------------------------------
  *  Data (taken from your Pug map)
@@ -33,6 +33,22 @@ const fruits = [
     color: "#F27935",
     icon: "https://d30y9cdsu7xlg0.cloudfront.net/png/9636-200.png",
   },
+  {
+    id: "quokkaJS",
+    title: "QuokkaJS!",
+    text: "QuokkaJS is a work-in-progress, modern, feature-rich library inspired by jQuery, built with TypeScript. The goal is to create a robust, modular, and developer-friendly library for DOM manipulation, storage access, async utilities, and more, while leveraging the power of TypeScript for type safety and modern JavaScript features.",
+    color: "#F27935",
+    icon: "https://videos.openai.com/vg-assets/assets%2Ftask_01jvavef4kfgkbh14thtcm909f%2F1747342311_img_0.webp?st=2025-05-15T21%3A57%3A03Z&se=2025-05-21T22%3A57%3A03Z&sks=b&skt=2025-05-15T21%3A57%3A03Z&ske=2025-05-21T22%3A57%3A03Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=8ebb0df1-a278-4e2e-9c20-f2d373479b3a&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=lyd3BKj0g3tJ6ux%2F8LrRGj8N33YshP%2BSbWy1qx8nAvQ%3D&az=oaivgprodscus",
+    links: {
+      github: "url",
+      deployment: "url",
+    },
+    stack: {
+      tool: "TypeScript",
+      icon: "url",
+    },
+    tags: [],
+  },
 ];
 
 /** ------------------------------
@@ -40,6 +56,10 @@ const fruits = [
  * -------------------------------- */
 const ProjectsCarousel = () => {
   const [active, setActive] = useState("strawberry");
+  const { language, translations } = useLanguage();
+  const projects = translations[language].projects ?? [];
+
+  debugger;
 
   return (
     <>
@@ -51,7 +71,7 @@ const ProjectsCarousel = () => {
       `}
       </style>
 
-      <div className="mx-auto my-10 flex w-full bg-white h-[400px] shadow-md overflow-hidden">
+      <div className="mx-auto my-10 flex w-full bg-white min-h-[80svh] shadow-md overflow-hidden">
         {/* LEFT MENU */}
         <div className="flex flex-col items-start justify-center w-[350px] border-r">
           {fruits.map((f) => (

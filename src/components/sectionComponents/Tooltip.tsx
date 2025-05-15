@@ -6,6 +6,7 @@ interface TooltipProps {
   content: string;
   position?: "top" | "bottom" | "left" | "right";
   delayShow?: number;
+  active?: boolean;
 }
 
 const Tooltip: React.FC<TooltipProps> = ({
@@ -13,6 +14,7 @@ const Tooltip: React.FC<TooltipProps> = ({
   content,
   position = "top",
   delayShow = 1000,
+  active = false,
 }) => {
   const positionClasses = {
     top: "bottom-full mb-2",
@@ -31,6 +33,7 @@ const Tooltip: React.FC<TooltipProps> = ({
           group-hover:opacity-100
           opacity-0
           bg-black rounded shadow-lg pointer-events-none
+          ${active ? "" : "hidden"}
           ${positionClasses[position]}
         `}
         style={{ transitionDelay: `${delayShow}ms` }}
