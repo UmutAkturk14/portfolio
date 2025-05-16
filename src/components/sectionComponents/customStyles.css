@@ -2,8 +2,30 @@
 
 @keyframes float {
   0%   { transform: translateY(10px) translateX(0px); }
-  50%  { transform: translateY(-30px) translateX(40px); }
+  50%  { transform: translateY(-20px) translateX(5px); }
   100% { transform: translateY(10px) translateX(0px); }
+}
+
+@keyframes subtleFloat {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes slidein {
+  0% {
+    top: -400px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+
+.subtle-float {
+  animation: subtleFloat 5s ease-in-out infinite;
 }
 
 @media screen and (max-width: 767px) {

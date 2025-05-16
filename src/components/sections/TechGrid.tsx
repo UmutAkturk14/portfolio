@@ -20,7 +20,7 @@ const TechGrid = () => {
   }, [language]);
 
   return (
-    <div className="overflow-x-auto no-scrollbar py-8">
+    <div className="overflow-x-auto no-scrollbar py-8 flex justify-center items-center flex-col">
       <h1
         className={`text-center font-heading mt-12 text-4xl my-6 text-black dark:text-white transition-opacity duration-500 ${
           isVisible ? "opacity-100" : "opacity-0"
