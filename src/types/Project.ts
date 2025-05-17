@@ -17,4 +17,5 @@ export interface Project {
   links?: Record<string, ProjectLink>;
   stack?: TechItem[];
   tags?: string[];
+  subTechs: string[];
 }

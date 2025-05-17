@@ -10,15 +10,17 @@ interface Props {
 
 export default function ProjectMenu({ projects, activeId, onSelect }: Props) {
   return (
-    <aside className="flex flex-col items-start justify-center w-1/12 lg:w-1/12">
-      {projects.map((p) => (
-        <ProjectMenuItem
-          key={p.id}
-          project={p}
-          active={p.id === activeId}
-          onSelect={onSelect}
-        />
-      ))}
-    </aside>
+    <div className="lg:flex absolute h-full hidden z-20">
+      <aside className="flex flex-col items-center justify-center h-full">
+        {projects.map((p) => (
+          <ProjectMenuItem
+            key={p.id}
+            project={p}
+            active={p.id === activeId}
+            onSelect={onSelect}
+          />
+        ))}
+      </aside>
+    </div>
   );
 }

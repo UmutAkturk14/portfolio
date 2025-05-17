@@ -8,7 +8,7 @@ interface Props {
 
 export default function ProjectLinks({ links }: Props) {
   return (
-    <div className="flex flex-wrap gap-4 mt-6">
+    <div className="flex flex-wrap gap-4 mt-6 justify-center items-center">
       {Object.entries(links).map(([key, { buttonTitle, link }]) => (
         <CallToActionButton
           key={key}

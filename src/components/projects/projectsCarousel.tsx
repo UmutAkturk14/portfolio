@@ -1,5 +1,5 @@
-// components/projects/ProjectsCarousel.tsx
 import { useEffect, useMemo, useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react"; // 👈 You can replace with your icons
 import { useLanguage } from "../../context/languageContext";
 import ProjectMenu from "./ProjectMenu";
 import ProjectCard from "./ProjectCard";
@@ -23,17 +23,62 @@ export default function ProjectsCarousel() {
     [active, projects]
   );
 
+  const handleNext = () => {
+    const currentIndex = projects.findIndex((p) => p.id === active);
+    const nextIndex = (currentIndex + 1) % projects.length;
+    setActive(projects[nextIndex].id);
+  };
+
+  const handlePrev = () => {
+    const currentIndex = projects.findIndex((p) => p.id === active);
+    const prevIndex = (currentIndex - 1 + projects.length) % projects.length;
+    setActive(projects[prevIndex].id);
+  };
+
+  const portfolioTitle = {
+    en: "Project Showcase",
+    fr: "Vitrine de Projets",
+    es: "Exposición de Proyectos",
+    de: "Projektpräsentation",
+    tr: "Projeler",
+  }[language];
+
   return (
     <>
       <div className="border-1 dark:border-gray-200 w-4/5 flex justify-self-center"></div>
-      <div className="mx-auto my-12 flex w-full min-h-[100svh] overflow-hidden">
+      <div className="relative mx-auto flex w-full min-h-[100svh]">
+        {/* ⬅️ Prev / Next Buttons */}
+        <div className="absolute top-4 right-4 lg:hidden flex gap-2 z-20">
+          {projects.length > 1 && (
+            <div className="absolute top-4 right-4 flex gap-2 z-10">
+              <button
+                onClick={handlePrev}
+                className="p-2 rounded-full bg-gray-100 dark:bg-gray-700 hover:scale-105 transition"
+                aria-label="Previous"
+              >
+                <ChevronLeft className="w-5 h-5 text-gray-800 dark:text-gray-200" />
+              </button>
+              <button
+                onClick={handleNext}
+                className="p-2 rounded-full bg-gray-100 dark:bg-gray-700 hover:scale-105 transition"
+                aria-label="Next"
+              >
+                <ChevronRight className="w-5 h-5 text-gray-800 dark:text-gray-200" />
+              </button>
+            </div>
+          )}
+        </div>
+
         <ProjectMenu
           projects={projects}
           activeId={active}
           onSelect={setActive}
         />
 
-        <section className="relative flex-1 flex items-center justify-center">
+        <section className="relative flex-col flex-1 flex items-center justify-center sm:mt-0">
+          <h1 className="font-heading text-3xl mb-40 text-primary">
+            {portfolioTitle}
+          </h1>
           {current && <ProjectCard project={current} />}
         </section>
       </div>
