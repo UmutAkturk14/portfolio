@@ -28,15 +28,16 @@
         "Design von Einzelseiten-Websites",
         "Entwicklung statischer Webseiten",
         "Individuelle Webanwendungen",
-        "Website-Überarbeitung \u0026 Neugestaltung"
+        "Website-Überarbeitung & Neugestaltung"
       ],
       "title": "Frontend Entwickler"
     },
     "projects": [
       {
-        "color": "#F27935",
+        "color": "#0ffff3",
         "icon": "https://www.svgrepo.com/show/191160/kangaroo.svg",
         "id": "quokka",
+        "date": "April 2025",
         "links": {
           "deployment": {
             "buttonTitle": "Live-Demo",
@@ -90,6 +91,70 @@
         ],
         "text": "QuokkaJS ist eine moderne, funktionsreiche Bibliothek in Arbeit, inspiriert von jQuery und mit TypeScript entwickelt. Ziel ist es, eine robuste, modulare und entwicklerfreundliche Bibliothek für DOM-Manipulation, Speicherzugriff, asynchrone Hilfsfunktionen und mehr zu schaffen – mit der Typsicherheit von TypeScript und modernen JavaScript-Funktionen.",
         "title": "QuokkaJS!"
+      },
+      {
+        "color": "#D61C4E",
+        "icon": "pizza",
+        "id": "marios-pizza-villa",
+        "date": "März 2024",
+        "links": {
+          "github": {
+            "buttonTitle": "See the code!",
+            "link": "https://github.com/UmutAkturk14/mario-s-pizza-villa"
+          }
+        },
+        "stack": [
+          {
+            "tool": "Ruby on Rails",
+            "icon": "https://www.svgrepo.com/show/354252/rails.svg"
+          },
+          {
+            "tool": "JavaScript",
+            "icon": "https://www.svgrepo.com/show/353925/javascript.svg"
+          },
+          {
+            "tool": "jQuery",
+            "icon": "https://www.svgrepo.com/show/452242/jquery.svg"
+          },
+          {
+            "tool": "Tailwind CSS",
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg"
+          },
+          {
+            "tool": "HTML",
+            "icon": "https://www.svgrepo.com/show/373669/html.svg"
+          },
+          {
+            "tool": "Inkscape",
+            "icon": "https://www.svgrepo.com/show/473662/inkscape.svg"
+          },
+          {
+            "tool": "Git",
+            "icon": "https://www.svgrepo.com/show/452210/git.svg"
+          }
+        ],
+        "subTechs": [
+          "MVC-Muster",
+          "ERB-Vorlagen",
+          "Bestellverfolgung",
+          "Admin-Dashboard",
+          "Formularvalidierung",
+          "Analytik",
+          "Menüverwaltung",
+          "RESTful-Routing",
+          "Tailwind UI",
+          "jQuery DOM-Manipulation"
+        ],
+        "tags": [
+          "Full Stack",
+          "Backend",
+          "Frontend",
+          "Dashboard",
+          "CRUD",
+          "Responsiv"
+        ],
+        "text": "Mario's Pizza Villa ist eine Ruby on Rails-Webanwendung, die als Online-Präsenz unserer fiktiven Pizzeria \"Mario's Pizza Villa\" dient. Über die Plattform können Nutzer unsere Speisekarte einsehen, Bestellungen aufgeben und den Status ihrer Bestellungen bequem verfolgen. Außerdem bietet sie ein Admin-Dashboard mit Analysen und Menüverwaltung.",
+        "title": "Mario's Pizza Villa"
       }
     ],
     "techStack": {
@@ -199,9 +264,10 @@
     },
     "projects": [
       {
-        "color": "#F27935",
-        "icon": "",
+        "color": "#0ffff3",
+        "icon": "quokka",
         "id": "quokka",
+        "date": "April 2025",
         "links": {
           "deployment": {
             "buttonTitle": "Live demo",
@@ -210,16 +276,13 @@
           "github": {
             "buttonTitle": "See the code!",
             "link": "https://github.com/UmutAkturk14/QuokkaJS"
-          }
+          },
+          "documentation": {}
         },
         "stack": [
           {
             "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
             "tool": "TypeScript"
-          },
-          {
-            "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
-            "tool": "React"
           },
           {
             "icon": "https://www.svgrepo.com/show/452210/git.svg",
@@ -250,71 +313,76 @@
         ],
         "tags": [
           "Front end",
-          "Back end",
-          "Tool",
-          "Library"
+          "Tooling",
+          "Library",
+          "Open source  "
         ],
         "text": "QuokkaJS is a work-in-progress, modern, feature-rich library inspired by jQuery, built with TypeScript. The goal is to create a robust, modular, and developer-friendly library for DOM manipulation, storage access, async utilities, and more, while leveraging the power of TypeScript for type safety and modern JavaScript features.",
         "title": "QuokkaJS!"
       },
       {
-        "color": "#F22635",
-        "icon": "",
-        "id": "quokka1",
+        "color": "#D61C4E",
+        "icon": "pizza",
+        "id": "marios-pizza-villa",
+        "date": "March 2024",
         "links": {
-          "deployment": {
-            "buttonTitle": "Canlı demo",
-            "link": "url"
-          },
           "github": {
-            "buttonTitle": "Koda göz at!",
-            "link": "https://github.com/UmutAkturk14/QuokkaJS"
+            "buttonTitle": "See the code!",
+            "link": "https://github.com/UmutAkturk14/mario-s-pizza-villa"
           }
         },
         "stack": [
           {
-            "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
-            "tool": "TypeScript"
+            "tool": "Ruby on Rails",
+            "icon": "https://www.svgrepo.com/show/354252/rails.svg"
           },
           {
-            "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
-            "tool": "React"
+            "tool": "JavaScript",
+            "icon": "https://www.svgrepo.com/show/353925/javascript.svg"
           },
           {
-            "icon": "https://www.svgrepo.com/show/452210/git.svg",
-            "tool": "Git"
+            "tool": "jQuery",
+            "icon": "https://www.svgrepo.com/show/452242/jquery.svg"
           },
           {
-            "icon": "https://www.svgrepo.com/show/373669/html.svg",
-            "tool": "HTML"
+            "tool": "Tailwind CSS",
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg"
           },
           {
-            "icon": "https://www.svgrepo.com/show/452185/css-3.svg",
-            "tool": "CSS"
+            "tool": "HTML",
+            "icon": "https://www.svgrepo.com/show/373669/html.svg"
+          },
+          {
+            "tool": "Inkscape",
+            "icon": "https://www.svgrepo.com/show/473662/inkscape.svg"
+          },
+          {
+            "tool": "Git",
+            "icon": "https://www.svgrepo.com/show/452210/git.svg"
           }
         ],
         "subTechs": [
-          "typescript",
-          "vanilla js compatible",
-          "esm modules",
-          "modular architecture",
-          "plugin system",
-          "custom events",
-          "storage api",
-          "async utilities",
-          "rollup bundling",
-          "tree shaking",
-          "testing with vitest",
-          "performance-focused"
+          "mvc pattern",
+          "erb templates",
+          "order tracking",
+          "admin dashboard",
+          "form validations",
+          "analytics",
+          "menu management",
+          "restful routing",
+          "tailwind ui",
+          "jquery dom manipulation"
         ],
         "tags": [
-          "Ön yüz",
-          "Arka yüz",
-          "Araç",
-          "Kütüphane"
+          "Full stack",
+          "Back end",
+          "Front end",
+          "Dashboard",
+          "CRUD",
+          "Responsive"
         ],
-        "text": "QuokkaJS, jQuery'den ilham alan, TypeScript ile geliştirilmiş, modern ve özelliklerle dolu bir kütüphane projesidir. Amaç, DOM manipülasyonu, depolama erişimi, asenkron yardımcılar ve daha fazlası için sağlam, modüler ve geliştirici dostu bir kütüphane oluşturmaktır; TypeScript’in sağladığı tip güvenliği ve modern JavaScript özelliklerinden faydalanır.",
-        "title": "QuokkaJS"
+        "text": "Mario's Pizza Villa is a Ruby on Rails web application that serves as the online presence for our fictional pizzeria, \"Mario's Pizza Villa.\" This platform allows users to explore our menu, place orders, and conveniently track the status of their orders. Additionally, it offers an admin dashboard with analytics and menu management capabilities.",
+        "title": "Mario's Pizza Villa"
       }
     ],
     "techStack": {
@@ -424,9 +492,10 @@
     },
     "projects": [
       {
-        "color": "#F27935",
+        "color": "#0ffff3",
         "icon": "https://www.svgrepo.com/show/191160/kangaroo.svg",
         "id": "quokka",
+        "date": "Abril 2025",
         "links": {
           "deployment": {
             "buttonTitle": "Demo en vivo",
@@ -480,6 +549,70 @@
         ],
         "text": "QuokkaJS es una biblioteca moderna y rica en funciones en desarrollo, inspirada en jQuery y construida con TypeScript. El objetivo es crear una biblioteca robusta, modular y amigable para el desarrollador para manipulación del DOM, acceso a almacenamiento, utilidades asíncronas y más, aprovechando el poder de TypeScript.",
         "title": "QuokkaJS!"
+      },
+            {
+        "color": "#D61C4E",
+        "icon": "pizza",
+        "id": "marios-pizza-villa",
+        "date": "Marzo 2024",
+        "links": {
+          "github": {
+            "buttonTitle": "See the code!",
+            "link": "https://github.com/UmutAkturk14/mario-s-pizza-villa"
+          }
+        },
+        "stack": [
+          {
+            "tool": "Ruby on Rails",
+            "icon": "https://www.svgrepo.com/show/354252/rails.svg"
+          },
+          {
+            "tool": "JavaScript",
+            "icon": "https://www.svgrepo.com/show/353925/javascript.svg"
+          },
+          {
+            "tool": "jQuery",
+            "icon": "https://www.svgrepo.com/show/452242/jquery.svg"
+          },
+          {
+            "tool": "Tailwind CSS",
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg"
+          },
+          {
+            "tool": "HTML",
+            "icon": "https://www.svgrepo.com/show/373669/html.svg"
+          },
+          {
+            "tool": "Inkscape",
+            "icon": "https://www.svgrepo.com/show/473662/inkscape.svg"
+          },
+          {
+            "tool": "Git",
+            "icon": "https://www.svgrepo.com/show/452210/git.svg"
+          }
+        ],
+        "subTechs": [
+          "patrón MVC",
+          "plantillas ERB",
+          "seguimiento de pedidos",
+          "panel de administración",
+          "validación de formularios",
+          "analítica",
+          "gestión del menú",
+          "enrutamiento RESTful",
+          "Tailwind UI",
+          "manipulación del DOM con jQuery"
+        ],
+        "tags": [
+          "Full stack",
+          "Back end",
+          "Front end",
+          "Panel de administración",
+          "CRUD",
+          "Responsivo"
+        ],
+        "text": "Mario's Pizza Villa es una aplicación web desarrollada con Ruby on Rails que representa la presencia en línea de nuestra pizzería ficticia \"Mario's Pizza Villa\". La plataforma permite a los usuarios explorar el menú, hacer pedidos y seguir el estado de los mismos. También ofrece un panel de administración con análisis y gestión del menú.",
+        "title": "Mario's Pizza Villa"
       }
     ],
     "techStack": {
@@ -589,9 +722,10 @@
     },
     "projects": [
       {
-        "color": "#F27935",
+        "color": "#0ffff3",
         "icon": "https://www.svgrepo.com/show/191160/kangaroo.svg",
         "id": "quokka",
+        "date": "Avril 2025",
         "links": {
           "deployment": {
             "buttonTitle": "Démo en ligne",
@@ -645,6 +779,70 @@
         ],
         "text": "QuokkaJS est une bibliothèque moderne et riche en fonctionnalités en cours de développement, inspirée de jQuery et construite avec TypeScript. L'objectif est de créer une bibliothèque robuste, modulaire et conviviale pour les développeurs, pour manipuler le DOM, accéder au stockage, utiliser des utilitaires asynchrones, et plus encore, tout en bénéficiant de la sécurité de TypeScript.",
         "title": "QuokkaJS!"
+      },
+      {
+        "color": "#D61C4E",
+        "icon": "pizza",
+        "id": "marios-pizza-villa",
+        "date": "Mars 2024",
+        "links": {
+          "github": {
+            "buttonTitle": "See the code!",
+            "link": "https://github.com/UmutAkturk14/mario-s-pizza-villa"
+          }
+        },
+        "stack": [
+          {
+            "tool": "Ruby on Rails",
+            "icon": "https://www.svgrepo.com/show/354252/rails.svg"
+          },
+          {
+            "tool": "JavaScript",
+            "icon": "https://www.svgrepo.com/show/353925/javascript.svg"
+          },
+          {
+            "tool": "jQuery",
+            "icon": "https://www.svgrepo.com/show/452242/jquery.svg"
+          },
+          {
+            "tool": "Tailwind CSS",
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg"
+          },
+          {
+            "tool": "HTML",
+            "icon": "https://www.svgrepo.com/show/373669/html.svg"
+          },
+          {
+            "tool": "Inkscape",
+            "icon": "https://www.svgrepo.com/show/473662/inkscape.svg"
+          },
+          {
+            "tool": "Git",
+            "icon": "https://www.svgrepo.com/show/452210/git.svg"
+          }
+        ],
+        "subTechs": [
+          "modèle MVC",
+          "templates ERB",
+          "suivi des commandes",
+          "tableau de bord admin",
+          "validations de formulaire",
+          "analytique",
+          "gestion du menu",
+          "routing RESTful",
+          "Tailwind UI",
+          "manipulation du DOM avec jQuery"
+        ],
+        "tags": [
+          "Full stack",
+          "Back end",
+          "Front end",
+          "Tableau de bord",
+          "CRUD",
+          "Responsive"
+        ],
+        "text": "Mario's Pizza Villa est une application web Ruby on Rails qui sert de vitrine en ligne pour notre pizzeria fictive \"Mario's Pizza Villa\". Elle permet aux utilisateurs de consulter notre menu, de passer commande et de suivre l’état de leurs commandes. Elle propose également un tableau de bord administrateur avec des analyses et la gestion du menu.",
+        "title": "Mario's Pizza Villa"
       }
     ],
     "techStack": {
@@ -754,9 +952,10 @@
     },
     "projects": [
       {
-        "color": "#F22635",
+        "color": "#0ffff3",
         "icon": "https://www.svgrepo.com/show/191160/kangaroo.svg",
         "id": "quokka",
+        "date": "Nisan 2025",
         "links": {
           "deployment": {
             "buttonTitle": "Canlı demo",
@@ -810,6 +1009,70 @@
         ],
         "text": "QuokkaJS, jQuery'den ilham alan, TypeScript ile geliştirilmiş, modern ve özelliklerle dolu bir kütüphane projesidir. Amaç, DOM manipülasyonu, depolama erişimi, asenkron yardımcılar ve daha fazlası için sağlam, modüler ve geliştirici dostu bir kütüphane oluşturmaktır; TypeScript’in sağladığı tip güvenliği ve modern JavaScript özelliklerinden faydalanır.",
         "title": "QuokkaJS"
+      },
+            {
+        "color": "#D61C4E",
+        "icon": "pizza",
+        "id": "marios-pizza-villa",
+        "date": "Mart 2024",
+        "links": {
+          "github": {
+            "buttonTitle": "See the code!",
+            "link": "https://github.com/UmutAkturk14/mario-s-pizza-villa"
+          }
+        },
+        "stack": [
+          {
+            "tool": "Ruby on Rails",
+            "icon": "https://www.svgrepo.com/show/354252/rails.svg"
+          },
+          {
+            "tool": "JavaScript",
+            "icon": "https://www.svgrepo.com/show/353925/javascript.svg"
+          },
+          {
+            "tool": "jQuery",
+            "icon": "https://www.svgrepo.com/show/452242/jquery.svg"
+          },
+          {
+            "tool": "Tailwind CSS",
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg"
+          },
+          {
+            "tool": "HTML",
+            "icon": "https://www.svgrepo.com/show/373669/html.svg"
+          },
+          {
+            "tool": "Inkscape",
+            "icon": "https://www.svgrepo.com/show/473662/inkscape.svg"
+          },
+          {
+            "tool": "Git",
+            "icon": "https://www.svgrepo.com/show/452210/git.svg"
+          }
+        ],
+        "subTechs": [
+          "MVC deseni",
+          "ERB şablonları",
+          "sipariş takibi",
+          "yönetici paneli",
+          "form doğrulamaları",
+          "analitik",
+          "menü yönetimi",
+          "RESTful yönlendirme",
+          "Tailwind UI",
+          "jQuery ile DOM manipülasyonu"
+        ],
+        "tags": [
+          "Full stack",
+          "Back end",
+          "Front end",
+          "Yönetici paneli",
+          "CRUD",
+          "Duyarlı tasarım"
+        ],
+        "text": "Mario's Pizza Villa, hayali pizzacımız \"Mario's Pizza Villa\" için çevrimiçi varlık sunan bir Ruby on Rails web uygulamasıdır. Kullanıcılar bu platform üzerinden menüyü inceleyebilir, sipariş verebilir ve sipariş durumlarını kolayca takip edebilir. Ayrıca analizler ve menü yönetimi özellikleri sunan bir yönetici paneli de mevcuttur.",
+        "title": "Mario's Pizza Villa"
       }
     ],
     "techStack": {

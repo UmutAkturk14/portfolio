@@ -11,6 +11,7 @@ export interface TechItem {
 export interface Project {
   id: string;
   title: string;
+  date: string;
   text: string;
   color: string;
   icon: string;
