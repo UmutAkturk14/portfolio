@@ -21,6 +21,9 @@ export default function ProjectCard({ project }: Props) {
   );
 
   useEffect(() => {
+    // Check once on mount
+    setIsDark(document.documentElement.classList.contains("dark"));
+
     const observer = new MutationObserver(() => {
       setIsDark(document.documentElement.classList.contains("dark"));
     });
@@ -46,9 +49,9 @@ export default function ProjectCard({ project }: Props) {
       </div>
 
       <h1 className="text-3xl font-bold my-6 text-primary">{title}</h1>
-      <h1 className="inline-flex my-4 items-center gap-2 px-4 py-1 rounded-full bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100 dark:from-indigo-900 dark:via-purple-900 dark:to-pink-900 text-sm text-gray-700 dark:text-gray-200 shadow-sm ring-1 ring-gray-300 dark:ring-gray-700">
+      <h1 className="inline-flex my-4 justify-center items-center gap-2 px-4 py-1 rounded-full bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100 dark:from-indigo-900 dark:via-purple-900 dark:to-pink-900 text-sm text-gray-700 dark:text-gray-200 shadow-sm ring-1 ring-gray-300 dark:ring-gray-700">
         <CalendarDays className="w-4 h-4 text-indigo-500 dark:text-indigo-300" />
-        {date}
+        <p>{date}</p>
       </h1>
 
       <p className="text-primary sm:w-2/3 md:2/1 min-h-[15svh]">{text}</p>

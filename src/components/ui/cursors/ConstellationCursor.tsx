@@ -26,7 +26,7 @@ export default function ConstellationCursor({ color }: Props) {
 
   useEffect(() => {
     const canvas = canvasRef.current;
-    if (!canvas) return;
+    if (!canvas || window.innerWidth < 768) return;
 
     const ctx = canvas.getContext("2d")!;
     let width = window.innerWidth;

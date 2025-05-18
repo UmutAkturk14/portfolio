@@ -28,16 +28,16 @@
         "Design von Einzelseiten-Websites",
         "Entwicklung statischer Webseiten",
         "Individuelle Webanwendungen",
-        "Website-Überarbeitung & Neugestaltung"
+        "Website-Überarbeitung \u0026 Neugestaltung"
       ],
       "title": "Frontend Entwickler"
     },
     "projects": [
       {
         "color": "#0ffff3",
+        "date": "April 2025",
         "icon": "https://www.svgrepo.com/show/191160/kangaroo.svg",
         "id": "quokka",
-        "date": "April 2025",
         "links": {
           "deployment": {
             "buttonTitle": "Live-Demo",
@@ -92,9 +92,9 @@
       },
       {
         "color": "#D61C4E",
+        "date": "März 2024",
         "icon": "pizza",
         "id": "marios-pizza-villa",
-        "date": "März 2024",
         "links": {
           "github": {
             "buttonTitle": "See the code!",
@@ -103,32 +103,32 @@
         },
         "stack": [
           {
-            "tool": "Ruby on Rails",
-            "icon": "https://www.svgrepo.com/show/354252/rails.svg"
+            "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+            "tool": "Ruby on Rails"
           },
           {
-            "tool": "JavaScript",
-            "icon": "https://www.svgrepo.com/show/353925/javascript.svg"
+            "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+            "tool": "JavaScript"
           },
           {
-            "tool": "jQuery",
-            "icon": "https://www.svgrepo.com/show/452242/jquery.svg"
+            "icon": "https://www.svgrepo.com/show/452242/jquery.svg",
+            "tool": "jQuery"
           },
           {
-            "tool": "Tailwind CSS",
-            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg"
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind CSS"
           },
           {
-            "tool": "HTML",
-            "icon": "https://www.svgrepo.com/show/373669/html.svg"
+            "icon": "https://www.svgrepo.com/show/373669/html.svg",
+            "tool": "HTML"
           },
           {
-            "tool": "Inkscape",
-            "icon": "https://www.svgrepo.com/show/473662/inkscape.svg"
+            "icon": "https://www.svgrepo.com/show/473662/inkscape.svg",
+            "tool": "Inkscape"
           },
           {
-            "tool": "Git",
-            "icon": "https://www.svgrepo.com/show/452210/git.svg"
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
           }
         ],
         "subTechs": [
@@ -154,45 +154,133 @@
         "title": "Mario's Pizza Villa"
       },
       {
-  "color": "#8B5E3C",
-  "icon": "coffee",
-  "id": "jazzed-sips",
-  "date": "September 2023",
-  "links": {
-    "github": {
-      "buttonTitle": "Code ansehen!",
-      "link": "https://github.com/UmutAkturk14/Jazzed-Sips-202309252243"
-    }
-  },
-  "stack": [
-    { "tool": "Ruby on Rails", "icon": "https://www.svgrepo.com/show/354252/rails.svg" },
-    { "tool": "JavaScript",     "icon": "https://www.svgrepo.com/show/353925/javascript.svg" },
-    { "tool": "jQuery",         "icon": "https://www.svgrepo.com/show/452242/jquery.svg" },
-    { "tool": "Tailwind CSS",   "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg" },
-    { "tool": "HTML",           "icon": "https://www.svgrepo.com/show/373669/html.svg" },
-    { "tool": "Inkscape",       "icon": "https://www.svgrepo.com/show/473662/inkscape.svg" },
-    { "tool": "Git",            "icon": "https://www.svgrepo.com/show/452210/git.svg" }
-  ],
-  "subTechs": [
-    "MVC-Muster",
-    "Responsives Design",
-    "UI Design",
-    "RESTful-Routing",
-    "Tailwind UI",
-    "jQuery",
-    "Performance-Optimierung"
-  ],
-  "tags": [
-    "Full Stack",
-    "Backend",
-    "Frontend",
-    "Responsiv",
-    "Branding"
-  ],
-  "text": "Jazzed Sips verleiht dem Online-Auftritt eines stilvollen, jazz-inspirierten Cafés neues Leben. Die Seite basiert auf HTML zur Strukturierung der Inhalte und verwendet Tailwind CSS für ein elegantes und responsives Design. Ruby on Rails bildet das Backend und übernimmt das Datenmanagement, während JavaScript in Kombination mit der jQuery-Bibliothek dynamische Funktionen und verbesserte Benutzerinteraktionen ermöglicht.",
-  "title": "Jazzed Sips"
-}
-
+        "color": "#8B5E3C",
+        "date": "September 2023",
+        "icon": "coffee",
+        "id": "jazzed-sips",
+        "links": {
+          "github": {
+            "buttonTitle": "Code ansehen!",
+            "link": "https://github.com/UmutAkturk14/Jazzed-Sips-202309252243"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+            "tool": "Ruby on Rails"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+            "tool": "JavaScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452242/jquery.svg",
+            "tool": "jQuery"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind CSS"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/373669/html.svg",
+            "tool": "HTML"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/473662/inkscape.svg",
+            "tool": "Inkscape"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          }
+        ],
+        "subTechs": [
+          "MVC-Muster",
+          "Responsives Design",
+          "UI Design",
+          "RESTful-Routing",
+          "Tailwind UI",
+          "jQuery",
+          "Performance-Optimierung"
+        ],
+        "tags": [
+          "Full Stack",
+          "Backend",
+          "Frontend",
+          "Responsiv",
+          "Branding"
+        ],
+        "text": "Jazzed Sips verleiht dem Online-Auftritt eines stilvollen, jazz-inspirierten Cafés neues Leben. Die Seite basiert auf HTML zur Strukturierung der Inhalte und verwendet Tailwind CSS für ein elegantes und responsives Design. Ruby on Rails bildet das Backend und übernimmt das Datenmanagement, während JavaScript in Kombination mit der jQuery-Bibliothek dynamische Funktionen und verbesserte Benutzerinteraktionen ermöglicht.",
+        "title": "Jazzed Sips"
+      },
+      {
+        "color": "#5A8F7B",
+        "date": "Juni 2023 – Juli 2023",
+        "icon": "gym",
+        "id": "gym",
+        "links": {
+          "github": {
+            "buttonTitle": "Quellcode ansehen!",
+            "link": "https://github.com/UmutAkturk14/ZoneFit"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+            "tool": "Ruby on Rails"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+            "tool": "JavaScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353498/bootstrap.svg",
+            "tool": "Bootstrap"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/373669/html.svg",
+            "tool": "HTML"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/373535/css.svg",
+            "tool": "CSS"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/349404/heroku.svg",
+            "tool": "Heroku"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354200/postgresql.svg",
+            "tool": "PostgreSQL"
+          }
+        ],
+        "subTechs": [
+          "Authentifizierung",
+          "durchsuchbare Datenbank",
+          "Videointegration",
+          "Rezeptverwaltung",
+          "Kommentarsystem",
+          "Post-Erstellung",
+          "Freundesystem",
+          "öffentlicher Chat",
+          "Direktnachrichten",
+          "Sozialer Feed"
+        ],
+        "tags": [
+          "Full Stack",
+          "Backend",
+          "Frontend",
+          "Responsiv",
+          "Fitness",
+          "Soziale Medien"
+        ],
+        "text": "ZoneFit ist eine Web-App für Fitness- und Gesundheitsbegeisterte, die durchsuchbare Workout-Videos und Rezepte bereitstellt – kombiniert mit sozialen Funktionen wie Kommentieren von Workouts und Rezepten, Erstellen und Kommentieren von Beiträgen, Hinzufügen/Annehmen/Ablehnen von Freunden, Chats in öffentlichen Communities und Direktnachrichten. Weitere Details findest du im Projekt-Repository.",
+        "title": "ZoneFit"
+      }
     ],
     "techStack": {
       "stack": [
@@ -307,21 +395,21 @@
     "projects": [
       {
         "color": "#0ffff3",
+        "date": "April 2025",
         "icon": "quokka",
         "id": "quokka",
-        "date": "April 2025",
         "links": {
           "deployment": {
             "buttonTitle": "Live demo",
             "link": "url"
           },
-          "github": {
-            "buttonTitle": "See the code!",
-            "link": "https://github.com/UmutAkturk14/QuokkaJS"
-          },
           "documentation": {
             "buttonTitle": "Documentation",
             "link": "url"
+          },
+          "github": {
+            "buttonTitle": "See the code!",
+            "link": "https://github.com/UmutAkturk14/QuokkaJS"
           }
         },
         "stack": [
@@ -365,9 +453,9 @@
       },
       {
         "color": "#D61C4E",
+        "date": "March 2024",
         "icon": "pizza",
         "id": "marios-pizza-villa",
-        "date": "March 2024",
         "links": {
           "github": {
             "buttonTitle": "See the code!",
@@ -376,32 +464,32 @@
         },
         "stack": [
           {
-            "tool": "Ruby on Rails",
-            "icon": "https://www.svgrepo.com/show/354252/rails.svg"
+            "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+            "tool": "Ruby on Rails"
           },
           {
-            "tool": "JavaScript",
-            "icon": "https://www.svgrepo.com/show/353925/javascript.svg"
+            "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+            "tool": "JavaScript"
           },
           {
-            "tool": "jQuery",
-            "icon": "https://www.svgrepo.com/show/452242/jquery.svg"
+            "icon": "https://www.svgrepo.com/show/452242/jquery.svg",
+            "tool": "jQuery"
           },
           {
-            "tool": "Tailwind CSS",
-            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg"
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind CSS"
           },
           {
-            "tool": "HTML",
-            "icon": "https://www.svgrepo.com/show/373669/html.svg"
+            "icon": "https://www.svgrepo.com/show/373669/html.svg",
+            "tool": "HTML"
           },
           {
-            "tool": "Inkscape",
-            "icon": "https://www.svgrepo.com/show/473662/inkscape.svg"
+            "icon": "https://www.svgrepo.com/show/473662/inkscape.svg",
+            "tool": "Inkscape"
           },
           {
-            "tool": "Git",
-            "icon": "https://www.svgrepo.com/show/452210/git.svg"
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
           }
         ],
         "subTechs": [
@@ -427,49 +515,137 @@
         "title": "Mario's Pizza Villa"
       },
       {
-  "color": "#8B5E3C",
-  "icon": "coffee",
-  "id": "jazzed-sips",
-  "date": "September 2023",
-  "links": {
-    "github": {
-      "buttonTitle": "See the code!",
-      "link": "https://github.com/UmutAkturk14/Jazzed-Sips-202309252243"
-    }
-  },
-  "stack": [
-    { "tool": "Ruby on Rails", "icon": "https://www.svgrepo.com/show/354252/rails.svg" },
-    { "tool": "JavaScript",     "icon": "https://www.svgrepo.com/show/353925/javascript.svg" },
-    { "tool": "jQuery",         "icon": "https://www.svgrepo.com/show/452242/jquery.svg" },
-    { "tool": "Tailwind CSS",   "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg" },
-    { "tool": "HTML",           "icon": "https://www.svgrepo.com/show/373669/html.svg" },
-    { "tool": "Inkscape",       "icon": "https://www.svgrepo.com/show/473662/inkscape.svg" },
-    { "tool": "Git",            "icon": "https://www.svgrepo.com/show/452210/git.svg" }
-  ],
-  "subTechs": [
-    "MVC pattern",
-    "ERB templates",
-    "responsive design",
-    "jazz-inspired UI",
-    "coffee-shop branding",
-    "dynamic menu",
-    "RESTful routing",
-    "Tailwind UI",
-    "jQuery DOM manipulation",
-    "performance-tuned"
-  ],
-  "tags": [
-    "Full Stack",
-    "Backend",
-    "Frontend",
-    "Responsive",
-    "E-commerce",
-    "Branding"
-  ],
-  "text": "Jazzed Sips breathes life into a stylish and jazz-inspired coffee shop's online presence. It's built on a foundation of HTML, which structures the content, and utilizes Tailwind CSS to create an elegant and responsive design. Ruby on Rails powers the backend, handling data management, while JavaScript with the jQuery library adds dynamic features and enhances user interactions.",
-  "title": "Jazzed Sips"
-}
-
+        "color": "#8B5E3C",
+        "date": "September 2023",
+        "icon": "coffee",
+        "id": "jazzed-sips",
+        "links": {
+          "github": {
+            "buttonTitle": "See the code!",
+            "link": "https://github.com/UmutAkturk14/Jazzed-Sips-202309252243"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+            "tool": "Ruby on Rails"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+            "tool": "JavaScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452242/jquery.svg",
+            "tool": "jQuery"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind CSS"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/373669/html.svg",
+            "tool": "HTML"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/473662/inkscape.svg",
+            "tool": "Inkscape"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          }
+        ],
+        "subTechs": [
+          "MVC pattern",
+          "ERB templates",
+          "responsive design",
+          "jazz-inspired UI",
+          "coffee-shop branding",
+          "dynamic menu",
+          "RESTful routing",
+          "Tailwind UI",
+          "jQuery DOM manipulation",
+          "performance-tuned"
+        ],
+        "tags": [
+          "Full Stack",
+          "Backend",
+          "Frontend",
+          "Responsive",
+          "E-commerce",
+          "Branding"
+        ],
+        "text": "Jazzed Sips breathes life into a stylish and jazz-inspired coffee shop's online presence. It's built on a foundation of HTML, which structures the content, and utilizes Tailwind CSS to create an elegant and responsive design. Ruby on Rails powers the backend, handling data management, while JavaScript with the jQuery library adds dynamic features and enhances user interactions.",
+        "title": "Jazzed Sips"
+      },
+      {
+        "color": "#5A8F7B",
+        "date": "Jun 2023 - Jul 2023",
+        "icon": "gym",
+        "id": "gym",
+        "links": {
+          "github": {
+            "buttonTitle": "See the code!",
+            "link": "https://github.com/UmutAkturk14/ZoneFit"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+            "tool": "Ruby on Rails"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+            "tool": "JavaScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353498/bootstrap.svg",
+            "tool": "Bootstrap"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/373669/html.svg",
+            "tool": "HTML"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/373535/css.svg",
+            "tool": "CSS"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/349404/heroku.svg",
+            "tool": "Heroku"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354200/postgresql.svg",
+            "tool": "PostgreSQL"
+          }
+        ],
+        "subTechs": [
+          "authentication",
+          "searchable database",
+          "video integration",
+          "recipe management",
+          "commenting system",
+          "post creation",
+          "friend system",
+          "public chat",
+          "direct messaging",
+          "social feed"
+        ],
+        "tags": [
+          "Full Stack",
+          "Backend",
+          "Frontend",
+          "Responsive",
+          "Fitness",
+          "Social Media"
+        ],
+        "text": "ZoneFit is a web app made for fitness/healthy living enthusiasts providing searchable workout videos and recipes while mixing it with social media features such as commenting on workouts and recipes, creating posts, commenting on posts, adding/accepting/rejecting friends, chatting in public communities, chatting in direct messages. See the project repository for details.",
+        "title": "ZoneFit"
+      }
     ],
     "techStack": {
       "stack": [
@@ -503,7 +679,7 @@
           "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
           "name": "Tailwind"
         },
-                {
+        {
           "description": "A platform for version control and collaboration that enables developers to store, manage, and work on code together.",
           "icon": "https://www.svgrepo.com/show/494343/github.svg",
           "name": "GitHub"
@@ -584,9 +760,9 @@
     "projects": [
       {
         "color": "#0ffff3",
+        "date": "Abril 2025",
         "icon": "https://www.svgrepo.com/show/191160/kangaroo.svg",
         "id": "quokka",
-        "date": "Abril 2025",
         "links": {
           "deployment": {
             "buttonTitle": "Demo en vivo",
@@ -639,11 +815,11 @@
         "text": "QuokkaJS es una biblioteca moderna y rica en funciones en desarrollo, inspirada en jQuery y construida con TypeScript. El objetivo es crear una biblioteca robusta, modular y amigable para el desarrollador para manipulación del DOM, acceso a almacenamiento, utilidades asíncronas y más, aprovechando el poder de TypeScript.",
         "title": "Quokka JS"
       },
-            {
+      {
         "color": "#D61C4E",
+        "date": "Marzo 2024",
         "icon": "pizza",
         "id": "marios-pizza-villa",
-        "date": "Marzo 2024",
         "links": {
           "github": {
             "buttonTitle": "See the code!",
@@ -652,32 +828,32 @@
         },
         "stack": [
           {
-            "tool": "Ruby on Rails",
-            "icon": "https://www.svgrepo.com/show/354252/rails.svg"
+            "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+            "tool": "Ruby on Rails"
           },
           {
-            "tool": "JavaScript",
-            "icon": "https://www.svgrepo.com/show/353925/javascript.svg"
+            "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+            "tool": "JavaScript"
           },
           {
-            "tool": "jQuery",
-            "icon": "https://www.svgrepo.com/show/452242/jquery.svg"
+            "icon": "https://www.svgrepo.com/show/452242/jquery.svg",
+            "tool": "jQuery"
           },
           {
-            "tool": "Tailwind CSS",
-            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg"
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind CSS"
           },
           {
-            "tool": "HTML",
-            "icon": "https://www.svgrepo.com/show/373669/html.svg"
+            "icon": "https://www.svgrepo.com/show/373669/html.svg",
+            "tool": "HTML"
           },
           {
-            "tool": "Inkscape",
-            "icon": "https://www.svgrepo.com/show/473662/inkscape.svg"
+            "icon": "https://www.svgrepo.com/show/473662/inkscape.svg",
+            "tool": "Inkscape"
           },
           {
-            "tool": "Git",
-            "icon": "https://www.svgrepo.com/show/452210/git.svg"
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
           }
         ],
         "subTechs": [
@@ -703,49 +879,137 @@
         "title": "Mario's Pizza Villa"
       },
       {
-  "color": "#8B5E3C",
-  "icon": "coffee",
-  "id": "jazzed-sips",
-  "date": "Septiembre de 2023",
-  "links": {
-    "github": {
-      "buttonTitle": "¡Ver el código!",
-      "link": "https://github.com/UmutAkturk14/Jazzed-Sips-202309252243"
-    }
-  },
-  "stack": [
-    { "tool": "Ruby on Rails", "icon": "https://www.svgrepo.com/show/354252/rails.svg" },
-    { "tool": "JavaScript",     "icon": "https://www.svgrepo.com/show/353925/javascript.svg" },
-    { "tool": "jQuery",         "icon": "https://www.svgrepo.com/show/452242/jquery.svg" },
-    { "tool": "Tailwind CSS",   "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg" },
-    { "tool": "HTML",           "icon": "https://www.svgrepo.com/show/373669/html.svg" },
-    { "tool": "Inkscape",       "icon": "https://www.svgrepo.com/show/473662/inkscape.svg" },
-    { "tool": "Git",            "icon": "https://www.svgrepo.com/show/452210/git.svg" }
-  ],
-  "subTechs": [
-    "Patrón MVC",
-    "Plantillas ERB",
-    "Diseño responsivo",
-    "Interfaz inspirada en el jazz",
-    "Identidad visual para cafeterías",
-    "Carta dinámica",
-    "Ruteo RESTful",
-    "Tailwind UI",
-    "Manipulación del DOM con jQuery",
-    "Optimización del rendimiento"
-  ],
-  "tags": [
-    "Full Stack",
-    "Backend",
-    "Frontend",
-    "Responsivo",
-    "E-Commerce",
-    "Branding"
-  ],
-  "text": "Jazzed Sips da vida a la presencia en línea de una cafetería elegante e inspirada en el jazz. Está construido sobre una base de HTML para estructurar el contenido, y utiliza Tailwind CSS para crear un diseño elegante y adaptable. Ruby on Rails gestiona el backend y el manejo de datos, mientras que JavaScript y la biblioteca jQuery aportan dinamismo e interactividad a la experiencia del usuario.",
-  "title": "Jazzed Sips"
-}
-
+        "color": "#8B5E3C",
+        "date": "Septiembre de 2023",
+        "icon": "coffee",
+        "id": "jazzed-sips",
+        "links": {
+          "github": {
+            "buttonTitle": "¡Ver el código!",
+            "link": "https://github.com/UmutAkturk14/Jazzed-Sips-202309252243"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+            "tool": "Ruby on Rails"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+            "tool": "JavaScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452242/jquery.svg",
+            "tool": "jQuery"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind CSS"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/373669/html.svg",
+            "tool": "HTML"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/473662/inkscape.svg",
+            "tool": "Inkscape"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          }
+        ],
+        "subTechs": [
+          "Patrón MVC",
+          "Plantillas ERB",
+          "Diseño responsivo",
+          "Interfaz inspirada en el jazz",
+          "Identidad visual para cafeterías",
+          "Carta dinámica",
+          "Ruteo RESTful",
+          "Tailwind UI",
+          "Manipulación del DOM con jQuery",
+          "Optimización del rendimiento"
+        ],
+        "tags": [
+          "Full Stack",
+          "Backend",
+          "Frontend",
+          "Responsivo",
+          "E-Commerce",
+          "Branding"
+        ],
+        "text": "Jazzed Sips da vida a la presencia en línea de una cafetería elegante e inspirada en el jazz. Está construido sobre una base de HTML para estructurar el contenido, y utiliza Tailwind CSS para crear un diseño elegante y adaptable. Ruby on Rails gestiona el backend y el manejo de datos, mientras que JavaScript y la biblioteca jQuery aportan dinamismo e interactividad a la experiencia del usuario.",
+        "title": "Jazzed Sips"
+      },
+      {
+        "color": "#5A8F7B",
+        "date": "junio 2023 – julio 2023",
+        "icon": "gym",
+        "id": "gym",
+        "links": {
+          "github": {
+            "buttonTitle": "¡Ver el código!",
+            "link": "https://github.com/UmutAkturk14/ZoneFit"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+            "tool": "Ruby on Rails"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+            "tool": "JavaScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353498/bootstrap.svg",
+            "tool": "Bootstrap"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/373669/html.svg",
+            "tool": "HTML"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/373535/css.svg",
+            "tool": "CSS"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/349404/heroku.svg",
+            "tool": "Heroku"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354200/postgresql.svg",
+            "tool": "PostgreSQL"
+          }
+        ],
+        "subTechs": [
+          "autenticación",
+          "base de datos con búsqueda",
+          "integración de videos",
+          "gestión de recetas",
+          "sistema de comentarios",
+          "creación de publicaciones",
+          "sistema de amigos",
+          "chat público",
+          "mensajes directos",
+          "feed social"
+        ],
+        "tags": [
+          "Full Stack",
+          "Backend",
+          "Frontend",
+          "Responsivo",
+          "Fitness",
+          "Red social"
+        ],
+        "text": "ZoneFit es una aplicación web hecha para entusiastas del fitness y del estilo de vida saludable, que ofrece videos de entrenamiento y recetas con búsqueda integrada, combinados con funciones sociales como comentar entrenamientos y recetas, crear publicaciones, comentar publicaciones, agregar/aceptar/rechazar amigos, chatear en comunidades públicas y enviar mensajes directos. Consulta el repositorio del proyecto para más detalles.",
+        "title": "ZoneFit"
+      }
     ],
     "techStack": {
       "stack": [
@@ -779,7 +1043,7 @@
           "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
           "name": "Tailwind"
         },
-                {
+        {
           "description": "Una plataforma para control de versiones y colaboración que permite a los desarrolladores almacenar, gestionar y trabajar en código de forma conjunta.",
           "icon": "https://www.svgrepo.com/show/494343/github.svg",
           "name": "GitHub"
@@ -860,9 +1124,9 @@
     "projects": [
       {
         "color": "#0ffff3",
+        "date": "Avril 2025",
         "icon": "https://www.svgrepo.com/show/191160/kangaroo.svg",
         "id": "quokka",
-        "date": "Avril 2025",
         "links": {
           "deployment": {
             "buttonTitle": "Démo en ligne",
@@ -918,9 +1182,9 @@
       },
       {
         "color": "#D61C4E",
+        "date": "Mars 2024",
         "icon": "pizza",
         "id": "marios-pizza-villa",
-        "date": "Mars 2024",
         "links": {
           "github": {
             "buttonTitle": "See the code!",
@@ -929,32 +1193,32 @@
         },
         "stack": [
           {
-            "tool": "Ruby on Rails",
-            "icon": "https://www.svgrepo.com/show/354252/rails.svg"
+            "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+            "tool": "Ruby on Rails"
           },
           {
-            "tool": "JavaScript",
-            "icon": "https://www.svgrepo.com/show/353925/javascript.svg"
+            "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+            "tool": "JavaScript"
           },
           {
-            "tool": "jQuery",
-            "icon": "https://www.svgrepo.com/show/452242/jquery.svg"
+            "icon": "https://www.svgrepo.com/show/452242/jquery.svg",
+            "tool": "jQuery"
           },
           {
-            "tool": "Tailwind CSS",
-            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg"
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind CSS"
           },
           {
-            "tool": "HTML",
-            "icon": "https://www.svgrepo.com/show/373669/html.svg"
+            "icon": "https://www.svgrepo.com/show/373669/html.svg",
+            "tool": "HTML"
           },
           {
-            "tool": "Inkscape",
-            "icon": "https://www.svgrepo.com/show/473662/inkscape.svg"
+            "icon": "https://www.svgrepo.com/show/473662/inkscape.svg",
+            "tool": "Inkscape"
           },
           {
-            "tool": "Git",
-            "icon": "https://www.svgrepo.com/show/452210/git.svg"
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
           }
         ],
         "subTechs": [
@@ -980,49 +1244,137 @@
         "title": "Mario's Pizza Villa"
       },
       {
-  "color": "#8B5E3C",
-  "icon": "coffee",
-  "id": "jazzed-sips",
-  "date": "Septembre 2023",
-  "links": {
-    "github": {
-      "buttonTitle": "Voir le code !",
-      "link": "https://github.com/UmutAkturk14/Jazzed-Sips-202309252243"
-    }
-  },
-  "stack": [
-    { "tool": "Ruby on Rails", "icon": "https://www.svgrepo.com/show/354252/rails.svg" },
-    { "tool": "JavaScript",     "icon": "https://www.svgrepo.com/show/353925/javascript.svg" },
-    { "tool": "jQuery",         "icon": "https://www.svgrepo.com/show/452242/jquery.svg" },
-    { "tool": "Tailwind CSS",   "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg" },
-    { "tool": "HTML",           "icon": "https://www.svgrepo.com/show/373669/html.svg" },
-    { "tool": "Inkscape",       "icon": "https://www.svgrepo.com/show/473662/inkscape.svg" },
-    { "tool": "Git",            "icon": "https://www.svgrepo.com/show/452210/git.svg" }
-  ],
-  "subTechs": [
-    "Architecture MVC",
-    "Templates ERB",
-    "Design responsive",
-    "Interface inspirée du jazz",
-    "Identité visuelle pour cafés",
-    "Menu dynamique",
-    "Routage RESTful",
-    "Tailwind UI",
-    "Manipulation du DOM avec jQuery",
-    "Optimisation des performances"
-  ],
-  "tags": [
-    "Full Stack",
-    "Backend",
-    "Frontend",
-    "Responsive",
-    "E-Commerce",
-    "Branding"
-  ],
-  "text": "Jazzed Sips donne vie à la présence en ligne d’un café élégant inspiré du jazz. Il repose sur une base HTML pour structurer le contenu, et utilise Tailwind CSS pour créer un design raffiné et adaptable. Ruby on Rails alimente le backend et gère les données, tandis que JavaScript et la bibliothèque jQuery apportent des fonctionnalités dynamiques et enrichissent l’interaction utilisateur.",
-  "title": "Jazzed Sips"
-}
-
+        "color": "#8B5E3C",
+        "date": "Septembre 2023",
+        "icon": "coffee",
+        "id": "jazzed-sips",
+        "links": {
+          "github": {
+            "buttonTitle": "Voir le code !",
+            "link": "https://github.com/UmutAkturk14/Jazzed-Sips-202309252243"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+            "tool": "Ruby on Rails"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+            "tool": "JavaScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452242/jquery.svg",
+            "tool": "jQuery"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind CSS"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/373669/html.svg",
+            "tool": "HTML"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/473662/inkscape.svg",
+            "tool": "Inkscape"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          }
+        ],
+        "subTechs": [
+          "Architecture MVC",
+          "Templates ERB",
+          "Design responsive",
+          "Interface inspirée du jazz",
+          "Identité visuelle pour cafés",
+          "Menu dynamique",
+          "Routage RESTful",
+          "Tailwind UI",
+          "Manipulation du DOM avec jQuery",
+          "Optimisation des performances"
+        ],
+        "tags": [
+          "Full Stack",
+          "Backend",
+          "Frontend",
+          "Responsive",
+          "E-Commerce",
+          "Branding"
+        ],
+        "text": "Jazzed Sips donne vie à la présence en ligne d’un café élégant inspiré du jazz. Il repose sur une base HTML pour structurer le contenu, et utilise Tailwind CSS pour créer un design raffiné et adaptable. Ruby on Rails alimente le backend et gère les données, tandis que JavaScript et la bibliothèque jQuery apportent des fonctionnalités dynamiques et enrichissent l’interaction utilisateur.",
+        "title": "Jazzed Sips"
+      },
+      {
+        "color": "#5A8F7B",
+        "date": "juin 2023 – juillet 2023",
+        "icon": "gym",
+        "id": "gym",
+        "links": {
+          "github": {
+            "buttonTitle": "Voir le code !",
+            "link": "https://github.com/UmutAkturk14/ZoneFit"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+            "tool": "Ruby on Rails"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+            "tool": "JavaScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353498/bootstrap.svg",
+            "tool": "Bootstrap"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/373669/html.svg",
+            "tool": "HTML"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/373535/css.svg",
+            "tool": "CSS"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/349404/heroku.svg",
+            "tool": "Heroku"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354200/postgresql.svg",
+            "tool": "PostgreSQL"
+          }
+        ],
+        "subTechs": [
+          "authentification",
+          "base de données avec recherche",
+          "intégration vidéo",
+          "gestion des recettes",
+          "système de commentaires",
+          "création de publications",
+          "système d’amis",
+          "chat public",
+          "messagerie directe",
+          "fil d’actualité social"
+        ],
+        "tags": [
+          "Full Stack",
+          "Backend",
+          "Frontend",
+          "Responsive",
+          "Fitness",
+          "Réseau social"
+        ],
+        "text": "ZoneFit est une application web destinée aux passionnés de fitness et de mode de vie sain, proposant des vidéos d'entraînement et des recettes avec moteur de recherche, combinée à des fonctionnalités sociales telles que commenter les entraînements et les recettes, créer des publications, commenter des publications, ajouter/accepter/refuser des amis, discuter dans des communautés publiques et envoyer des messages directs. Consultez le dépôt du projet pour plus de détails.",
+        "title": "ZoneFit"
+      }
     ],
     "techStack": {
       "stack": [
@@ -1056,7 +1408,7 @@
           "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
           "name": "Tailwind"
         },
-                {
+        {
           "description": "Eine Plattform für Versionskontrolle und Zusammenarbeit, die es Entwicklern ermöglicht, Code zu speichern, zu verwalten und gemeinsam daran zu arbeiten.",
           "icon": "https://www.svgrepo.com/show/494343/github.svg",
           "name": "GitHub"
@@ -1137,9 +1489,9 @@
     "projects": [
       {
         "color": "#0ffff3",
+        "date": "Nisan 2025",
         "icon": "https://www.svgrepo.com/show/191160/kangaroo.svg",
         "id": "quokka",
-        "date": "Nisan 2025",
         "links": {
           "deployment": {
             "buttonTitle": "Canlı demo",
@@ -1193,9 +1545,9 @@
       },
       {
         "color": "#D61C4E",
+        "date": "Mart 2024",
         "icon": "pizza",
         "id": "marios-pizza-villa",
-        "date": "Mart 2024",
         "links": {
           "github": {
             "buttonTitle": "See the code!",
@@ -1204,32 +1556,32 @@
         },
         "stack": [
           {
-            "tool": "Ruby on Rails",
-            "icon": "https://www.svgrepo.com/show/354252/rails.svg"
+            "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+            "tool": "Ruby on Rails"
           },
           {
-            "tool": "JavaScript",
-            "icon": "https://www.svgrepo.com/show/353925/javascript.svg"
+            "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+            "tool": "JavaScript"
           },
           {
-            "tool": "jQuery",
-            "icon": "https://www.svgrepo.com/show/452242/jquery.svg"
+            "icon": "https://www.svgrepo.com/show/452242/jquery.svg",
+            "tool": "jQuery"
           },
           {
-            "tool": "Tailwind CSS",
-            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg"
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind CSS"
           },
           {
-            "tool": "HTML",
-            "icon": "https://www.svgrepo.com/show/373669/html.svg"
+            "icon": "https://www.svgrepo.com/show/373669/html.svg",
+            "tool": "HTML"
           },
           {
-            "tool": "Inkscape",
-            "icon": "https://www.svgrepo.com/show/473662/inkscape.svg"
+            "icon": "https://www.svgrepo.com/show/473662/inkscape.svg",
+            "tool": "Inkscape"
           },
           {
-            "tool": "Git",
-            "icon": "https://www.svgrepo.com/show/452210/git.svg"
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
           }
         ],
         "subTechs": [
@@ -1255,49 +1607,137 @@
         "title": "Mario's Pizza Villa"
       },
       {
-  "color": "#8B5E3C",
-  "icon": "coffee",
-  "id": "jazzed-sips",
-  "date": "Eylül 2023",
-  "links": {
-    "github": {
-      "buttonTitle": "Koda göz at!",
-      "link": "https://github.com/UmutAkturk14/Jazzed-Sips-202309252243"
-    }
-  },
-  "stack": [
-    { "tool": "Ruby on Rails", "icon": "https://www.svgrepo.com/show/354252/rails.svg" },
-    { "tool": "JavaScript",     "icon": "https://www.svgrepo.com/show/353925/javascript.svg" },
-    { "tool": "jQuery",         "icon": "https://www.svgrepo.com/show/452242/jquery.svg" },
-    { "tool": "Tailwind CSS",   "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg" },
-    { "tool": "HTML",           "icon": "https://www.svgrepo.com/show/373669/html.svg" },
-    { "tool": "Inkscape",       "icon": "https://www.svgrepo.com/show/473662/inkscape.svg" },
-    { "tool": "Git",            "icon": "https://www.svgrepo.com/show/452210/git.svg" }
-  ],
-  "subTechs": [
-    "MVC Mimarisi",
-    "ERB Şablonları",
-    "Duyarlı Tasarım",
-    "Caz Esintili Arayüz",
-    "Kafeler için Marka Kimliği",
-    "Dinamik Menü",
-    "RESTful Rotalama",
-    "Tailwind UI",
-    "jQuery ile DOM Manipülasyonu",
-    "Performans Optimizasyonu"
-  ],
-  "tags": [
-    "Full Stack",
-    "Backend",
-    "Frontend",
-    "Duyarlı",
-    "E-Ticaret",
-    "Markalaşma"
-  ],
-  "text": "Jazzed Sips, şık ve cazdan ilham alan bir kafenin çevrim içi varlığına hayat veriyor. İçeriği yapılandırmak için HTML temel alınırken, zarif ve uyumlu bir tasarım için Tailwind CSS kullanılmıştır. Ruby on Rails, verileri yöneterek arka ucu desteklerken, JavaScript ve jQuery kitaplığı da dinamik özellikler kazandırmakta ve kullanıcı etkileşimini geliştirmektedir.",
-  "title": "Jazzed Sips"
-}
-
+        "color": "#8B5E3C",
+        "date": "Eylül 2023",
+        "icon": "coffee",
+        "id": "jazzed-sips",
+        "links": {
+          "github": {
+            "buttonTitle": "Koda göz at!",
+            "link": "https://github.com/UmutAkturk14/Jazzed-Sips-202309252243"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+            "tool": "Ruby on Rails"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+            "tool": "JavaScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452242/jquery.svg",
+            "tool": "jQuery"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind CSS"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/373669/html.svg",
+            "tool": "HTML"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/473662/inkscape.svg",
+            "tool": "Inkscape"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          }
+        ],
+        "subTechs": [
+          "MVC Mimarisi",
+          "ERB Şablonları",
+          "Duyarlı Tasarım",
+          "Caz Esintili Arayüz",
+          "Kafeler için Marka Kimliği",
+          "Dinamik Menü",
+          "RESTful Rotalama",
+          "Tailwind UI",
+          "jQuery ile DOM Manipülasyonu",
+          "Performans Optimizasyonu"
+        ],
+        "tags": [
+          "Full Stack",
+          "Backend",
+          "Frontend",
+          "Duyarlı",
+          "E-Ticaret",
+          "Markalaşma"
+        ],
+        "text": "Jazzed Sips, şık ve cazdan ilham alan bir kafenin çevrim içi varlığına hayat veriyor. İçeriği yapılandırmak için HTML temel alınırken, zarif ve uyumlu bir tasarım için Tailwind CSS kullanılmıştır. Ruby on Rails, verileri yöneterek arka ucu desteklerken, JavaScript ve jQuery kitaplığı da dinamik özellikler kazandırmakta ve kullanıcı etkileşimini geliştirmektedir.",
+        "title": "Jazzed Sips"
+      },
+      {
+        "color": "#5A8F7B",
+        "date": "Haz 2023 – Tem 2023",
+        "icon": "gym",
+        "id": "gym",
+        "links": {
+          "github": {
+            "buttonTitle": "Koda göz at!",
+            "link": "https://github.com/UmutAkturk14/ZoneFit"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+            "tool": "Ruby on Rails"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+            "tool": "JavaScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353498/bootstrap.svg",
+            "tool": "Bootstrap"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/373669/html.svg",
+            "tool": "HTML"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/373535/css.svg",
+            "tool": "CSS"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/349404/heroku.svg",
+            "tool": "Heroku"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354200/postgresql.svg",
+            "tool": "PostgreSQL"
+          }
+        ],
+        "subTechs": [
+          "kimlik doğrulama",
+          "aramaya uygun veritabanı",
+          "video entegrasyonu",
+          "tarif yönetimi",
+          "yorum sistemi",
+          "gönderi oluşturma",
+          "arkadaşlık sistemi",
+          "genel sohbet",
+          "özel mesajlaşma",
+          "sosyal akış"
+        ],
+        "tags": [
+          "Full Stack",
+          "Backend",
+          "Frontend",
+          "Duyarlı Tasarım",
+          "Fitness",
+          "Sosyal Medya"
+        ],
+        "text": "ZoneFit, egzersiz videoları ve sağlıklı yaşam tariflerini arama özelliğiyle sunan, fitness/sağlıklı yaşam meraklılarına yönelik bir web uygulamasıdır. Aynı zamanda sosyal medya özellikleri de içerir: antrenmanlara ve tariflere yorum yapma, gönderi oluşturma, gönderilere yorum yapma, arkadaş ekleme/kabul etme/reddetme, genel topluluklarda sohbet etme ve özel mesajlaşma gibi. Detaylar için proje deposuna göz atabilirsiniz.",
+        "title": "ZoneFit"
+      }
     ],
     "techStack": {
       "stack": [
@@ -1331,7 +1771,7 @@
           "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
           "name": "Tailwind"
         },
-                {
+        {
           "description": "Eine Plattform für Versionskontrolle und Zusammenarbeit, die es Entwicklern ermöglicht, Code zu speichern, zu verwalten und gemeinsam daran zu arbeiten.",
           "icon": "https://www.svgrepo.com/show/494343/github.svg",
           "name": "GitHub"

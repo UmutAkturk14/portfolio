@@ -39,7 +39,7 @@ const LanguageSwitch = () => {
       <select
         value={language}
         onChange={handleChange}
-        className="absolute opacity-0 dark:bg-gray-900"
+        className="absolute inset-0 opacity-0 dark:bg-gray-900"
         aria-label="Select language"
       >
         {Object.entries(LANGUAGES).map(([code, { label }]) => (
