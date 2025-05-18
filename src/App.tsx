@@ -11,6 +11,10 @@ const App = () => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
   useEffect(() => {
+    const isDesktop = window.innerWidth >= 768;
+
+    if (!isDesktop) return;
+
     const canvas = canvasRef.current!;
     const ctx = canvas.getContext("2d")!;
 
