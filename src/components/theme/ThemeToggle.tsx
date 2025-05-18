@@ -32,11 +32,11 @@ const ThemeToggle = () => {
     <button
       onClick={toggleTheme}
       aria-label="Toggle theme"
-      className="ml-auto focus:outline-none focus:ring-0 w-14 h-8 flex items-center px-1 rounded-full smooth border border-default bg-primary"
+      className="ml-auto focus:outline-none focus:ring-0 w-16 h-8 flex items-center px-1 rounded-full smooth border border-default bg-primary"
     >
       <div
-        className={`w-6 h-6 flex items-center justify-center rounded-full bg-white shadow-md transform smooth
-          ${isDark ? "translate-x-6" : "translate-x-0"}
+        className={`w-7 h-7 flex items-center justify-center rounded-full bg-white shadow-md transform smooth
+          ${isDark ? "translate-x-8" : "-translate-x-1"}
         `}
       >
         {isDark ? (

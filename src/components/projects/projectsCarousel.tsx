@@ -45,7 +45,9 @@ export default function ProjectsCarousel() {
 
   return (
     <>
-      <div className="border-1 dark:border-gray-200 w-4/5 my-40 flex justify-self-center"></div>
+      <div className="w-full my-40 flex justify-center">
+        <div className="border-1 border-gray-100 dark:border-gray-800 w-1/3"></div>
+      </div>
       <div className="relative mx-auto flex w-full min-h-[100svh]">
         {/* ⬅️ Prev / Next Buttons */}
         <div className="absolute top-4 right-4 lg:hidden flex gap-2 z-20">

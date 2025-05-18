@@ -26,7 +26,7 @@ export default function ConstellationCursor({ color }: Props) {
 
   useEffect(() => {
     const canvas = canvasRef.current;
-    if (!canvas || window.innerWidth < 768) return;
+    if (!canvas) return;
 
     const ctx = canvas.getContext("2d")!;
     let width = window.innerWidth;
@@ -42,7 +42,7 @@ export default function ConstellationCursor({ color }: Props) {
     };
     window.addEventListener("resize", handleResize);
 
-    const MAX_DIST = 140;
+    const MAX_DIST = 100;
     const stars = 120;
 
     const pts = Array.from({ length: stars }, () => ({
@@ -95,7 +95,7 @@ export default function ConstellationCursor({ color }: Props) {
           if (d < MAX_DIST) {
             ctx.strokeStyle = isDark
               ? `rgba(150,180,255,${1 - d / MAX_DIST})`
-              : `rgba(60,60,60,${1 - d / MAX_DIST})`;
+              : `rgba(60,60,60,${0.9 - d / MAX_DIST})`;
             ctx.beginPath();
             ctx.moveTo(a.x, a.y);
             ctx.lineTo(b.x, b.y);
@@ -117,7 +117,7 @@ export default function ConstellationCursor({ color }: Props) {
 
       if (color !== "none") {
         const fallbackColor = isDark ? "#cce6ff" : "#2a2a2a"; // Darker gray for light mode
-        const cursorColor = color || fallbackColor;
+        const cursorColor = isDark ? color ?? fallbackColor : fallbackColor;
 
         const glow = cursorColor + "80";
         const grad = ctx.createRadialGradient(
