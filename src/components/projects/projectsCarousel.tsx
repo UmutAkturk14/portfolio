@@ -45,7 +45,7 @@ export default function ProjectsCarousel() {
 
   return (
     <>
-      <div className="border-1 dark:border-gray-200 w-4/5 flex justify-self-center"></div>
+      <div className="border-1 dark:border-gray-200 w-4/5 my-40 flex justify-self-center"></div>
       <div className="relative mx-auto flex w-full min-h-[100svh]">
         {/* ⬅️ Prev / Next Buttons */}
         <div className="absolute top-4 right-4 lg:hidden flex gap-2 z-20">
@@ -75,8 +75,8 @@ export default function ProjectsCarousel() {
           onSelect={setActive}
         />
 
-        <section className="relative flex-col flex-1 flex items-center justify-center sm:mt-0">
-          <h1 className="font-heading text-3xl mb-40 text-primary">
+        <section className="relative flex-col flex-1 flex items-center justify-around sm:mt-0">
+          <h1 className="font-heading text-3xl mb-20 text-primary">
             {portfolioTitle}
           </h1>
           {current && <ProjectCard project={current} />}

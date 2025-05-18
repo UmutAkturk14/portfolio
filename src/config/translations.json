@@ -71,17 +71,15 @@
           }
         ],
         "subTechs": [
-          "kompatibel mit Vanilla JS",
-          "ESM-Module",
-          "modulare Architektur",
-          "Plug-in-System",
-          "benutzerdefinierte Events",
+          "Kompatibel mit Vanilla JS",
+          "Modulare Architektur",
+          "Benutzerdefinierte Events",
           "Storage-API",
-          "asynchrone Hilfsfunktionen",
+          "Asynchrone Hilfsfunktionen",
           "Rollup-Bündelung",
           "Tree Shaking",
           "Vitest",
-          "leistungsorientiert"
+          "Leistungsorientiert"
         ],
         "tags": [
           "Frontend",
@@ -135,7 +133,6 @@
         ],
         "subTechs": [
           "MVC-Muster",
-          "ERB-Vorlagen",
           "Bestellverfolgung",
           "Admin-Dashboard",
           "Formularvalidierung",
@@ -143,7 +140,7 @@
           "Menüverwaltung",
           "RESTful-Routing",
           "Tailwind UI",
-          "jQuery DOM-Manipulation"
+          "jQuery"
         ],
         "tags": [
           "Full Stack",
@@ -164,7 +161,7 @@
   "links": {
     "github": {
       "buttonTitle": "Code ansehen!",
-      "link": "https://github.com/your-repo/jazzed-sips"
+      "link": "https://github.com/UmutAkturk14/Jazzed-Sips-202309252243"
     }
   },
   "stack": [
@@ -178,14 +175,11 @@
   ],
   "subTechs": [
     "MVC-Muster",
-    "ERB-Vorlagen",
     "Responsives Design",
-    "Jazz-inspirierte UI",
-    "Branding für Cafés",
-    "Dynamische Speisekarte",
+    "UI Design",
     "RESTful-Routing",
     "Tailwind UI",
-    "jQuery DOM-Manipulation",
+    "jQuery",
     "Performance-Optimierung"
   ],
   "tags": [
@@ -193,7 +187,6 @@
     "Backend",
     "Frontend",
     "Responsiv",
-    "E-Commerce",
     "Branding"
   ],
   "text": "Jazzed Sips verleiht dem Online-Auftritt eines stilvollen, jazz-inspirierten Cafés neues Leben. Die Seite basiert auf HTML zur Strukturierung der Inhalte und verwendet Tailwind CSS für ein elegantes und responsives Design. Ruby on Rails bildet das Backend und übernimmt das Datenmanagement, während JavaScript in Kombination mit der jQuery-Bibliothek dynamische Funktionen und verbesserte Benutzerinteraktionen ermöglicht.",
@@ -326,7 +319,10 @@
             "buttonTitle": "See the code!",
             "link": "https://github.com/UmutAkturk14/QuokkaJS"
           },
-          "documentation": {}
+          "documentation": {
+            "buttonTitle": "Documentation",
+            "link": "url"
+          }
         },
         "stack": [
           {
@@ -347,17 +343,15 @@
           }
         ],
         "subTechs": [
-          "typescript",
-          "vanilla js compatible",
-          "esm modules",
-          "modular architecture",
-          "plugin system",
-          "custom events",
-          "storage api",
-          "async utilities",
-          "rollup bundling",
-          "tree shaking",
-          "testing with vitest",
+          "Vanilla js compatible",
+          "Esm modules",
+          "Modular architecture",
+          "Custom events",
+          "Storage API",
+          "Async utilities",
+          "Rollup bundling",
+          "Tree shaking",
+          "Vitest",
           "performance-focused"
         ],
         "tags": [
@@ -411,16 +405,15 @@
           }
         ],
         "subTechs": [
-          "mvc pattern",
-          "erb templates",
-          "order tracking",
-          "admin dashboard",
-          "form validations",
-          "analytics",
-          "menu management",
-          "restful routing",
-          "tailwind ui",
-          "jquery dom manipulation"
+          "MVC pattern",
+          "Order tracking",
+          "Admin dashboard",
+          "Form validations",
+          "Analytics",
+          "Menu management",
+          "Restful",
+          "Tailwind ui",
+          "jQuery"
         ],
         "tags": [
           "Full stack",
@@ -441,7 +434,7 @@
   "links": {
     "github": {
       "buttonTitle": "See the code!",
-      "link": "https://github.com/your-repo/jazzed-sips"
+      "link": "https://github.com/UmutAkturk14/Jazzed-Sips-202309252243"
     }
   },
   "stack": [
@@ -627,17 +620,15 @@
           }
         ],
         "subTechs": [
-          "compatible con vanilla JS",
-          "módulos ESM",
-          "arquitectura modular",
-          "sistema de plugins",
-          "eventos personalizados",
-          "API de almacenamiento",
-          "utilidades asíncronas",
-          "empaquetado con Rollup",
-          "tree shaking",
+          "Compatible con vanilla JS",
+          "Arquitectura modular",
+          "Sistema de plugins",
+          "Storage API",
+          "Utilidades asíncronas",
+          "Empaquetado con Rollup",
+          "Tree shaking",
           "Vitest",
-          "enfocado en el rendimiento"
+          "Enfocado en el rendimiento"
         ],
         "tags": [
           "Frontend",
@@ -690,16 +681,15 @@
           }
         ],
         "subTechs": [
-          "patrón MVC",
-          "plantillas ERB",
-          "seguimiento de pedidos",
-          "panel de administración",
-          "validación de formularios",
-          "analítica",
-          "gestión del menú",
-          "enrutamiento RESTful",
+          "MVC",
+          "Seguimiento de pedidos",
+          "Panel de administración",
+          "Validación de formularios",
+          "Analítica",
+          "Gestión del menú",
+          "Enrutamiento RESTful",
           "Tailwind UI",
-          "manipulación del DOM con jQuery"
+          "jQuery"
         ],
         "tags": [
           "Full stack",
@@ -720,7 +710,7 @@
   "links": {
     "github": {
       "buttonTitle": "¡Ver el código!",
-      "link": "https://github.com/your-repo/jazzed-sips"
+      "link": "https://github.com/UmutAkturk14/Jazzed-Sips-202309252243"
     }
   },
   "stack": [
@@ -906,17 +896,16 @@
           }
         ],
         "subTechs": [
-          "compatible vanilla JS",
-          "modules ESM",
-          "architecture modulaire",
-          "système de plugins",
-          "événements personnalisés",
-          "API de stockage",
-          "utilitaires asynchrones",
-          "bundling avec Rollup",
-          "tree shaking",
+          "Compatible vanilla JS",
+          "Architecture modulaire",
+          "Système de plugins",
+          "Événements personnalisés",
+          "Storage API",
+          "Utilitaires asynchrones",
+          "Bundling avec Rollup",
+          "Tree shaking",
           "Vitest",
-          "axé sur la performance"
+          "Axé sur la performance"
         ],
         "tags": [
           "Frontend",
@@ -969,16 +958,15 @@
           }
         ],
         "subTechs": [
-          "modèle MVC",
-          "templates ERB",
-          "suivi des commandes",
-          "tableau de bord admin",
-          "validations de formulaire",
-          "analytique",
-          "gestion du menu",
-          "routing RESTful",
+          "Modèle MVC",
+          "Suivi des commandes",
+          "Tableau de bord admin",
+          "Validations de formulaire",
+          "Analytique",
+          "Gestion du menu",
+          "Routing RESTful",
           "Tailwind UI",
-          "manipulation du DOM avec jQuery"
+          "jQuery"
         ],
         "tags": [
           "Full stack",
@@ -999,7 +987,7 @@
   "links": {
     "github": {
       "buttonTitle": "Voir le code !",
-      "link": "https://github.com/your-repo/jazzed-sips"
+      "link": "https://github.com/UmutAkturk14/Jazzed-Sips-202309252243"
     }
   },
   "stack": [
@@ -1185,15 +1173,14 @@
           }
         ],
         "subTechs": [
-          "vanilla JS ile uyumlu",
-          "ESM modülleri",
-          "modüler mimari",
-          "storage API",
-          "async",
+          "Vanilla JS ile uyumlu",
+          "Modüler mimari",
+          "Storage API",
+          "Async",
           "Rollup",
-          "tree shaking",
+          "Tree shaking",
           "Vitest",
-          "performans odakli"
+          "Performans odaklı"
         ],
         "tags": [
           "Ön yüz",
@@ -1247,11 +1234,11 @@
         ],
         "subTechs": [
           "MVC",
-          "sipariş takibi",
-          "yönetici paneli",
-          "form doğrulamaları",
-          "analitik",
-          "menü yönetimi",
+          "Sipariş takibi",
+          "Yönetici paneli",
+          "Form doğrulamaları",
+          "Analitik",
+          "Menü yönetimi",
           "REST",
           "Tailwind",
           "jQuery"
@@ -1275,7 +1262,7 @@
   "links": {
     "github": {
       "buttonTitle": "Koda göz at!",
-      "link": "https://github.com/your-repo/jazzed-sips"
+      "link": "https://github.com/UmutAkturk14/Jazzed-Sips-202309252243"
     }
   },
   "stack": [

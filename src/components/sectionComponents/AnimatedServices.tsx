@@ -55,7 +55,7 @@ function AnimatedServices() {
 
       {motto && (
         <p
-          className={`text-primary font-heading tracking-widest italic mt-2 text-center smooth ease-in-out ${
+          className={`text-primary font-heading tracking-widest italic mt-2 text-center transition-all duration-1000 ease-in-out ${
             isVisible ? "opacity-100" : "opacity-0"
           }`}
         >

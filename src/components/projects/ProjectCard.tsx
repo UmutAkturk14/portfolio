@@ -30,7 +30,7 @@ export default function ProjectCard({ project }: Props) {
         {date}
       </h1>
 
-      <p className=" text-primary sm:w-2/3 md:2/1">{text}</p>
+      <p className=" text-primary sm:w-2/3 md:2/1 min-h-[15svh]">{text}</p>
 
       {stack && <StackIconGrid stack={stack} />}
 

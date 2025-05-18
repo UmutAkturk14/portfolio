@@ -71,4 +71,8 @@
   button, select, a {
     cursor: none;
   }
+
+  html, body {
+    cursor: none;
+  }
 }
