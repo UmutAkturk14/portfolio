@@ -10,7 +10,7 @@ interface Props {
 
 export default function ProjectMenu({ projects, activeId, onSelect }: Props) {
   return (
-    <div className="lg:flex absolute h-full hidden z-20">
+    <div className="lg:flex absolute h-full hidden z-20 cursor-none">
       <aside className="flex flex-col items-center justify-center h-full">
         {projects.map((p) => (
           <ProjectMenuItem

@@ -67,4 +67,8 @@
   .smooth {
     @apply transition duration-500
   }
+
+  button, select, a {
+    cursor: none;
+  }
 }

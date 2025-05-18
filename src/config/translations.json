@@ -90,7 +90,7 @@
           "Bibliothek"
         ],
         "text": "QuokkaJS ist eine moderne, funktionsreiche Bibliothek in Arbeit, inspiriert von jQuery und mit TypeScript entwickelt. Ziel ist es, eine robuste, modulare und entwicklerfreundliche Bibliothek für DOM-Manipulation, Speicherzugriff, asynchrone Hilfsfunktionen und mehr zu schaffen – mit der Typsicherheit von TypeScript und modernen JavaScript-Funktionen.",
-        "title": "QuokkaJS!"
+        "title": "Quokka JS"
       },
       {
         "color": "#D61C4E",
@@ -155,7 +155,51 @@
         ],
         "text": "Mario's Pizza Villa ist eine Ruby on Rails-Webanwendung, die als Online-Präsenz unserer fiktiven Pizzeria \"Mario's Pizza Villa\" dient. Über die Plattform können Nutzer unsere Speisekarte einsehen, Bestellungen aufgeben und den Status ihrer Bestellungen bequem verfolgen. Außerdem bietet sie ein Admin-Dashboard mit Analysen und Menüverwaltung.",
         "title": "Mario's Pizza Villa"
-      }
+      },
+      {
+  "color": "#8B5E3C",
+  "icon": "coffee",
+  "id": "jazzed-sips",
+  "date": "September 2023",
+  "links": {
+    "github": {
+      "buttonTitle": "Code ansehen!",
+      "link": "https://github.com/your-repo/jazzed-sips"
+    }
+  },
+  "stack": [
+    { "tool": "Ruby on Rails", "icon": "https://www.svgrepo.com/show/354252/rails.svg" },
+    { "tool": "JavaScript",     "icon": "https://www.svgrepo.com/show/353925/javascript.svg" },
+    { "tool": "jQuery",         "icon": "https://www.svgrepo.com/show/452242/jquery.svg" },
+    { "tool": "Tailwind CSS",   "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg" },
+    { "tool": "HTML",           "icon": "https://www.svgrepo.com/show/373669/html.svg" },
+    { "tool": "Inkscape",       "icon": "https://www.svgrepo.com/show/473662/inkscape.svg" },
+    { "tool": "Git",            "icon": "https://www.svgrepo.com/show/452210/git.svg" }
+  ],
+  "subTechs": [
+    "MVC-Muster",
+    "ERB-Vorlagen",
+    "Responsives Design",
+    "Jazz-inspirierte UI",
+    "Branding für Cafés",
+    "Dynamische Speisekarte",
+    "RESTful-Routing",
+    "Tailwind UI",
+    "jQuery DOM-Manipulation",
+    "Performance-Optimierung"
+  ],
+  "tags": [
+    "Full Stack",
+    "Backend",
+    "Frontend",
+    "Responsiv",
+    "E-Commerce",
+    "Branding"
+  ],
+  "text": "Jazzed Sips verleiht dem Online-Auftritt eines stilvollen, jazz-inspirierten Cafés neues Leben. Die Seite basiert auf HTML zur Strukturierung der Inhalte und verwendet Tailwind CSS für ein elegantes und responsives Design. Ruby on Rails bildet das Backend und übernimmt das Datenmanagement, während JavaScript in Kombination mit der jQuery-Bibliothek dynamische Funktionen und verbesserte Benutzerinteraktionen ermöglicht.",
+  "title": "Jazzed Sips"
+}
+
     ],
     "techStack": {
       "stack": [
@@ -188,6 +232,11 @@
           "description": "Ein Utility-First-CSS-Framework, das eine schnelle UI-Entwicklung mit minimalem benutzerdefinierten Stil ermöglicht.",
           "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
           "name": "Tailwind"
+        },
+        {
+          "description": "Eine Plattform für Versionskontrolle und Zusammenarbeit, die es Entwicklern ermöglicht, Code zu speichern, zu verwalten und gemeinsam daran zu arbeiten.",
+          "icon": "https://www.svgrepo.com/show/494343/github.svg",
+          "name": "GitHub"
         },
         {
           "description": "Ein verteiltes Versionskontrollsystem zur Nachverfolgung von Codeänderungen und zur Zusammenarbeit.",
@@ -318,7 +367,7 @@
           "Open source  "
         ],
         "text": "QuokkaJS is a work-in-progress, modern, feature-rich library inspired by jQuery, built with TypeScript. The goal is to create a robust, modular, and developer-friendly library for DOM manipulation, storage access, async utilities, and more, while leveraging the power of TypeScript for type safety and modern JavaScript features.",
-        "title": "QuokkaJS!"
+        "title": "Quokka JS"
       },
       {
         "color": "#D61C4E",
@@ -383,7 +432,51 @@
         ],
         "text": "Mario's Pizza Villa is a Ruby on Rails web application that serves as the online presence for our fictional pizzeria, \"Mario's Pizza Villa.\" This platform allows users to explore our menu, place orders, and conveniently track the status of their orders. Additionally, it offers an admin dashboard with analytics and menu management capabilities.",
         "title": "Mario's Pizza Villa"
-      }
+      },
+      {
+  "color": "#8B5E3C",
+  "icon": "coffee",
+  "id": "jazzed-sips",
+  "date": "September 2023",
+  "links": {
+    "github": {
+      "buttonTitle": "See the code!",
+      "link": "https://github.com/your-repo/jazzed-sips"
+    }
+  },
+  "stack": [
+    { "tool": "Ruby on Rails", "icon": "https://www.svgrepo.com/show/354252/rails.svg" },
+    { "tool": "JavaScript",     "icon": "https://www.svgrepo.com/show/353925/javascript.svg" },
+    { "tool": "jQuery",         "icon": "https://www.svgrepo.com/show/452242/jquery.svg" },
+    { "tool": "Tailwind CSS",   "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg" },
+    { "tool": "HTML",           "icon": "https://www.svgrepo.com/show/373669/html.svg" },
+    { "tool": "Inkscape",       "icon": "https://www.svgrepo.com/show/473662/inkscape.svg" },
+    { "tool": "Git",            "icon": "https://www.svgrepo.com/show/452210/git.svg" }
+  ],
+  "subTechs": [
+    "MVC pattern",
+    "ERB templates",
+    "responsive design",
+    "jazz-inspired UI",
+    "coffee-shop branding",
+    "dynamic menu",
+    "RESTful routing",
+    "Tailwind UI",
+    "jQuery DOM manipulation",
+    "performance-tuned"
+  ],
+  "tags": [
+    "Full Stack",
+    "Backend",
+    "Frontend",
+    "Responsive",
+    "E-commerce",
+    "Branding"
+  ],
+  "text": "Jazzed Sips breathes life into a stylish and jazz-inspired coffee shop's online presence. It's built on a foundation of HTML, which structures the content, and utilizes Tailwind CSS to create an elegant and responsive design. Ruby on Rails powers the backend, handling data management, while JavaScript with the jQuery library adds dynamic features and enhances user interactions.",
+  "title": "Jazzed Sips"
+}
+
     ],
     "techStack": {
       "stack": [
@@ -416,6 +509,11 @@
           "description": "A utility-first CSS framework that allows for rapid UI development with minimal custom styles.",
           "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
           "name": "Tailwind"
+        },
+                {
+          "description": "A platform for version control and collaboration that enables developers to store, manage, and work on code together.",
+          "icon": "https://www.svgrepo.com/show/494343/github.svg",
+          "name": "GitHub"
         },
         {
           "description": "A distributed version control system for tracking changes in code and collaborating with others.",
@@ -548,7 +646,7 @@
           "Biblioteca"
         ],
         "text": "QuokkaJS es una biblioteca moderna y rica en funciones en desarrollo, inspirada en jQuery y construida con TypeScript. El objetivo es crear una biblioteca robusta, modular y amigable para el desarrollador para manipulación del DOM, acceso a almacenamiento, utilidades asíncronas y más, aprovechando el poder de TypeScript.",
-        "title": "QuokkaJS!"
+        "title": "Quokka JS"
       },
             {
         "color": "#D61C4E",
@@ -613,7 +711,51 @@
         ],
         "text": "Mario's Pizza Villa es una aplicación web desarrollada con Ruby on Rails que representa la presencia en línea de nuestra pizzería ficticia \"Mario's Pizza Villa\". La plataforma permite a los usuarios explorar el menú, hacer pedidos y seguir el estado de los mismos. También ofrece un panel de administración con análisis y gestión del menú.",
         "title": "Mario's Pizza Villa"
-      }
+      },
+      {
+  "color": "#8B5E3C",
+  "icon": "coffee",
+  "id": "jazzed-sips",
+  "date": "Septiembre de 2023",
+  "links": {
+    "github": {
+      "buttonTitle": "¡Ver el código!",
+      "link": "https://github.com/your-repo/jazzed-sips"
+    }
+  },
+  "stack": [
+    { "tool": "Ruby on Rails", "icon": "https://www.svgrepo.com/show/354252/rails.svg" },
+    { "tool": "JavaScript",     "icon": "https://www.svgrepo.com/show/353925/javascript.svg" },
+    { "tool": "jQuery",         "icon": "https://www.svgrepo.com/show/452242/jquery.svg" },
+    { "tool": "Tailwind CSS",   "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg" },
+    { "tool": "HTML",           "icon": "https://www.svgrepo.com/show/373669/html.svg" },
+    { "tool": "Inkscape",       "icon": "https://www.svgrepo.com/show/473662/inkscape.svg" },
+    { "tool": "Git",            "icon": "https://www.svgrepo.com/show/452210/git.svg" }
+  ],
+  "subTechs": [
+    "Patrón MVC",
+    "Plantillas ERB",
+    "Diseño responsivo",
+    "Interfaz inspirada en el jazz",
+    "Identidad visual para cafeterías",
+    "Carta dinámica",
+    "Ruteo RESTful",
+    "Tailwind UI",
+    "Manipulación del DOM con jQuery",
+    "Optimización del rendimiento"
+  ],
+  "tags": [
+    "Full Stack",
+    "Backend",
+    "Frontend",
+    "Responsivo",
+    "E-Commerce",
+    "Branding"
+  ],
+  "text": "Jazzed Sips da vida a la presencia en línea de una cafetería elegante e inspirada en el jazz. Está construido sobre una base de HTML para estructurar el contenido, y utiliza Tailwind CSS para crear un diseño elegante y adaptable. Ruby on Rails gestiona el backend y el manejo de datos, mientras que JavaScript y la biblioteca jQuery aportan dinamismo e interactividad a la experiencia del usuario.",
+  "title": "Jazzed Sips"
+}
+
     ],
     "techStack": {
       "stack": [
@@ -646,6 +788,11 @@
           "description": "Un framework CSS de utilidades que permite un desarrollo rápido de interfaces con estilos personalizados mínimos.",
           "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
           "name": "Tailwind"
+        },
+                {
+          "description": "Una plataforma para control de versiones y colaboración que permite a los desarrolladores almacenar, gestionar y trabajar en código de forma conjunta.",
+          "icon": "https://www.svgrepo.com/show/494343/github.svg",
+          "name": "GitHub"
         },
         {
           "description": "Un sistema de control de versiones distribuido para rastrear cambios en el código y colaborar con otros.",
@@ -778,7 +925,7 @@
           "Bibliothèque"
         ],
         "text": "QuokkaJS est une bibliothèque moderne et riche en fonctionnalités en cours de développement, inspirée de jQuery et construite avec TypeScript. L'objectif est de créer une bibliothèque robuste, modulaire et conviviale pour les développeurs, pour manipuler le DOM, accéder au stockage, utiliser des utilitaires asynchrones, et plus encore, tout en bénéficiant de la sécurité de TypeScript.",
-        "title": "QuokkaJS!"
+        "title": "Quokka JS"
       },
       {
         "color": "#D61C4E",
@@ -843,7 +990,51 @@
         ],
         "text": "Mario's Pizza Villa est une application web Ruby on Rails qui sert de vitrine en ligne pour notre pizzeria fictive \"Mario's Pizza Villa\". Elle permet aux utilisateurs de consulter notre menu, de passer commande et de suivre l’état de leurs commandes. Elle propose également un tableau de bord administrateur avec des analyses et la gestion du menu.",
         "title": "Mario's Pizza Villa"
-      }
+      },
+      {
+  "color": "#8B5E3C",
+  "icon": "coffee",
+  "id": "jazzed-sips",
+  "date": "Septembre 2023",
+  "links": {
+    "github": {
+      "buttonTitle": "Voir le code !",
+      "link": "https://github.com/your-repo/jazzed-sips"
+    }
+  },
+  "stack": [
+    { "tool": "Ruby on Rails", "icon": "https://www.svgrepo.com/show/354252/rails.svg" },
+    { "tool": "JavaScript",     "icon": "https://www.svgrepo.com/show/353925/javascript.svg" },
+    { "tool": "jQuery",         "icon": "https://www.svgrepo.com/show/452242/jquery.svg" },
+    { "tool": "Tailwind CSS",   "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg" },
+    { "tool": "HTML",           "icon": "https://www.svgrepo.com/show/373669/html.svg" },
+    { "tool": "Inkscape",       "icon": "https://www.svgrepo.com/show/473662/inkscape.svg" },
+    { "tool": "Git",            "icon": "https://www.svgrepo.com/show/452210/git.svg" }
+  ],
+  "subTechs": [
+    "Architecture MVC",
+    "Templates ERB",
+    "Design responsive",
+    "Interface inspirée du jazz",
+    "Identité visuelle pour cafés",
+    "Menu dynamique",
+    "Routage RESTful",
+    "Tailwind UI",
+    "Manipulation du DOM avec jQuery",
+    "Optimisation des performances"
+  ],
+  "tags": [
+    "Full Stack",
+    "Backend",
+    "Frontend",
+    "Responsive",
+    "E-Commerce",
+    "Branding"
+  ],
+  "text": "Jazzed Sips donne vie à la présence en ligne d’un café élégant inspiré du jazz. Il repose sur une base HTML pour structurer le contenu, et utilise Tailwind CSS pour créer un design raffiné et adaptable. Ruby on Rails alimente le backend et gère les données, tandis que JavaScript et la bibliothèque jQuery apportent des fonctionnalités dynamiques et enrichissent l’interaction utilisateur.",
+  "title": "Jazzed Sips"
+}
+
     ],
     "techStack": {
       "stack": [
@@ -876,6 +1067,11 @@
           "description": "Un framework CSS utilitaire-first qui permet un développement d’interface rapide avec un minimum de styles personnalisés.",
           "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
           "name": "Tailwind"
+        },
+                {
+          "description": "Eine Plattform für Versionskontrolle und Zusammenarbeit, die es Entwicklern ermöglicht, Code zu speichern, zu verwalten und gemeinsam daran zu arbeiten.",
+          "icon": "https://www.svgrepo.com/show/494343/github.svg",
+          "name": "GitHub"
         },
         {
           "description": "Un système de contrôle de version distribué pour suivre les modifications du code et collaborer avec d'autres développeurs.",
@@ -992,14 +1188,12 @@
           "vanilla JS ile uyumlu",
           "ESM modülleri",
           "modüler mimari",
-          "eklenti sistemi",
-          "özel olaylar",
-          "depolama API'si",
-          "asenkron yardımcılar",
-          "Rollup ile paketleme",
+          "storage API",
+          "async",
+          "Rollup",
           "tree shaking",
           "Vitest",
-          "performans odaklı"
+          "performans odakli"
         ],
         "tags": [
           "Ön yüz",
@@ -1008,9 +1202,9 @@
           "Kütüphane"
         ],
         "text": "QuokkaJS, jQuery'den ilham alan, TypeScript ile geliştirilmiş, modern ve özelliklerle dolu bir kütüphane projesidir. Amaç, DOM manipülasyonu, depolama erişimi, asenkron yardımcılar ve daha fazlası için sağlam, modüler ve geliştirici dostu bir kütüphane oluşturmaktır; TypeScript’in sağladığı tip güvenliği ve modern JavaScript özelliklerinden faydalanır.",
-        "title": "QuokkaJS"
+        "title": "Quokka JS"
       },
-            {
+      {
         "color": "#D61C4E",
         "icon": "pizza",
         "id": "marios-pizza-villa",
@@ -1052,16 +1246,15 @@
           }
         ],
         "subTechs": [
-          "MVC deseni",
-          "ERB şablonları",
+          "MVC",
           "sipariş takibi",
           "yönetici paneli",
           "form doğrulamaları",
           "analitik",
           "menü yönetimi",
-          "RESTful yönlendirme",
-          "Tailwind UI",
-          "jQuery ile DOM manipülasyonu"
+          "REST",
+          "Tailwind",
+          "jQuery"
         ],
         "tags": [
           "Full stack",
@@ -1069,11 +1262,55 @@
           "Front end",
           "Yönetici paneli",
           "CRUD",
-          "Duyarlı tasarım"
+          "Responsive tasarım"
         ],
         "text": "Mario's Pizza Villa, hayali pizzacımız \"Mario's Pizza Villa\" için çevrimiçi varlık sunan bir Ruby on Rails web uygulamasıdır. Kullanıcılar bu platform üzerinden menüyü inceleyebilir, sipariş verebilir ve sipariş durumlarını kolayca takip edebilir. Ayrıca analizler ve menü yönetimi özellikleri sunan bir yönetici paneli de mevcuttur.",
         "title": "Mario's Pizza Villa"
-      }
+      },
+      {
+  "color": "#8B5E3C",
+  "icon": "coffee",
+  "id": "jazzed-sips",
+  "date": "Eylül 2023",
+  "links": {
+    "github": {
+      "buttonTitle": "Koda göz at!",
+      "link": "https://github.com/your-repo/jazzed-sips"
+    }
+  },
+  "stack": [
+    { "tool": "Ruby on Rails", "icon": "https://www.svgrepo.com/show/354252/rails.svg" },
+    { "tool": "JavaScript",     "icon": "https://www.svgrepo.com/show/353925/javascript.svg" },
+    { "tool": "jQuery",         "icon": "https://www.svgrepo.com/show/452242/jquery.svg" },
+    { "tool": "Tailwind CSS",   "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg" },
+    { "tool": "HTML",           "icon": "https://www.svgrepo.com/show/373669/html.svg" },
+    { "tool": "Inkscape",       "icon": "https://www.svgrepo.com/show/473662/inkscape.svg" },
+    { "tool": "Git",            "icon": "https://www.svgrepo.com/show/452210/git.svg" }
+  ],
+  "subTechs": [
+    "MVC Mimarisi",
+    "ERB Şablonları",
+    "Duyarlı Tasarım",
+    "Caz Esintili Arayüz",
+    "Kafeler için Marka Kimliği",
+    "Dinamik Menü",
+    "RESTful Rotalama",
+    "Tailwind UI",
+    "jQuery ile DOM Manipülasyonu",
+    "Performans Optimizasyonu"
+  ],
+  "tags": [
+    "Full Stack",
+    "Backend",
+    "Frontend",
+    "Duyarlı",
+    "E-Ticaret",
+    "Markalaşma"
+  ],
+  "text": "Jazzed Sips, şık ve cazdan ilham alan bir kafenin çevrim içi varlığına hayat veriyor. İçeriği yapılandırmak için HTML temel alınırken, zarif ve uyumlu bir tasarım için Tailwind CSS kullanılmıştır. Ruby on Rails, verileri yöneterek arka ucu desteklerken, JavaScript ve jQuery kitaplığı da dinamik özellikler kazandırmakta ve kullanıcı etkileşimini geliştirmektedir.",
+  "title": "Jazzed Sips"
+}
+
     ],
     "techStack": {
       "stack": [
@@ -1106,6 +1343,11 @@
           "description": "Minimum özel stil ile hızlı arayüz geliştirme sağlayan utility-first CSS framework'üdür.",
           "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
           "name": "Tailwind"
+        },
+                {
+          "description": "Eine Plattform für Versionskontrolle und Zusammenarbeit, die es Entwicklern ermöglicht, Code zu speichern, zu verwalten und gemeinsam daran zu arbeiten.",
+          "icon": "https://www.svgrepo.com/show/494343/github.svg",
+          "name": "GitHub"
         },
         {
           "description": "Kod değişikliklerini izlemek ve başkalarıyla iş birliği yapmak için kullanılan dağıtık bir versiyon kontrol sistemidir.",

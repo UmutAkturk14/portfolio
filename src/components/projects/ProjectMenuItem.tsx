@@ -16,18 +16,20 @@ export default function ProjectMenuItem({ project, active, onSelect }: Props) {
     <button
       onClick={() => onSelect(id)}
       aria-current={active ? "true" : undefined}
-      className={`relative pl-10 pr-4 md:px-14 xl:px-24 py-3 w-full text-left transition-opacity duration-300 ${
+      className={`relative pr-4 md:px-12 xl:px-18  py-3 w-full text-left transition-opacity duration-300 ${
         active
           ? "opacity-100 font-semibold active-menu-item"
           : "opacity-50 hover:opacity-75 menu-item"
       }`}
       style={
-        active ? { color: color, borderRight: `4px solid ${color}` } : undefined
+        active ? { color: color, borderLeft: `4px solid ${color}` } : undefined
       }
     >
       <div>
-        <IconComponent className="absolute left-4 top-1/2 dark:fill-white -translate-y-1/2 h-10 w-10 bg-center bg-no-repeat bg-[length:75%_75%]" />
-        <span className="ml-2 text-primary hidden lg:flex">{title}</span>
+        <IconComponent className="absolute left-4 top-1/2 dark:fill-white -translate-y-1/2 h-8 w-8 bg-center bg-no-repeat bg-[length:75%_75%]" />
+        <span className="ml-2 text-primary hidden lg:flex truncate">
+          {title}
+        </span>
       </div>
     </button>
   );
