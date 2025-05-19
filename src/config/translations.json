@@ -1,6 +1,40 @@
 {
   "de": {
-    "about": {},
+    "about": {
+  "bio": "I'm a front-end developer with a background in linguistics and editing — so words and code are both my thing. I love building thoughtful, user-friendly web experiences and learning just about anything, from new tech stacks to foreign languages. When I'm not coding, you'll find me walking by the sea, scribbling ideas, or chasing coffee-fueled rabbit holes. Always curious. Always building.",
+  "techSkills": [
+    { "name": "JavaScript", "level": 4 },
+    { "name": "TypeScript", "level": 4 },
+    { "name": "React", "level": 4 },
+    { "name": "Node.js", "level": 3 },
+    { "name": "Go", "level": 2 },
+    { "name": "REST APIs", "level": 4 }
+  ],
+  "languageSkills": [
+    { "name": "English", "level": 5 },
+    { "name": "Turkish", "level": 5 },
+    { "name": "French", "level": 4 },
+    { "name": "Spanish", "level": 3 },
+    { "name": "German", "level": 2 }
+  ],
+  "interests": [
+    "Writing", "Exercise", "Long walks", "Reading"
+  ],
+  "photo": "https://avatars.githubusercontent.com/u/84997345?v=4",
+  "contact": {
+    "email": "umut.akturk14@gmail.com",
+    "linkedin": "https://linkedin.com/in/umut-akturk",
+    "github": "https://github.com/UmutAkturk14",
+    "medium": "https://medium.com/@zookeeper14"
+  },
+  "funFacts": [
+    "Lived in 3 countries and speak 5 languages",
+    "Started as a linguist, ended up a developer",
+    "Love taking long walks by the sea to clear my mind",
+    "Spend weekends exploring new tech or reading about language",
+    "Coffee + headphones = my coding ritual"
+  ]
+},
     "buttons": {
       "backToTop": "Nach oben",
       "contact": "Kontaktieren Sie mich",
@@ -357,10 +391,55 @@
       ],
       "title": "Meine Tech-Tools"
     },
-    "writing": {}
+    "writings": [
+      {
+  "title": "From jQuery to Quokka JS: Rebuilding a Classic to Truly Understand It",
+  "description": "Einen Klassiker neu bauen, um tief zu lernen: wie ich Quokka JS geschaffen habe – eine flexible, moderne Utility-Bibliothek, inspiriert von jQuery und angetrieben von TypeScript.",
+  "date": "May 2025",
+  "link": "https://medium.com/@zookeeper14/from-jquery-to-quokkajs-rebuilding-a-classic-to-truly-understand-it-d8bca777a8d0",
+  "tags": ["Technologie", "Persönlich", "Lernen"],
+  "coverImage": "https://images.unsplash.com/photo-1639431682289-72b9ebb75895?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "themeColor": "#4A90E2"
+}
+
+    ]
   },
   "en": {
-    "about": {},
+    "about": {
+  "bio": "I'm a front-end developer with a background in linguistics and editing — so words and code are both my thing. I love building thoughtful, user-friendly web experiences and learning just about anything, from new tech stacks to foreign languages. When I'm not coding, you'll find me walking by the sea, scribbling ideas, or chasing coffee-fueled rabbit holes. Always curious. Always building.",
+  "techSkills": [
+    { "name": "JavaScript", "level": 4 },
+    { "name": "TypeScript", "level": 4 },
+    { "name": "React", "level": 4 },
+    { "name": "Node.js", "level": 3 },
+    { "name": "Go", "level": 2 },
+    { "name": "REST APIs", "level": 4 }
+  ],
+  "languageSkills": [
+    { "name": "English", "level": 5 },
+    { "name": "Turkish", "level": 5 },
+    { "name": "French", "level": 4 },
+    { "name": "Spanish", "level": 3 },
+    { "name": "German", "level": 2 }
+  ],
+  "interests": [
+    "Writing", "Exercise", "Long walks", "Reading"
+  ],
+  "photo": "https://avatars.githubusercontent.com/u/84997345?v=4",
+  "contact": {
+    "email": "umut.akturk14@gmail.com",
+    "linkedin": "https://linkedin.com/in/umut-akturk",
+    "github": "https://github.com/UmutAkturk14",
+    "medium": "https://medium.com/@zookeeper14"
+  },
+  "funFacts": [
+    "Lived in 3 countries and speak 5 languages",
+    "Started as a linguist, ended up a developer",
+    "Love taking long walks by the sea to clear my mind",
+    "Spend weekends exploring new tech or reading about language",
+    "Coffee + headphones = my coding ritual"
+  ]
+},
     "buttons": {
       "backToTop": "Back to Top",
       "contact": "Contact Me",
@@ -722,10 +801,63 @@
       ],
       "title": "What I Code With"
     },
-    "writing": {}
+    "writings": [
+        {
+          "title": "From jQuery to Quokka JS: Rebuilding a Classic to Truly Understand It",
+          "description": "Rebuilding a classic to learn deeply: how I created Quokka JS, a flexible, modern utility library inspired by jQuery and powered by TypeScript.",
+          "date": "May 2025",
+          "link": "https://medium.com/@zookeeper14/from-jquery-to-quokkajs-rebuilding-a-classic-to-truly-understand-it-d8bca777a8d0",
+          "tags": ["Tech", "Personal", "Learning"],
+          "coverImage": "https://images.unsplash.com/photo-1639431682289-72b9ebb75895?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "themeColor": "#4A90E2"
+        },
+        {
+          "title": "From jQuery to Quokka JS: Rebuilding a Classic to Truly Understand It",
+          "description": "Rebuilding a classic to learn deeply: how I created Quokka JS, a flexible, modern utility library inspired by jQuery and powered by TypeScript.",
+          "date": "May 2025",
+          "link": "https://medium.com/@zookeeper14/from-jquery-to-quokkajs-rebuilding-a-classic-to-truly-understand-it-d8bca777a8d0",
+          "tags": ["Tech", "Personal", "Learning"],
+          "coverImage": "https://images.unsplash.com/photo-1639431682289-72b9ebb75895?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "themeColor": "#4A90E2"
+        }
+    ]
   },
   "es": {
-    "about": {},
+"about": {
+  "bio": "I'm a front-end developer with a background in linguistics and editing — so words and code are both my thing. I love building thoughtful, user-friendly web experiences and learning just about anything, from new tech stacks to foreign languages. When I'm not coding, you'll find me walking by the sea, scribbling ideas, or chasing coffee-fueled rabbit holes. Always curious. Always building.",
+  "techSkills": [
+    { "name": "JavaScript", "level": 4 },
+    { "name": "TypeScript", "level": 4 },
+    { "name": "React", "level": 4 },
+    { "name": "Node.js", "level": 3 },
+    { "name": "Go", "level": 2 },
+    { "name": "REST APIs", "level": 4 }
+  ],
+  "languageSkills": [
+    { "name": "English", "level": 5 },
+    { "name": "Turkish", "level": 5 },
+    { "name": "French", "level": 4 },
+    { "name": "Spanish", "level": 3 },
+    { "name": "German", "level": 2 }
+  ],
+  "interests": [
+    "Writing", "Exercise", "Long walks", "Reading"
+  ],
+  "photo": "https://avatars.githubusercontent.com/u/84997345?v=4",
+  "contact": {
+    "email": "umut.akturk14@gmail.com",
+    "linkedin": "https://linkedin.com/in/umut-akturk",
+    "github": "https://github.com/UmutAkturk14",
+    "medium": "https://medium.com/@zookeeper14"
+  },
+  "funFacts": [
+    "Lived in 3 countries and speak 5 languages",
+    "Started as a linguist, ended up a developer",
+    "Love taking long walks by the sea to clear my mind",
+    "Spend weekends exploring new tech or reading about language",
+    "Coffee + headphones = my coding ritual"
+  ]
+},
     "buttons": {
       "backToTop": "Volver arriba",
       "contact": "Contáctame",
@@ -1086,10 +1218,53 @@
       ],
       "title": "Mis herramientas de desarrollo"
     },
-    "writing": {}
+    "writings": [{
+  "title": "From jQuery to Quokka JS: Rebuilding a Classic to Truly Understand It",
+  "description": "Reconstruyendo un clásico para aprender en profundidad: cómo creé Quokka JS, una biblioteca de utilidades moderna y flexible inspirada en jQuery y potenciada por TypeScript.",
+  "date": "May 2025",
+  "link": "https://medium.com/@zookeeper14/from-jquery-to-quokkajs-rebuilding-a-classic-to-truly-understand-it-d8bca777a8d0",
+  "tags": ["Tecnología", "Personal", "Aprendizaje"],
+  "coverImage": "https://images.unsplash.com/photo-1639431682289-72b9ebb75895?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "themeColor": "#4A90E2"
+}
+]
   },
   "fr": {
-    "about": {},
+"about": {
+  "bio": "I'm a front-end developer with a background in linguistics and editing — so words and code are both my thing. I love building thoughtful, user-friendly web experiences and learning just about anything, from new tech stacks to foreign languages. When I'm not coding, you'll find me walking by the sea, scribbling ideas, or chasing coffee-fueled rabbit holes. Always curious. Always building.",
+  "techSkills": [
+    { "name": "JavaScript", "level": 4 },
+    { "name": "TypeScript", "level": 4 },
+    { "name": "React", "level": 4 },
+    { "name": "Node.js", "level": 3 },
+    { "name": "Go", "level": 2 },
+    { "name": "REST APIs", "level": 4 }
+  ],
+  "languageSkills": [
+    { "name": "English", "level": 5 },
+    { "name": "Turkish", "level": 5 },
+    { "name": "French", "level": 4 },
+    { "name": "Spanish", "level": 3 },
+    { "name": "German", "level": 2 }
+  ],
+  "interests": [
+    "Writing", "Exercise", "Long walks", "Reading"
+  ],
+  "photo": "https://avatars.githubusercontent.com/u/84997345?v=4",
+  "contact": {
+    "email": "umut.akturk14@gmail.com",
+    "linkedin": "https://linkedin.com/in/umut-akturk",
+    "github": "https://github.com/UmutAkturk14",
+    "medium": "https://medium.com/@zookeeper14"
+  },
+  "funFacts": [
+    "Lived in 3 countries and speak 5 languages",
+    "Started as a linguist, ended up a developer",
+    "Love taking long walks by the sea to clear my mind",
+    "Spend weekends exploring new tech or reading about language",
+    "Coffee + headphones = my coding ritual"
+  ]
+},
     "buttons": {
       "backToTop": "Haut de page",
       "contact": "Me contacter",
@@ -1451,10 +1626,53 @@
       ],
       "title": "Mes outils de développement"
     },
-    "writing": {}
+    "writings": [{
+  "title": "From jQuery to Quokka JS: Rebuilding a Classic to Truly Understand It",
+  "description": "Reconstruire un classique pour apprendre en profondeur : comment j’ai créé Quokka JS, une bibliothèque utilitaire moderne et flexible, inspirée de jQuery et propulsée par TypeScript.",
+  "date": "May 2025",
+  "link": "https://medium.com/@zookeeper14/from-jquery-to-quokkajs-rebuilding-a-classic-to-truly-understand-it-d8bca777a8d0",
+  "tags": ["Technologie", "Personnel", "Apprentissage"],
+  "coverImage": "https://images.unsplash.com/photo-1639431682289-72b9ebb75895?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "themeColor": "#4A90E2"
+}
+]
   },
   "tr": {
-    "about": {},
+"about": {
+  "bio": "I'm a front-end developer with a background in linguistics and editing — so words and code are both my thing. I love building thoughtful, user-friendly web experiences and learning just about anything, from new tech stacks to foreign languages. When I'm not coding, you'll find me walking by the sea, scribbling ideas, or chasing coffee-fueled rabbit holes. Always curious. Always building.",
+  "techSkills": [
+    { "name": "JavaScript", "level": 4 },
+    { "name": "TypeScript", "level": 4 },
+    { "name": "React", "level": 4 },
+    { "name": "Node.js", "level": 3 },
+    { "name": "Go", "level": 2 },
+    { "name": "REST APIs", "level": 4 }
+  ],
+  "languageSkills": [
+    { "name": "English", "level": 5 },
+    { "name": "Turkish", "level": 5 },
+    { "name": "French", "level": 4 },
+    { "name": "Spanish", "level": 3 },
+    { "name": "German", "level": 2 }
+  ],
+  "interests": [
+    "Writing", "Exercise", "Long walks", "Reading"
+  ],
+  "photo": "https://avatars.githubusercontent.com/u/84997345?v=4",
+  "contact": {
+    "email": "umut.akturk14@gmail.com",
+    "linkedin": "https://linkedin.com/in/umut-akturk",
+    "github": "https://github.com/UmutAkturk14",
+    "medium": "https://medium.com/@zookeeper14"
+  },
+  "funFacts": [
+    "Lived in 3 countries and speak 5 languages",
+    "Started as a linguist, ended up a developer",
+    "Love taking long walks by the sea to clear my mind",
+    "Spend weekends exploring new tech or reading about language",
+    "Coffee + headphones = my coding ritual"
+  ]
+},
     "buttons": {
       "backToTop": "Başa Dön",
       "contact": "Benimle İletişime Geç",
@@ -1814,6 +2032,15 @@
       ],
       "title": "Teknolojiler"
     },
-    "writing": {}
+    "writings": [{
+  "title": "From jQuery to Quokka JS: Rebuilding a Classic to Truly Understand It",
+  "description": "Derinlemesine öğrenmek için bir klasiği yeniden inşa etmek: jQuery’den ilham alarak TypeScript ile oluşturduğum modern ve esnek yardımcı kütüphane Quokka JS’in hikâyesi.",
+  "date": "Mayıs 2025",
+  "link": "https://medium.com/@zookeeper14/from-jquery-to-quokkajs-rebuilding-a-classic-to-truly-understand-it-d8bca777a8d0",
+  "tags": ["Teknoloji", "Kişisel", "Öğrenme"],
+  "coverImage": "https://images.unsplash.com/photo-1639431682289-72b9ebb75895?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "themeColor": "#4A90E2"
+}
+]
   }
 }

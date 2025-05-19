@@ -1,7 +1,7 @@
 import { useLanguage } from "../../context/languageContext";
 import { useEffect, useState } from "react";
-import AnimatedServices from "../sectionComponents/AnimatedServices";
-import HeroCallToActions from "../sectionComponents/HeroCallToActions";
+import AnimatedServices from "./AnimatedServices";
+import HeroCallToActions from "./HeroCallToActions";
 
 function Hero() {
   const { language, translations } = useLanguage();

@@ -45,7 +45,7 @@ export default function ProjectsCarousel() {
 
   return (
     <>
-      <div className="w-full my-40 flex justify-center">
+      <div className="w-full flex justify-center" id="projects">
         <div className="border-1 border-gray-100 dark:border-gray-800 w-1/3"></div>
       </div>
       <div className="relative mx-auto flex w-full min-h-[100svh]">

@@ -1,5 +1,5 @@
 import React from "react";
-import Tooltip from "./Tooltip"; // ⬅️ new import
+import Tooltip from "../sectionComponents/Tooltip"; // ⬅️ new import
 
 interface TechnologyProps {
   name: string;

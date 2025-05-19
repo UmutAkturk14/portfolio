@@ -1,10 +1,10 @@
 import ThemeToggle from "../theme/ThemeToggle";
-import LanguageSwitch from "../ui/LanguageSwitch";
+import LanguageSwitch from "./LanguageSwitch";
 
 const Navbar = () => {
   return (
     <nav
-      className="w-full z-50 fixed top-0 text-primary flex justify-between smooth"
+      className="w-full z-50 fixed top-0 text-primary flex items-center justify-between smooth"
       id="navbar"
     >
       <div className="flex">

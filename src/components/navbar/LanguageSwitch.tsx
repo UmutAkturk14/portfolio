@@ -30,9 +30,10 @@ const LanguageSwitch = () => {
   return (
     <div className="relative flex items-center gap-2">
       {/* Flag + current language name */}
-      <div className="flex items-center gap-4 mr-4">
-        <Icon className="w-10 h-10" />
-        <p className="text-lg">{label}</p>
+      <div className="flex items-center justify-between gap-2 mr-4">
+        <Icon className="w-8 h-8" />
+        <div className="w-px h-4 bg-white" />
+        <p className="text-lg font-bold">{label}</p>
       </div>
 
       {/* Native selector overlaid invisibly */}

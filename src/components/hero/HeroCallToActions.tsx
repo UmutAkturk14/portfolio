@@ -1,7 +1,8 @@
 import { CallToActionButton } from "../ui/CallToActionButton";
-import { Download, Folder, BriefcaseBusiness } from "lucide-react";
+import { Download, BriefcaseBusiness } from "lucide-react";
 import { useLanguage } from "../../context/languageContext";
 import { useState, useEffect } from "react";
+import FloatingNavButton from "../ui/FloatingNavButton";
 
 const HeroCallToActions = () => {
   const { language, translations } = useLanguage();
@@ -16,7 +17,7 @@ const HeroCallToActions = () => {
   }, [language]);
 
   const buttonLabels = translations[language]?.buttons || {};
-  const { viewProjects, cv, hireMe } = buttonLabels;
+  const { cv, hireMe } = buttonLabels;
 
   return (
     <div
@@ -24,11 +25,8 @@ const HeroCallToActions = () => {
         isVisible ? "opacity-100" : "opacity-0"
       }`}
     >
-      <CallToActionButton
-        label={viewProjects || "Visit Projects"}
-        href="#projects"
-        icon={Folder}
-      />
+      <FloatingNavButton />
+
       <CallToActionButton
         label={cv || "Download CV"}
         href="/cv.pdf"
