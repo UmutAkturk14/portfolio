@@ -6,6 +6,8 @@ import FireflyCursor from "./components/ui/cursors/FireflyCursor";
 import ConstellationCursor from "./components/ui/cursors/ConstellationCursor";
 import Writings from "./components/writings/Writings";
 import About from "./components/about/About";
+import Footer from "./components/footer/Footer";
+import GoToTop from "./components/ui/GoToTop";
 
 export default function App() {
   return (
@@ -18,6 +20,8 @@ export default function App() {
       <ProjectsCarousel />
       <Writings />
       <About />
+      <Footer />
+      <GoToTop />
     </>
   );
 }

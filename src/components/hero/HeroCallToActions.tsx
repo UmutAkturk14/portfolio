@@ -21,7 +21,7 @@ const HeroCallToActions = () => {
 
   return (
     <div
-      className={`-mt-20 md:-mt-24 p-0.5 w-full flex justify-center gap-4 md:gap-12 xl:gap-24 smooth ease-in-out ${
+      className={`-mt-20 md:-mt-30 p-0.5 w-full flex justify-center gap-4 md:gap-12 xl:gap-24 smooth ease-in-out ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
     >
@@ -29,7 +29,7 @@ const HeroCallToActions = () => {
 
       <CallToActionButton
         label={cv || "Download CV"}
-        href="/cv.pdf"
+        href="https://lavender-babs-22.tiiny.site/"
         icon={Download}
       />
       <CallToActionButton

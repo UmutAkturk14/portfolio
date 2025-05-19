@@ -1,4 +1,10 @@
-import { FaGithub, FaLinkedin, FaEnvelope, FaMedium } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaMedium,
+  FaDownload,
+} from "react-icons/fa";
 import ContactLink from "./ContactLink";
 
 type ContactLinksProps = {
@@ -16,11 +22,6 @@ const ContactLinks = ({
   return (
     <div className="flex flex-col sm:flex-row justify-center items-center gap-3 mt-8">
       <ContactLink
-        href={`mailto:${email}`}
-        icon={<FaEnvelope className="w-5 h-5" />}
-        label="Email"
-      />
-      <ContactLink
         href={linkedin}
         icon={<FaLinkedin className="w-5 h-5" />}
         label="LinkedIn"
@@ -37,6 +38,16 @@ const ContactLinks = ({
           label="Medium"
         />
       )}
+      <ContactLink
+        href={`mailto:${email}`}
+        icon={<FaEnvelope className="w-5 h-5" />}
+        label="Email"
+      />
+      <ContactLink
+        href="https://lavender-babs-22.tiiny.site/"
+        icon={<FaDownload className="w-5 h-5" />}
+        label="Resume"
+      />
     </div>
   );
 };

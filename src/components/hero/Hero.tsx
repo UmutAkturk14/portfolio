@@ -1,7 +1,6 @@
 import { useLanguage } from "../../context/languageContext";
 import { useEffect, useState } from "react";
 import AnimatedServices from "./AnimatedServices";
-import HeroCallToActions from "./HeroCallToActions";
 
 function Hero() {
   const { language, translations } = useLanguage();
@@ -35,8 +34,6 @@ function Hero() {
         </p>
         <AnimatedServices />
       </div>
-
-      <HeroCallToActions />
     </>
   );
 }

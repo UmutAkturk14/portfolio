@@ -1,25 +1,23 @@
 {
   "de": {
     "about": {
-  "bio": "I'm a front-end developer with a background in linguistics and editing — so words and code are both my thing. I love building thoughtful, user-friendly web experiences and learning just about anything, from new tech stacks to foreign languages. When I'm not coding, you'll find me walking by the sea, scribbling ideas, or chasing coffee-fueled rabbit holes. Always curious. Always building.",
+  "bio": "Ich bin Frontend-Entwickler mit einem Hintergrund in Linguistik und Redaktion – Wörter und Code sind also beides meine Welt. Ich liebe es, durchdachte, benutzerfreundliche Web-Erlebnisse zu schaffen und dabei ständig Neues zu lernen, von neuen Tech-Stacks bis hin zu Fremdsprachen. Wenn ich nicht programmiere, findest du mich am Meer spazieren, beim Ideen-Scribbeln oder auf Kaffee-getriebenen Gedankensprüngen. Immer neugierig. Immer am Bauen.",
   "techSkills": [
     { "name": "JavaScript", "level": 4 },
-    { "name": "TypeScript", "level": 4 },
-    { "name": "React", "level": 4 },
-    { "name": "Node.js", "level": 3 },
-    { "name": "Go", "level": 2 },
-    { "name": "REST APIs", "level": 4 }
+    { "name": "HTML", "level": 4 },
+    { "name": "CSS", "level": 4 },
+    { "name": "TypeScript", "level": 3 },
+    { "name": "React", "level": 3 },
+    { "name": "Tailwind", "level": 4 }
   ],
   "languageSkills": [
-    { "name": "English", "level": 5 },
-    { "name": "Turkish", "level": 5 },
-    { "name": "French", "level": 4 },
-    { "name": "Spanish", "level": 3 },
-    { "name": "German", "level": 2 }
+    { "name": "Englisch", "level": 5 },
+    { "name": "Türkisch", "level": 5 },
+    { "name": "Französisch", "level": 4 },
+    { "name": "Spanisch", "level": 3 },
+    { "name": "Deutsch", "level": 2 }
   ],
-  "interests": [
-    "Writing", "Exercise", "Long walks", "Reading"
-  ],
+  "interests": ["Schreiben", "Sport", "Lange Spaziergänge", "Lesen"],
   "photo": "https://avatars.githubusercontent.com/u/84997345?v=4",
   "contact": {
     "email": "umut.akturk14@gmail.com",
@@ -28,12 +26,12 @@
     "medium": "https://medium.com/@zookeeper14"
   },
   "funFacts": [
-    "Lived in 3 countries and speak 5 languages",
-    "Started as a linguist, ended up a developer",
-    "Love taking long walks by the sea to clear my mind",
-    "Spend weekends exploring new tech or reading about language",
-    "Coffee + headphones = my coding ritual"
-  ]
+  "Ich habe in 3 Ländern gelebt und spreche 5 Sprachen",
+  "Anfangs Linguist, am Ende Entwickler",
+  "Ich liebe es, lange am Meer spazieren zu gehen, um den Kopf freizubekommen",
+  "Ich verbringe die Wochenenden damit, neue Technik zu erkunden oder über Sprache zu lesen",
+  "Kaffee + Kopfhörer = mein Coding-Ritual"
+]
 },
     "buttons": {
       "backToTop": "Nach oben",
@@ -69,7 +67,7 @@
     "projects": [
       {
         "color": "#0ffff3",
-        "date": "April 2025",
+        "date": "April 2025 -      ",
         "icon": "https://www.svgrepo.com/show/191160/kangaroo.svg",
         "id": "quokka",
         "links": {
@@ -409,11 +407,11 @@
   "bio": "I'm a front-end developer with a background in linguistics and editing — so words and code are both my thing. I love building thoughtful, user-friendly web experiences and learning just about anything, from new tech stacks to foreign languages. When I'm not coding, you'll find me walking by the sea, scribbling ideas, or chasing coffee-fueled rabbit holes. Always curious. Always building.",
   "techSkills": [
     { "name": "JavaScript", "level": 4 },
-    { "name": "TypeScript", "level": 4 },
-    { "name": "React", "level": 4 },
-    { "name": "Node.js", "level": 3 },
-    { "name": "Go", "level": 2 },
-    { "name": "REST APIs", "level": 4 }
+    { "name": "HTML", "level": 4 },
+    { "name": "CSS", "level": 4 },
+    { "name": "TypeScript", "level": 3 },
+    { "name": "React", "level": 3 },
+    { "name": "Tailwind", "level": 4 }
   ],
   "languageSkills": [
     { "name": "English", "level": 5 },
@@ -474,7 +472,7 @@
     "projects": [
       {
         "color": "#0ffff3",
-        "date": "April 2025",
+        "date": "April 2025 -      ",
         "icon": "quokka",
         "id": "quokka",
         "links": {
@@ -810,39 +808,28 @@
           "tags": ["Tech", "Personal", "Learning"],
           "coverImage": "https://images.unsplash.com/photo-1639431682289-72b9ebb75895?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "themeColor": "#4A90E2"
-        },
-        {
-          "title": "From jQuery to Quokka JS: Rebuilding a Classic to Truly Understand It",
-          "description": "Rebuilding a classic to learn deeply: how I created Quokka JS, a flexible, modern utility library inspired by jQuery and powered by TypeScript.",
-          "date": "May 2025",
-          "link": "https://medium.com/@zookeeper14/from-jquery-to-quokkajs-rebuilding-a-classic-to-truly-understand-it-d8bca777a8d0",
-          "tags": ["Tech", "Personal", "Learning"],
-          "coverImage": "https://images.unsplash.com/photo-1639431682289-72b9ebb75895?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "themeColor": "#4A90E2"
         }
     ]
   },
   "es": {
 "about": {
-  "bio": "I'm a front-end developer with a background in linguistics and editing — so words and code are both my thing. I love building thoughtful, user-friendly web experiences and learning just about anything, from new tech stacks to foreign languages. When I'm not coding, you'll find me walking by the sea, scribbling ideas, or chasing coffee-fueled rabbit holes. Always curious. Always building.",
+  "bio": "Soy desarrollador frontend con formación en lingüística y edición, así que las palabras y el código son mi pasión. Me encanta crear experiencias web cuidadosas y fáciles de usar, y aprender de todo un poco, desde nuevas tecnologías hasta idiomas extranjeros. Cuando no estoy programando, me encontrarás caminando junto al mar, garabateando ideas o persiguiendo aventuras impulsadas por el café. Siempre curioso. Siempre construyendo.",
   "techSkills": [
     { "name": "JavaScript", "level": 4 },
-    { "name": "TypeScript", "level": 4 },
-    { "name": "React", "level": 4 },
-    { "name": "Node.js", "level": 3 },
-    { "name": "Go", "level": 2 },
-    { "name": "REST APIs", "level": 4 }
+    { "name": "HTML", "level": 4 },
+    { "name": "CSS", "level": 4 },
+    { "name": "TypeScript", "level": 3 },
+    { "name": "React", "level": 3 },
+    { "name": "Tailwind", "level": 4 }
   ],
   "languageSkills": [
-    { "name": "English", "level": 5 },
-    { "name": "Turkish", "level": 5 },
-    { "name": "French", "level": 4 },
-    { "name": "Spanish", "level": 3 },
-    { "name": "German", "level": 2 }
+    { "name": "Inglés", "level": 5 },
+    { "name": "Turco", "level": 5 },
+    { "name": "Francés", "level": 4 },
+    { "name": "Español", "level": 3 },
+    { "name": "Alemán", "level": 2 }
   ],
-  "interests": [
-    "Writing", "Exercise", "Long walks", "Reading"
-  ],
+  "interests": ["Escritura", "Ejercicio", "Caminatas largas", "Lectura"],
   "photo": "https://avatars.githubusercontent.com/u/84997345?v=4",
   "contact": {
     "email": "umut.akturk14@gmail.com",
@@ -851,12 +838,12 @@
     "medium": "https://medium.com/@zookeeper14"
   },
   "funFacts": [
-    "Lived in 3 countries and speak 5 languages",
-    "Started as a linguist, ended up a developer",
-    "Love taking long walks by the sea to clear my mind",
-    "Spend weekends exploring new tech or reading about language",
-    "Coffee + headphones = my coding ritual"
-  ]
+  "He vivido en 3 países y hablo 5 idiomas",
+  "Comencé como lingüista y terminé como desarrollador",
+  "Me encanta dar largos paseos junto al mar para despejar mi mente",
+  "Paso los fines de semana explorando nueva tecnología o leyendo sobre idiomas",
+  "Café + auriculares = mi ritual de codificación"
+]
 },
     "buttons": {
       "backToTop": "Volver arriba",
@@ -892,7 +879,7 @@
     "projects": [
       {
         "color": "#0ffff3",
-        "date": "Abril 2025",
+        "date": "Abril 2025 -       ",
         "icon": "https://www.svgrepo.com/show/191160/kangaroo.svg",
         "id": "quokka",
         "links": {
@@ -1231,25 +1218,23 @@
   },
   "fr": {
 "about": {
-  "bio": "I'm a front-end developer with a background in linguistics and editing — so words and code are both my thing. I love building thoughtful, user-friendly web experiences and learning just about anything, from new tech stacks to foreign languages. When I'm not coding, you'll find me walking by the sea, scribbling ideas, or chasing coffee-fueled rabbit holes. Always curious. Always building.",
+  "bio": "Je suis développeur front-end avec une formation en linguistique et en édition — les mots et le code sont donc mes domaines de prédilection. J’adore créer des expériences web réfléchies et conviviales, tout en apprenant constamment, que ce soit de nouvelles technologies ou des langues étrangères. Quand je ne code pas, vous me trouverez en train de marcher au bord de la mer, de griffonner des idées ou de me lancer dans des aventures caféinées. Toujours curieux. Toujours en train de construire.",
   "techSkills": [
     { "name": "JavaScript", "level": 4 },
-    { "name": "TypeScript", "level": 4 },
-    { "name": "React", "level": 4 },
-    { "name": "Node.js", "level": 3 },
-    { "name": "Go", "level": 2 },
-    { "name": "REST APIs", "level": 4 }
+    { "name": "HTML", "level": 4 },
+    { "name": "CSS", "level": 4 },
+    { "name": "TypeScript", "level": 3 },
+    { "name": "React", "level": 3 },
+    { "name": "Tailwind", "level": 4 }
   ],
   "languageSkills": [
-    { "name": "English", "level": 5 },
-    { "name": "Turkish", "level": 5 },
-    { "name": "French", "level": 4 },
-    { "name": "Spanish", "level": 3 },
-    { "name": "German", "level": 2 }
+    { "name": "Anglais", "level": 5 },
+    { "name": "Turc", "level": 5 },
+    { "name": "Français", "level": 4 },
+    { "name": "Espagnol", "level": 3 },
+    { "name": "Allemand", "level": 2 }
   ],
-  "interests": [
-    "Writing", "Exercise", "Long walks", "Reading"
-  ],
+  "interests": ["Écriture", "Exercice", "Longues promenades", "Lecture"],
   "photo": "https://avatars.githubusercontent.com/u/84997345?v=4",
   "contact": {
     "email": "umut.akturk14@gmail.com",
@@ -1258,12 +1243,12 @@
     "medium": "https://medium.com/@zookeeper14"
   },
   "funFacts": [
-    "Lived in 3 countries and speak 5 languages",
-    "Started as a linguist, ended up a developer",
-    "Love taking long walks by the sea to clear my mind",
-    "Spend weekends exploring new tech or reading about language",
-    "Coffee + headphones = my coding ritual"
-  ]
+  "J'ai vécu dans 3 pays et je parle 5 langues",
+  "J'ai commencé comme linguiste, fini développeur",
+  "J'adore faire de longues promenades au bord de la mer pour clarifier mon esprit",
+  "Je passe mes week-ends à explorer de nouvelles technologies ou à lire sur les langues",
+  "Café + écouteurs = mon rituel de codage"
+]
 },
     "buttons": {
       "backToTop": "Haut de page",
@@ -1299,7 +1284,7 @@
     "projects": [
       {
         "color": "#0ffff3",
-        "date": "Avril 2025",
+        "date": "Avril 2025 -       ",
         "icon": "https://www.svgrepo.com/show/191160/kangaroo.svg",
         "id": "quokka",
         "links": {
@@ -1639,25 +1624,23 @@
   },
   "tr": {
 "about": {
-  "bio": "I'm a front-end developer with a background in linguistics and editing — so words and code are both my thing. I love building thoughtful, user-friendly web experiences and learning just about anything, from new tech stacks to foreign languages. When I'm not coding, you'll find me walking by the sea, scribbling ideas, or chasing coffee-fueled rabbit holes. Always curious. Always building.",
+  "bio": "Dilbilim ve editörlük geçmi olan bir front-end geliştirmecisiyim — kelimeler ve kod ikisi de benim işim. Düşünceli, kullanıcı dostu web deneyimleri yaratmayı ve yeni teknoloji yığınlarından yabancı dillere kadar hemen her şeyi öğrenmeyi seviyorum. Kod yazmadığım zamanlarda, sahil kenarında yürürken, fikirler karalarken ya da kahve destekli keşiflere dalarken bulunabilirim. Hep meraklı. Hep inşa halinde.",
   "techSkills": [
     { "name": "JavaScript", "level": 4 },
-    { "name": "TypeScript", "level": 4 },
-    { "name": "React", "level": 4 },
-    { "name": "Node.js", "level": 3 },
-    { "name": "Go", "level": 2 },
-    { "name": "REST APIs", "level": 4 }
+    { "name": "HTML", "level": 4 },
+    { "name": "CSS", "level": 4 },
+    { "name": "TypeScript", "level": 3 },
+    { "name": "React", "level": 3 },
+    { "name": "Tailwind", "level": 4 }
   ],
   "languageSkills": [
-    { "name": "English", "level": 5 },
-    { "name": "Turkish", "level": 5 },
-    { "name": "French", "level": 4 },
-    { "name": "Spanish", "level": 3 },
-    { "name": "German", "level": 2 }
+    { "name": "İngilizce", "level": 5 },
+    { "name": "Türkçe", "level": 5 },
+    { "name": "Fransızca", "level": 4 },
+    { "name": "İspanyolca", "level": 3 },
+    { "name": "Almanca", "level": 2 }
   ],
-  "interests": [
-    "Writing", "Exercise", "Long walks", "Reading"
-  ],
+  "interests": ["Yazmak", "Egzersiz", "Uzun yürüyüşler", "Okumak"],
   "photo": "https://avatars.githubusercontent.com/u/84997345?v=4",
   "contact": {
     "email": "umut.akturk14@gmail.com",
@@ -1666,12 +1649,12 @@
     "medium": "https://medium.com/@zookeeper14"
   },
   "funFacts": [
-    "Lived in 3 countries and speak 5 languages",
-    "Started as a linguist, ended up a developer",
-    "Love taking long walks by the sea to clear my mind",
-    "Spend weekends exploring new tech or reading about language",
-    "Coffee + headphones = my coding ritual"
-  ]
+  "3 ülkede yaşadım ve 5 dil konuşuyorum",
+  "Dilbilimci olarak başladım, geliştirici olarak bitirdim",
+  "Zihnimi rahatlatmak için deniz kenarında uzun yürüyüşler yapmayı seviyorum",
+  "Hafta sonlarını yeni teknolojileri keşfederek veya dil üzerine okuyarak geçiriyorum",
+  "Kahve + kulaklık = kodlama ritüelim"
+]
 },
     "buttons": {
       "backToTop": "Başa Dön",
@@ -1707,7 +1690,7 @@
     "projects": [
       {
         "color": "#0ffff3",
-        "date": "Nisan 2025",
+        "date": "Nisan 2025 -      ",
         "icon": "https://www.svgrepo.com/show/191160/kangaroo.svg",
         "id": "quokka",
         "links": {
@@ -1753,9 +1736,8 @@
           "Performans odaklı"
         ],
         "tags": [
-          "Ön yüz",
-          "Arka yüz",
-          "Araç",
+          "Full stack",
+          "Tooling",
           "Kütüphane"
         ],
         "text": "QuokkaJS, jQuery'den ilham alan, TypeScript ile geliştirilmiş, modern ve özelliklerle dolu bir kütüphane projesidir. Amaç, DOM manipülasyonu, depolama erişimi, asenkron yardımcılar ve daha fazlası için sağlam, modüler ve geliştirici dostu bir kütüphane oluşturmaktır; TypeScript’in sağladığı tip güvenliği ve modern JavaScript özelliklerinden faydalanır.",
@@ -1815,8 +1797,6 @@
         ],
         "tags": [
           "Full stack",
-          "Back end",
-          "Front end",
           "Yönetici paneli",
           "CRUD",
           "Responsive tasarım"
@@ -1866,24 +1846,17 @@
           }
         ],
         "subTechs": [
-          "MVC Mimarisi",
-          "ERB Şablonları",
-          "Duyarlı Tasarım",
-          "Caz Esintili Arayüz",
-          "Kafeler için Marka Kimliği",
+          "MVC",
+          "Responsive Tasarım",
+          "Arayüz",
           "Dinamik Menü",
-          "RESTful Rotalama",
+          "REST",
           "Tailwind UI",
-          "jQuery ile DOM Manipülasyonu",
-          "Performans Optimizasyonu"
+          "jQuery"
         ],
         "tags": [
           "Full Stack",
-          "Backend",
-          "Frontend",
-          "Duyarlı",
-          "E-Ticaret",
-          "Markalaşma"
+          "Responsive"
         ],
         "text": "Jazzed Sips, şık ve cazdan ilham alan bir kafenin çevrim içi varlığına hayat veriyor. İçeriği yapılandırmak için HTML temel alınırken, zarif ve uyumlu bir tasarım için Tailwind CSS kullanılmıştır. Ruby on Rails, verileri yöneterek arka ucu desteklerken, JavaScript ve jQuery kitaplığı da dinamik özellikler kazandırmakta ve kullanıcı etkileşimini geliştirmektedir.",
         "title": "Jazzed Sips"
@@ -1934,24 +1907,20 @@
           }
         ],
         "subTechs": [
-          "kimlik doğrulama",
-          "aramaya uygun veritabanı",
-          "video entegrasyonu",
-          "tarif yönetimi",
-          "yorum sistemi",
-          "gönderi oluşturma",
-          "arkadaşlık sistemi",
-          "genel sohbet",
-          "özel mesajlaşma",
-          "sosyal akış"
+          "Kimlik doğrulama",
+          "Search",
+          "Video entegrasyonu",
+          "Tarif yönetimi",
+          "Yorum sistemi",
+          "Gönderi oluşturma",
+          "Arkadaşlık sistemi",
+          "Anlık genel sohbet",
+          "Anlık özel mesajlaşma",
+          "Sosyal akış"
         ],
         "tags": [
           "Full Stack",
-          "Backend",
-          "Frontend",
-          "Duyarlı Tasarım",
-          "Fitness",
-          "Sosyal Medya"
+          "Responsive Tasarım"
         ],
         "text": "ZoneFit, egzersiz videoları ve sağlıklı yaşam tariflerini arama özelliğiyle sunan, fitness/sağlıklı yaşam meraklılarına yönelik bir web uygulamasıdır. Aynı zamanda sosyal medya özellikleri de içerir: antrenmanlara ve tariflere yorum yapma, gönderi oluşturma, gönderilere yorum yapma, arkadaş ekleme/kabul etme/reddetme, genel topluluklarda sohbet etme ve özel mesajlaşma gibi. Detaylar için proje deposuna göz atabilirsiniz.",
         "title": "ZoneFit"

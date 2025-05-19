@@ -78,7 +78,7 @@ export default function ProjectsCarousel() {
         />
 
         <section className="relative flex-col flex-1 flex items-center justify-around sm:mt-0">
-          <h1 className="font-heading text-3xl mb-20 text-primary">
+          <h1 className="font-heading text-4xl mb-20 text-primary">
             {portfolioTitle}
           </h1>
           {current && <ProjectCard project={current} />}

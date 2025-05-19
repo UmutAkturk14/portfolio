@@ -44,10 +44,10 @@ const FloatingNavButton = () => {
         onClick={toggleMenu}
         className="
           flex items-center justify-center w-12 h-12 rounded-full
-           text-white shadow-lg
+          shadow-lg
            transition
           focus:outline-none
-          bg-gradient-to-br from-sky-600 to-blue-800 hover:from-blue-500 hover:to-blue-700 dark:from-sky-400 dark:to-blue-500 dark:hover:from-sky-400 dark:hover:to-sky-700
+          bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100
           "
       >
         <FaRegEye className="w-6 h-6" />

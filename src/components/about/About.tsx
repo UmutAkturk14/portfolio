@@ -23,15 +23,15 @@ const About = () => {
 
   const sectionTitle = {
     en: "About me",
-    fr: "Mes Écritures",
-    es: "Mis Letras",
-    tr: "Yazdıklarım",
-    de: "Meine Gedankenwelten",
+    fr: "À propos de moi",
+    es: "Sobre mí",
+    tr: "Hakkımda",
+    de: "Über mich",
   }[language];
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-10" id="about">
-      <h2 className="text-3xl font-semibold mb-8 text-center font-heading text-primary">
+      <h2 className="text-4xl font-semibold mb-8 text-center font-heading text-primary">
         {sectionTitle}
       </h2>
       <PhotoBlock photoUrl={photo} />
