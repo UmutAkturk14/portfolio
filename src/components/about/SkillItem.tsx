@@ -27,7 +27,7 @@ export default function SkillItem({ name, level }: SkillItemProps) {
                 key={i}
                 onClick={() => handleClick(i)}
                 className={[
-                  "relative w-4 h-4 rounded-full cursor-pointer transition-transform",
+                  "relative w-4 h-4 rounded-full transition-transform",
                   filled
                     ? "dot-filled after:content-['']"
                     : "bg-gray-300 dark:bg-gray-600 hidden",
