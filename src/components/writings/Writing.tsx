@@ -11,7 +11,7 @@ export default function Writing({ writing }: Props) {
 
   return (
     <article
-      className="group relative overflow-hidden rounded-xl shadow-lg transition-shadow hover:shadow-xl"
+      className="group relative overflow-hidden dark:shadow-gray-700 rounded-xl shadow-lg transition-shadow hover:shadow-xl"
       style={{ backgroundColor: themeColor + "1A" /* 10% opacity tint */ }}
     >
       {/* Cover image */}

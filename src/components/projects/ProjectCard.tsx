@@ -39,7 +39,7 @@ export default function ProjectCard({ project }: Props) {
   return (
     <article
       key={id}
-      className="inset-0 flex flex-col items-center justify-center text-center px-10 animate-[slidein_0.75s_ease-out_forwards]"
+      className="project-card inset-0 flex flex-col items-center justify-center text-center px-10 animate-[slidein_0.75s_ease-out_forwards]"
     >
       <div
         className="h-36 w-36 flex justify-center items-center p-8 dark:rounded-full dark:bg-gradient-to-br dark:from-gray-50 dark:to-gray-200"
