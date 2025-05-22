@@ -8,11 +8,10 @@ import Writings from "./components/writings/Writings";
 import About from "./components/about/About";
 import Footer from "./components/footer/Footer";
 import GoToTop from "./components/ui/GoToTop";
-import Quokka from "quokka-js";
 import { useEffect } from "react";
+import { $ } from "quokka-js";
 
 export default function App() {
-  const { $ } = Quokka;
   const animatedElements: string[] = [
     "#tech",
     ".tech-card",
@@ -25,6 +24,7 @@ export default function App() {
   useEffect(() => {
     $("body").directionalFade(true, "slide", animatedElements.join(", "));
   });
+
   return (
     <>
       <ConstellationCursor color="#b6fadd" />
