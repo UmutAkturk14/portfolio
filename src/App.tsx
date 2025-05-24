@@ -14,7 +14,7 @@ import { $ } from "quokka-js";
 export default function App() {
   const animatedElements: string[] = [
     "#tech",
-    ".tech-card",
+    ".tech-card-tooltip",
     ".project-card",
     ".project-name",
     "#writings",

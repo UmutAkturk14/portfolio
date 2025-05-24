@@ -24,7 +24,7 @@ const Tooltip: React.FC<TooltipProps> = ({
   };
 
   return (
-    <div className="relative group" tabIndex={0}>
+    <div className="relative group tech-card-tooltip" tabIndex={0}>
       {children}
       <div
         className={`
