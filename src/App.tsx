@@ -8,8 +8,23 @@ import Writings from "./components/writings/Writings";
 import About from "./components/about/About";
 import Footer from "./components/footer/Footer";
 import GoToTop from "./components/ui/GoToTop";
+import { useEffect } from "react";
+import { $ } from "quokka-js";
 
 export default function App() {
+  const animatedElements: string[] = [
+    "#tech",
+    ".tech-card-tooltip",
+    ".project-card",
+    ".project-name",
+    "#writings",
+    "#about",
+  ];
+
+  useEffect(() => {
+    $("body").directionalFade(true, "slide", animatedElements.join(", "));
+  });
+
   return (
     <>
       <ConstellationCursor color="#b6fadd" />
