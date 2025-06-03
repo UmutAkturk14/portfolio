@@ -72,8 +72,12 @@
         "id": "quokka",
         "links": {
           "deployment": {
-            "buttonTitle": "Live-Demo",
-            "link": "url"
+            "buttonTitle": "Website",
+            "link": "https://umutakturk14.github.io/Quokka-JS/"
+          },
+          "documentation": {
+            "buttonTitle": "Dokumentation",
+            "link": "https://umutakturk14.github.io/QuokkaDocs/"
           },
           "github": {
             "buttonTitle": "Code ansehen!",
@@ -477,12 +481,12 @@
         "id": "quokka",
         "links": {
           "deployment": {
-            "buttonTitle": "Live demo",
-            "link": "url"
+            "buttonTitle": "Website",
+            "link": "https://umutakturk14.github.io/Quokka-JS/"
           },
           "documentation": {
             "buttonTitle": "Documentation",
-            "link": "url"
+            "link": "https://umutakturk14.github.io/QuokkaDocs/"
           },
           "github": {
             "buttonTitle": "See the code!",
@@ -883,9 +887,13 @@
         "icon": "https://www.svgrepo.com/show/191160/kangaroo.svg",
         "id": "quokka",
         "links": {
-          "deployment": {
-            "buttonTitle": "Demo en vivo",
-            "link": "url"
+                    "deployment": {
+            "buttonTitle": "Website",
+            "link": "https://umutakturk14.github.io/Quokka-JS/"
+          },
+          "documentation": {
+            "buttonTitle": "Documentación",
+            "link": "https://umutakturk14.github.io/QuokkaDocs/"
           },
           "github": {
             "buttonTitle": "¡Ver el código!",
@@ -1289,8 +1297,12 @@
         "id": "quokka",
         "links": {
           "deployment": {
-            "buttonTitle": "Démo en ligne",
-            "link": "url"
+            "buttonTitle": "Website",
+            "link": "https://umutakturk14.github.io/Quokka-JS/"
+          },
+          "documentation": {
+            "buttonTitle": "Documentation",
+            "link": "https://umutakturk14.github.io/QuokkaDocs/"
           },
           "github": {
             "buttonTitle": "Voir le code !",
@@ -1695,8 +1707,12 @@
         "id": "quokka",
         "links": {
           "deployment": {
-            "buttonTitle": "Canlı demo",
-            "link": "url"
+            "buttonTitle": "Website",
+            "link": "https://umutakturk14.github.io/Quokka-JS/"
+          },
+          "documentation": {
+            "buttonTitle": "Dökümantasyon",
+            "link": "https://umutakturk14.github.io/QuokkaDocs/"
           },
           "github": {
             "buttonTitle": "Koda göz at!",
