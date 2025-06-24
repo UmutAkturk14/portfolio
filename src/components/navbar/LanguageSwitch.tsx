@@ -81,7 +81,7 @@ const LanguageSwitch = () => {
       {open && (
         <ul
           role="listbox"
-          className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white dark:bg-gray-900 focus:outline-none z-50"
+          className="absolute right-0 mt-2 w-48 rounded-md shadow-lg focus:outline-none z-50"
           onMouseEnter={cancelClose}
           onMouseLeave={scheduleClose}
         >

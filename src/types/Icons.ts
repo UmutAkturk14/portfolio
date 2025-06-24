@@ -1,7 +1,17 @@
 import type { FC } from "react";
 import type { SVGProps } from "react";
-import { Quokka, Pizza, Coffee, Gym, GermanFlag, FrenchFlag, SpanishFlag, EnglishFlag, TurkishFlag } from "../components/projects/SVGs";
-
+import {
+  Quokka,
+  Pizza,
+  Coffee,
+  Gym,
+  GermanFlag,
+  FrenchFlag,
+  SpanishFlag,
+  EnglishFlag,
+  TurkishFlag,
+  Timer,
+} from "../components/projects/SVGs";
 
 const iconMap: Record<string, FC<SVGProps<SVGSVGElement>>> = {
   quokka: Quokka,
@@ -12,7 +22,8 @@ const iconMap: Record<string, FC<SVGProps<SVGSVGElement>>> = {
   spanish: SpanishFlag,
   english: EnglishFlag,
   turkish: TurkishFlag,
-  gym: Gym
+  gym: Gym,
+  timer: Timer,
 };
 
-export default iconMap
+export default iconMap;

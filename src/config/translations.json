@@ -122,6 +122,53 @@
         "title": "Quokka JS"
       },
       {
+        "color": "#471396",
+        "date": "Mai 2025",
+        "icon": "timer",
+        "id": "timer",
+        "links": {
+          "deployment": {
+            "buttonTitle": "Webseite",
+            "link": "https://umutakturk14.github.io/study-timer/"
+          },
+          "github": {
+            "buttonTitle": "Code ansehen!",
+            "link": "https://github.com/UmutAkturk14/study-timer"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+            "tool": "TypeScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/373669/html.svg",
+            "tool": "HTML"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452185/css-3.svg",
+            "tool": "CSS"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+            "tool": "React"
+          }
+        ],
+        "subTechs": [
+          "Produktivität",
+          "Ereignisverarbeitung",
+          "Eigene Hooks",
+          "Lokaler Speicher"
+        ],
+        "tags": ["Frontend", "Werkzeuge", "Open Source"],
+        "text": "Productivity Timer ist ein Produktivitätstool, das Nutzern dabei hilft, ihre Lernsitzungen effektiv zu organisieren. Entwickelt mit TypeScript und React, bietet es eine einfache Benutzeroberfläche zur Festlegung von Lernintervallen, Fortschrittsverfolgung, Notizen, Aufgabenverwaltung, detaillierte Arbeitsanalysen, Habit-Tracking, Erinnerungen, einen Kanban-Modus für Aufgaben sowie lokale Datenspeicherung. Die modulare Architektur der App ermöglicht eine einfache Anpassung und Erweiterung.",
+        "title": "Produktivitäts-Timer"
+      },
+      {
         "color": "#D61C4E",
         "date": "März 2024",
         "icon": "pizza",
@@ -512,6 +559,53 @@
         "tags": ["Front end", "Tooling", "Library", "Open source  "],
         "text": "QuokkaJS is a work-in-progress, modern, feature-rich library inspired by jQuery, built with TypeScript. The goal is to create a robust, modular, and developer-friendly library for DOM manipulation, storage access, async utilities, and more, while leveraging the power of TypeScript for type safety and modern JavaScript features.",
         "title": "Quokka JS"
+      },
+      {
+        "color": "#471396",
+        "date": "May 2025",
+        "icon": "timer",
+        "id": "timer",
+        "links": {
+          "deployment": {
+            "buttonTitle": "Website",
+            "link": "https://umutakturk14.github.io/study-timer/"
+          },
+          "github": {
+            "buttonTitle": "See the code!",
+            "link": "https://github.com/UmutAkturk14/study-timer"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+            "tool": "TypeScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/373669/html.svg",
+            "tool": "HTML"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452185/css-3.svg",
+            "tool": "CSS"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+            "tool": "React"
+          }
+        ],
+        "subTechs": [
+          "Productivity",
+          "Event handling",
+          "Custom hooks",
+          "Local storage"
+        ],
+        "tags": ["Front end", "Tooling", "Open source"],
+        "text": "Productivity Timer is a productivity tool designed to help users manage their study sessions effectively. Built with TypeScript and React, it features a simple interface for setting study intervals, tracking progress, taking notes, handling to-dos, getting detailed work analysis, tracking habits, setting reminders, a Kanban mode for to-dos and storing session data locally. The app's modular architecture allows for easy customization and extension.",
+        "title": "Productivity Timer"
       },
       {
         "color": "#D61C4E",
@@ -917,6 +1011,53 @@
         "tags": ["Frontend", "Backend", "Herramienta", "Biblioteca"],
         "text": "QuokkaJS es una biblioteca moderna y rica en funciones en desarrollo, inspirada en jQuery y construida con TypeScript. El objetivo es crear una biblioteca robusta, modular y amigable para el desarrollador para manipulación del DOM, acceso a almacenamiento, utilidades asíncronas y más, aprovechando el poder de TypeScript.",
         "title": "Quokka JS"
+      },
+      {
+        "color": "#471396",
+        "date": "Mayo 2025",
+        "icon": "timer",
+        "id": "timer",
+        "links": {
+          "deployment": {
+            "buttonTitle": "Sitio web",
+            "link": "https://umutakturk14.github.io/study-timer/"
+          },
+          "github": {
+            "buttonTitle": "¡Ver el código!",
+            "link": "https://github.com/UmutAkturk14/study-timer"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+            "tool": "TypeScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/373669/html.svg",
+            "tool": "HTML"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452185/css-3.svg",
+            "tool": "CSS"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+            "tool": "React"
+          }
+        ],
+        "subTechs": [
+          "Productividad",
+          "Manejo de eventos",
+          "Hooks personalizados",
+          "Almacenamiento local"
+        ],
+        "tags": ["Frontend", "Herramientas", "Código abierto"],
+        "text": "Productivity Timer es una herramienta de productividad diseñada para ayudar a los usuarios a gestionar eficazmente sus sesiones de estudio. Desarrollada con TypeScript y React, ofrece una interfaz sencilla para establecer intervalos de estudio, hacer seguimiento del progreso, tomar notas, gestionar tareas, obtener análisis detallados del trabajo, seguir hábitos, configurar recordatorios, usar un modo Kanban para tareas y almacenar los datos localmente. La arquitectura modular de la aplicación permite una fácil personalización y expansión.",
+        "title": "Temporizador de Productividad"
       },
       {
         "color": "#D61C4E",
@@ -1325,6 +1466,53 @@
         "title": "Quokka JS"
       },
       {
+        "color": "#471396",
+        "date": "Mai 2025",
+        "icon": "timer",
+        "id": "timer",
+        "links": {
+          "deployment": {
+            "buttonTitle": "Site Web",
+            "link": "https://umutakturk14.github.io/study-timer/"
+          },
+          "github": {
+            "buttonTitle": "Voir le code !",
+            "link": "https://github.com/UmutAkturk14/study-timer"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+            "tool": "TypeScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/373669/html.svg",
+            "tool": "HTML"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452185/css-3.svg",
+            "tool": "CSS"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+            "tool": "React"
+          }
+        ],
+        "subTechs": [
+          "Productivité",
+          "Gestion des événements",
+          "Hooks personnalisés",
+          "Stockage local"
+        ],
+        "tags": ["Front-end", "Outils", "Open source"],
+        "text": "Productivity Timer est un outil de productivité conçu pour aider les utilisateurs à gérer efficacement leurs sessions d’étude. Développé avec TypeScript et React, il propose une interface simple pour définir des intervalles d’étude, suivre les progrès, prendre des notes, gérer les tâches, obtenir une analyse détaillée du travail, suivre les habitudes, définir des rappels, activer un mode Kanban pour les tâches et stocker les données localement. L’architecture modulaire de l’application permet une personnalisation et une extension faciles.",
+        "title": "Minuteur de Productivité"
+      },
+      {
         "color": "#D61C4E",
         "date": "Mars 2024",
         "icon": "pizza",
@@ -1727,6 +1915,53 @@
         "tags": ["Full stack", "Tooling", "Kütüphane"],
         "text": "QuokkaJS, jQuery'den ilham alan, TypeScript ile geliştirilmiş, modern ve özelliklerle dolu bir kütüphane projesidir. Amaç, DOM manipülasyonu, depolama erişimi, asenkron yardımcılar ve daha fazlası için sağlam, modüler ve geliştirici dostu bir kütüphane oluşturmaktır; TypeScript’in sağladığı tip güvenliği ve modern JavaScript özelliklerinden faydalanır.",
         "title": "Quokka JS"
+      },
+      {
+        "color": "#471396",
+        "date": "Mayıs 2025",
+        "icon": "timer",
+        "id": "timer",
+        "links": {
+          "deployment": {
+            "buttonTitle": "Web Sitesi",
+            "link": "https://umutakturk14.github.io/study-timer/"
+          },
+          "github": {
+            "buttonTitle": "Kodu Görüntüle!",
+            "link": "https://github.com/UmutAkturk14/study-timer"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+            "tool": "TypeScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/373669/html.svg",
+            "tool": "HTML"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452185/css-3.svg",
+            "tool": "CSS"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+            "tool": "React"
+          }
+        ],
+        "subTechs": [
+          "Verimlilik",
+          "Olay yönetimi",
+          "Özel hook'lar",
+          "Yerel depolama"
+        ],
+        "tags": ["Ön yüz", "Araçlar", "Açık kaynak"],
+        "text": "Productivity Timer, kullanıcıların çalışma oturumlarını verimli bir şekilde yönetmelerine yardımcı olmak için tasarlanmış bir verimlilik aracıdır. TypeScript ve React ile geliştirilmiş olup; çalışma aralıkları ayarlama, ilerlemeyi takip etme, not alma, yapılacaklar listesini yönetme, detaylı çalışma analizi sunma, alışkanlık takibi, hatırlatıcılar kurma, yapılacaklar için Kanban modu kullanma ve verileri yerel olarak saklama gibi özellikler sunar. Uygulamanın modüler yapısı, kolay özelleştirme ve genişletme imkânı sağlar.",
+        "title": "Verimlilik Zamanlayıcısı"
       },
       {
         "color": "#D61C4E",
