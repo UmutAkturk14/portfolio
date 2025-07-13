@@ -136,24 +136,34 @@ export default function ProjectsSection() {
 
             {/* Bottom Section - Links */}
             <div className="mt-auto pt-4 flex flex-wrap gap-2 border-t border-gray-200 dark:border-gray-700">
+              {project.links?.deployment && (
+                <a
+                  href={project.links.deployment.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-3 py-1 text-xs bg-gray-900 text-white rounded hover:bg-gray-800 transition"
+                >
+                  {project.links.deployment.buttonTitle}
+                </a>
+              )}
+              {project.links?.documentation && (
+                <a
+                  href={project.links.documentation.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-3 py-1 text-xs bg-orange-500 text-white rounded hover:bg-orange-600 transition"
+                >
+                  {project.links.documentation.buttonTitle}
+                </a>
+              )}
               {project.links?.github && (
                 <a
                   href={project.links.github.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-3 py-1 text-xs bg-gray-900 text-white rounded hover:bg-gray-800 transition"
-                >
-                  {project.links.github.buttonTitle}
-                </a>
-              )}
-              {project.links?.live && (
-                <a
-                  href={project.links.live.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="px-3 py-1 text-xs bg-blue-600 text-white rounded hover:bg-blue-700 transition"
                 >
-                  {project.links.live.buttonTitle}
+                  {project.links.github.buttonTitle}
                 </a>
               )}
             </div>
