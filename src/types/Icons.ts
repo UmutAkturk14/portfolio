@@ -11,6 +11,7 @@ import {
   EnglishFlag,
   TurkishFlag,
   Timer,
+  Crawler,
 } from "../components/projects/SVGs";
 
 const iconMap: Record<string, FC<SVGProps<SVGSVGElement>>> = {
@@ -24,6 +25,7 @@ const iconMap: Record<string, FC<SVGProps<SVGSVGElement>>> = {
   turkish: TurkishFlag,
   gym: Gym,
   timer: Timer,
+  crawler: Crawler,
 };
 
 export default iconMap;

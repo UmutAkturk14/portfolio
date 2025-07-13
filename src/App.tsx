@@ -1,7 +1,7 @@
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import TechGrid from "./components/technologies/TechGrid";
-import ProjectsCarousel from "./components/projects/projectsCarousel";
+// import ProjectsCarousel from "./components/projects/projectsCarousel";
 import FireflyCursor from "./components/ui/cursors/FireflyCursor";
 import ConstellationCursor from "./components/ui/cursors/ConstellationCursor";
 import Writings from "./components/writings/Writings";
@@ -10,6 +10,7 @@ import Footer from "./components/footer/Footer";
 import GoToTop from "./components/ui/GoToTop";
 import { useEffect } from "react";
 import { $ } from "quokka-js";
+import Projects from "./components/projects/Projects";
 
 export default function App() {
   const animatedElements: string[] = [
@@ -32,7 +33,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <TechGrid />
-      <ProjectsCarousel />
+      <Projects />
       <Writings />
       <About />
       <Footer />

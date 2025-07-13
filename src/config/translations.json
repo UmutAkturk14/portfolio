@@ -4,6 +4,7 @@
       "bio": "Ich bin Full-Stack-Entwickler mit einem Hintergrund in Linguistik und Redaktion – Wörter und Code sind also beides meine Welt. Ich liebe es, durchdachte, benutzerfreundliche Web-Erlebnisse zu schaffen und dabei ständig Neues zu lernen, von neuen Tech-Stacks bis hin zu Fremdsprachen. Wenn ich nicht programmiere, findest du mich am Meer spazieren, beim Ideen-Scribbeln oder auf Kaffee-getriebenen Gedankensprüngen. Immer neugierig. Immer am Bauen.",
       "techSkills": [
         { "name": "JavaScript", "level": 4 },
+        { "name": "Go", "level": 2 },
         { "name": "HTML", "level": 4 },
         { "name": "CSS", "level": 4 },
         { "name": "TypeScript", "level": 3 },
@@ -66,6 +67,67 @@
     },
     "projects": [
       {
+        "color": "#e31102",
+        "date": "Juli 2025",
+        "icon": "crawler",
+        "id": "crawler",
+        "links": {
+          "github": {
+            "buttonTitle": "Code ansehen!",
+            "link": "https://github.com/UmutAkturk14/web-crawler"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+            "tool": "TypeScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353795/go.svg",
+            "tool": "Go"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+            "tool": "React"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/494343/github.svg",
+            "tool": "GitHub"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353659/docker-icon.svg",
+            "tool": "Docker"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/342053/mysql.svg",
+            "tool": "MySQL"
+          }
+        ],
+        "subTechs": [
+          "Gin Web-Framework",
+          "Vite-Bundler",
+          "Playwright-Tests",
+          "MySQL-Datenbank",
+          "JWT-Authentifizierung",
+          "Polling-basierte Statusaktualisierungen",
+          "Responsives UI mit Tailwind",
+          "Docker-Compose-Orchestrierung",
+          "CORS-Konfiguration",
+          "Echtzeit-Crawl-Fortschritt"
+        ],
+        "tags": ["Full Stack", "Webanwendung", "Crawler", "Dashboard"],
+        "text": "Eine Full-Stack-Webanwendung, mit der Benutzer Webseiten einreichen und analysieren können. Dabei werden strukturierte Daten wie HTML-Version, Überschriften, Links und das Vorhandensein von Login-Formularen bereitgestellt. Entwickelt mit Go (Gin), React, TypeScript, MySQL und Docker. Die App bietet Funktionen wie Echtzeit-Crawl-Fortschritt, Massenaktionen, ein detailliertes Dashboard und End-to-End-Tests mit Playwright.",
+        "title": "Web Crawler"
+      },
+      {
         "color": "#0ffff3",
         "date": "April 2025 -      ",
         "icon": "https://www.svgrepo.com/show/191160/kangaroo.svg",
@@ -117,7 +179,7 @@
           "Vitest",
           "Leistungsorientiert"
         ],
-        "tags": ["Frontend", "Backend", "Werkzeug", "Bibliothek"],
+        "tags": ["Front end", "Werkzeug", "Bibliothek"],
         "text": "QuokkaJS ist eine moderne, funktionsreiche Bibliothek in Arbeit, inspiriert von jQuery und mit TypeScript entwickelt. Ziel ist es, eine robuste, modulare und entwicklerfreundliche Bibliothek für DOM-Manipulation, Speicherzugriff, asynchrone Hilfsfunktionen und mehr zu schaffen – mit der Typsicherheit von TypeScript und modernen JavaScript-Funktionen.",
         "title": "Quokka JS"
       },
@@ -222,8 +284,8 @@
         ],
         "tags": [
           "Full Stack",
-          "Backend",
-          "Frontend",
+          "Back end",
+          "Front end",
           "Dashboard",
           "CRUD",
           "Responsiv"
@@ -281,7 +343,13 @@
           "jQuery",
           "Performance-Optimierung"
         ],
-        "tags": ["Full Stack", "Backend", "Frontend", "Responsiv", "Branding"],
+        "tags": [
+          "Full Stack",
+          "Back end",
+          "Front end",
+          "Responsiv",
+          "Branding"
+        ],
         "text": "Jazzed Sips verleiht dem Online-Auftritt eines stilvollen, jazz-inspirierten Cafés neues Leben. Die Seite basiert auf HTML zur Strukturierung der Inhalte und verwendet Tailwind CSS für ein elegantes und responsives Design. Ruby on Rails bildet das Backend und übernimmt das Datenmanagement, während JavaScript in Kombination mit der jQuery-Bibliothek dynamische Funktionen und verbesserte Benutzerinteraktionen ermöglicht.",
         "title": "Jazzed Sips"
       },
@@ -344,8 +412,8 @@
         ],
         "tags": [
           "Full Stack",
-          "Backend",
-          "Frontend",
+          "Back end",
+          "Front end",
           "Responsiv",
           "Fitness",
           "Soziale Medien"
@@ -365,6 +433,11 @@
           "description": "Eine stark typisierte Obermenge von JavaScript, die die Produktivität der Entwickler und die Codequalität verbessert.",
           "icon": "https://www.svgrepo.com/show/374144/typescript.svg",
           "name": "TypeScript"
+        },
+        {
+          "description": "Eine statisch typisierte, kompilierte Sprache, die für Einfachheit, Nebenläufigkeit und leistungsstarke Backend-Entwicklung entwickelt wurde.",
+          "icon": "https://www.svgrepo.com/show/353795/go.svg",
+          "name": "Go"
         },
         {
           "description": "Eine beliebte JavaScript-Bibliothek zum Erstellen schneller und interaktiver Benutzeroberflächen mit komponentenbasierter Architektur.",
@@ -446,6 +519,7 @@
       "bio": "I'm a full stack developer with a background in linguistics and editing — so words and code are both my thing. I love building thoughtful, user-friendly web experiences and learning just about anything, from new tech stacks to foreign languages. When I'm not coding, you'll find me walking by the sea, scribbling ideas, or chasing coffee-fueled rabbit holes. Always curious. Always building.",
       "techSkills": [
         { "name": "JavaScript", "level": 4 },
+        { "name": "Go", "level": 2 },
         { "name": "HTML", "level": 4 },
         { "name": "CSS", "level": 4 },
         { "name": "TypeScript", "level": 3 },
@@ -508,6 +582,74 @@
     },
     "projects": [
       {
+        "color": "#e31102",
+        "date": "July 2025",
+        "icon": "crawler",
+        "id": "crawler",
+        "links": {
+          "github": {
+            "buttonTitle": "See the code!",
+            "link": "https://github.com/UmutAkturk14/web-crawler"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+            "tool": "TypeScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353795/go.svg",
+            "tool": "Go"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+            "tool": "React"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/494343/github.svg",
+            "tool": "GitHub"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353659/docker-icon.svg",
+            "tool": "Docker"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/342053/mysql.svg",
+            "tool": "MySQL"
+          }
+        ],
+        "subTechs": [
+          "Gin web framework",
+          "Vite bundler",
+          "Playwright testing",
+          "MySQL database",
+          "JWT authentication",
+          "Polling-based status updates",
+          "Responsive UI with Tailwind",
+          "Docker Compose orchestration",
+          "CORS configuration",
+          "Real-time crawl progress"
+        ],
+        "tags": [
+          "Full Stack",
+          "Back end",
+          "Front end",
+          "Web App",
+          "Crawling",
+          "Dashboard"
+        ],
+        "text": "A full-stack web application that allows users to submit and analyze web pages, providing structured data such as HTML version, headings, links, and login form detection. Built with Go (Gin), React, TypeScript, MySQL, and Docker, the app includes real-time crawl progress, bulk actions, a detailed dashboard, and end-to-end tests using Playwright.",
+        "title": "Web Crawler"
+      },
+      {
         "color": "#0ffff3",
         "date": "April 2025 -      ",
         "icon": "quokka",
@@ -556,7 +698,7 @@
           "Vitest",
           "performance-focused"
         ],
-        "tags": ["Front end", "Tooling", "Library", "Open source  "],
+        "tags": ["Front end", "Tooling", "Library", "Open source"],
         "text": "QuokkaJS is a work-in-progress, modern, feature-rich library inspired by jQuery, built with TypeScript. The goal is to create a robust, modular, and developer-friendly library for DOM manipulation, storage access, async utilities, and more, while leveraging the power of TypeScript for type safety and modern JavaScript features.",
         "title": "Quokka JS"
       },
@@ -725,8 +867,8 @@
         ],
         "tags": [
           "Full Stack",
-          "Backend",
-          "Frontend",
+          "Back end",
+          "Front end",
           "Responsive",
           "E-commerce",
           "Branding"
@@ -793,8 +935,8 @@
         ],
         "tags": [
           "Full Stack",
-          "Backend",
-          "Frontend",
+          "Back end",
+          "Front end",
           "Responsive",
           "Fitness",
           "Social Media"
@@ -814,6 +956,11 @@
           "description": "A strongly typed superset of JavaScript that enhances developer productivity and code quality.",
           "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
           "name": "TypeScript"
+        },
+        {
+          "description": "A statically typed, compiled language designed for simplicity, concurrency, and high-performance backend development.",
+          "icon": "https://www.svgrepo.com/show/353795/go.svg",
+          "name": "Go"
         },
         {
           "description": "A popular JavaScript library for building fast and interactive user interfaces with a component-based architecture.",
@@ -895,6 +1042,7 @@
       "bio": "Soy desarrollador full stack con formación en lingüística y edición, así que las palabras y el código son mi pasión. Me encanta crear experiencias web cuidadosas y fáciles de usar, y aprender de todo un poco, desde nuevas tecnologías hasta idiomas extranjeros. Cuando no estoy programando, me encontrarás caminando junto al mar, garabateando ideas o persiguiendo aventuras impulsadas por el café. Siempre curioso. Siempre construyendo.",
       "techSkills": [
         { "name": "JavaScript", "level": 4 },
+        { "name": "Go", "level": 2 },
         { "name": "HTML", "level": 4 },
         { "name": "CSS", "level": 4 },
         { "name": "TypeScript", "level": 3 },
@@ -956,6 +1104,74 @@
       "title": "Desarrollador Full-Stack"
     },
     "projects": [
+      {
+        "color": "#e31102",
+        "date": "Julio 2025",
+        "icon": "crawler",
+        "id": "crawler",
+        "links": {
+          "github": {
+            "buttonTitle": "See the code!",
+            "link": "https://github.com/UmutAkturk14/web-crawler"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+            "tool": "TypeScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353795/go.svg",
+            "tool": "Go"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+            "tool": "React"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/494343/github.svg",
+            "tool": "GitHub"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353659/docker-icon.svg",
+            "tool": "Docker"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/342053/mysql.svg",
+            "tool": "MySQL"
+          }
+        ],
+        "subTechs": [
+          "Framework web Gin",
+          "Empaquetador Vite",
+          "Pruebas con Playwright",
+          "Base de datos MySQL",
+          "Autenticación JWT",
+          "Actualizaciones de estado con polling",
+          "Interfaz responsive con Tailwind",
+          "Orquestación con Docker Compose",
+          "Configuración de CORS",
+          "Progreso de rastreo en tiempo real"
+        ],
+        "tags": [
+          "Full Stack",
+          "Front end",
+          "Back end",
+          "Aplicación Web",
+          "Rastreo",
+          "Panel de control"
+        ],
+        "text": "Una aplicación web full-stack que permite a los usuarios enviar y analizar páginas web, proporcionando datos estructurados como la versión HTML, encabezados, enlaces y detección de formularios de inicio de sesión. Desarrollada con Go (Gin), React, TypeScript, MySQL y Docker, la app incluye progreso de rastreo en tiempo real, acciones masivas, un panel de control detallado y pruebas end-to-end con Playwright.",
+        "title": "Web Crawler"
+      },
       {
         "color": "#0ffff3",
         "date": "Abril 2025 -       ",
@@ -1055,7 +1271,7 @@
           "Hooks personalizados",
           "Almacenamiento local"
         ],
-        "tags": ["Frontend", "Herramientas", "Código abierto"],
+        "tags": ["Front end", "Open Source", "Herramientas", "Código abierto"],
         "text": "Productivity Timer es una herramienta de productividad diseñada para ayudar a los usuarios a gestionar eficazmente sus sesiones de estudio. Desarrollada con TypeScript y React, ofrece una interfaz sencilla para establecer intervalos de estudio, hacer seguimiento del progreso, tomar notas, gestionar tareas, obtener análisis detallados del trabajo, seguir hábitos, configurar recordatorios, usar un modo Kanban para tareas y almacenar los datos localmente. La arquitectura modular de la aplicación permite una fácil personalización y expansión.",
         "title": "Temporizador de Productividad"
       },
@@ -1177,8 +1393,8 @@
         ],
         "tags": [
           "Full Stack",
-          "Backend",
-          "Frontend",
+          "Back end",
+          "Front end",
           "Responsivo",
           "E-Commerce",
           "Branding"
@@ -1268,6 +1484,11 @@
           "name": "TypeScript"
         },
         {
+          "description": "Un lenguaje compilado y de tipado estático diseñado para la simplicidad, la concurrencia y el desarrollo backend de alto rendimiento.",
+          "icon": "https://www.svgrepo.com/show/353795/go.svg",
+          "name": "Go"
+        },
+        {
           "description": "Una biblioteca de JavaScript popular para construir interfaces de usuario rápidas e interactivas con una arquitectura basada en componentes.",
           "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
           "name": "React"
@@ -1347,6 +1568,7 @@
       "bio": "Je suis développeur full stack avec une formation en linguistique et en édition — les mots et le code sont donc mes domaines de prédilection. J’adore créer des expériences web réfléchies et conviviales, tout en apprenant constamment, que ce soit de nouvelles technologies ou des langues étrangères. Quand je ne code pas, vous me trouverez en train de marcher au bord de la mer, de griffonner des idées ou de me lancer dans des aventures caféinées. Toujours curieux. Toujours en train de construire.",
       "techSkills": [
         { "name": "JavaScript", "level": 4 },
+        { "name": "Go", "level": 2 },
         { "name": "HTML", "level": 4 },
         { "name": "CSS", "level": 4 },
         { "name": "TypeScript", "level": 3 },
@@ -1409,6 +1631,74 @@
     },
     "projects": [
       {
+        "color": "#e31102",
+        "date": "Juillet 2025",
+        "icon": "crawler",
+        "id": "crawler",
+        "links": {
+          "github": {
+            "buttonTitle": "Voir le code !",
+            "link": "https://github.com/UmutAkturk14/web-crawler"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+            "tool": "TypeScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353795/go.svg",
+            "tool": "Go"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+            "tool": "React"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/494343/github.svg",
+            "tool": "GitHub"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353659/docker-icon.svg",
+            "tool": "Docker"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/342053/mysql.svg",
+            "tool": "MySQL"
+          }
+        ],
+        "subTechs": [
+          "Framework web Gin",
+          "Bundler Vite",
+          "Tests Playwright",
+          "Base de données MySQL",
+          "Authentification JWT",
+          "Mises à jour d'état basées sur le polling",
+          "Interface responsive avec Tailwind",
+          "Orchestration avec Docker Compose",
+          "Configuration CORS",
+          "Suivi de progression en temps réel"
+        ],
+        "tags": [
+          "Full Stack",
+          "Front end",
+          "Back end",
+          "Application Web",
+          "Crawling",
+          "Tableau de bord"
+        ],
+        "text": "Une application web full-stack permettant aux utilisateurs de soumettre et d’analyser des pages web, fournissant des données structurées telles que la version HTML, les titres, les liens et la détection de formulaire de connexion. Construite avec Go (Gin), React, TypeScript, MySQL et Docker, l’application inclut un suivi de progression en temps réel, des actions en masse, un tableau de bord détaillé et des tests de bout en bout avec Playwright.",
+        "title": "Web Crawler"
+      },
+      {
         "color": "#0ffff3",
         "date": "Avril 2025 -       ",
         "icon": "https://www.svgrepo.com/show/191160/kangaroo.svg",
@@ -1461,7 +1751,7 @@
           "Vitest",
           "Axé sur la performance"
         ],
-        "tags": ["Frontend", "Backend", "Outil", "Bibliothèque"],
+        "tags": ["Front end", "Back end", "Outil", "Bibliothèque"],
         "text": "QuokkaJS est une bibliothèque moderne et riche en fonctionnalités en cours de développement, inspirée de jQuery et construite avec TypeScript. L'objectif est de créer une bibliothèque robuste, modulaire et conviviale pour les développeurs, pour manipuler le DOM, accéder au stockage, utiliser des utilitaires asynchrones, et plus encore, tout en bénéficiant de la sécurité de TypeScript.",
         "title": "Quokka JS"
       },
@@ -1698,8 +1988,8 @@
         ],
         "tags": [
           "Full Stack",
-          "Backend",
-          "Frontend",
+          "Back end",
+          "Front end",
           "Responsive",
           "Fitness",
           "Réseau social"
@@ -1719,6 +2009,11 @@
           "description": "Un sur-ensemble fortement typé de JavaScript qui améliore la productivité des développeurs et la qualité du code.",
           "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
           "name": "TypeScript"
+        },
+        {
+          "description": "Un langage compilé et typé statiquement, conçu pour la simplicité, la concurrence et le développement backend haute performance.",
+          "icon": "https://www.svgrepo.com/show/353795/go.svg",
+          "name": "Go"
         },
         {
           "description": "Une bibliothèque JavaScript populaire pour créer des interfaces utilisateur rapides et interactives avec une architecture basée sur les composants.",
@@ -1800,6 +2095,7 @@
       "bio": "Dilbilim ve editörlük geçmi olan bir full stack geliştirmeciyim — kelimeler ve kod ikisi de benim işim. Düşünceli, kullanıcı dostu web deneyimleri yaratmayı ve yeni teknoloji yığınlarından yabancı dillere kadar hemen her şeyi öğrenmeyi seviyorum. Kod yazmadığım zamanlarda, sahil kenarında yürürken, fikirler karalarken ya da kahve destekli keşiflere dalarken bulunabilirim. Hep meraklı. Hep inşa halinde.",
       "techSkills": [
         { "name": "JavaScript", "level": 4 },
+        { "name": "Go", "level": 2 },
         { "name": "HTML", "level": 4 },
         { "name": "CSS", "level": 4 },
         { "name": "TypeScript", "level": 3 },
@@ -1862,6 +2158,74 @@
     },
     "projects": [
       {
+        "color": "#e31102",
+        "date": "Temmuz 2025",
+        "icon": "crawler",
+        "id": "crawler",
+        "links": {
+          "github": {
+            "buttonTitle": "See the code!",
+            "link": "https://github.com/UmutAkturk14/web-crawler"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+            "tool": "TypeScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353795/go.svg",
+            "tool": "Go"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+            "tool": "React"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/494343/github.svg",
+            "tool": "GitHub"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/353659/docker-icon.svg",
+            "tool": "Docker"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/342053/mysql.svg",
+            "tool": "MySQL"
+          }
+        ],
+        "subTechs": [
+          "Gin web çatısı",
+          "Vite paketleyici",
+          "Playwright testleri",
+          "MySQL veritabanı",
+          "JWT kimlik doğrulama",
+          "Anket tabanlı durum güncellemeleri",
+          "Tailwind ile duyarlı arayüz",
+          "Docker Compose ile orkestrasyon",
+          "CORS yapılandırması",
+          "Gerçek zamanlı tarama ilerlemesi"
+        ],
+        "tags": [
+          "Full Stack",
+          "Front end",
+          "Back end",
+          "Web Uygulaması",
+          "Tarama",
+          "Kontrol Paneli"
+        ],
+        "text": "Kullanıcıların web sayfalarını gönderip analiz edebildiği, HTML sürümü, başlıklar, bağlantılar ve giriş formu tespiti gibi yapısal veriler sağlayan full-stack bir web uygulaması. Go (Gin), React, TypeScript, MySQL ve Docker ile geliştirilen bu uygulama, gerçek zamanlı tarama ilerlemesi, toplu işlemler, detaylı bir kontrol paneli ve Playwright ile uçtan uca testler içerir.",
+        "title": "Web Crawler"
+      },
+      {
         "color": "#0ffff3",
         "date": "Nisan 2025 -      ",
         "icon": "https://www.svgrepo.com/show/191160/kangaroo.svg",
@@ -1912,7 +2276,7 @@
           "Vitest",
           "Performans odaklı"
         ],
-        "tags": ["Full stack", "Tooling", "Kütüphane"],
+        "tags": ["Full stack", "Back end", "Front end", "Tooling", "Kütüphane"],
         "text": "QuokkaJS, jQuery'den ilham alan, TypeScript ile geliştirilmiş, modern ve özelliklerle dolu bir kütüphane projesidir. Amaç, DOM manipülasyonu, depolama erişimi, asenkron yardımcılar ve daha fazlası için sağlam, modüler ve geliştirici dostu bir kütüphane oluşturmaktır; TypeScript’in sağladığı tip güvenliği ve modern JavaScript özelliklerinden faydalanır.",
         "title": "Quokka JS"
       },
@@ -1959,7 +2323,13 @@
           "Özel hook'lar",
           "Yerel depolama"
         ],
-        "tags": ["Ön yüz", "Araçlar", "Açık kaynak"],
+        "tags": [
+          "Ön yüz",
+          "Front end",
+          "Open Source",
+          "Araçlar",
+          "Açık kaynak"
+        ],
         "text": "Productivity Timer, kullanıcıların çalışma oturumlarını verimli bir şekilde yönetmelerine yardımcı olmak için tasarlanmış bir verimlilik aracıdır. TypeScript ve React ile geliştirilmiş olup; çalışma aralıkları ayarlama, ilerlemeyi takip etme, not alma, yapılacaklar listesini yönetme, detaylı çalışma analizi sunma, alışkanlık takibi, hatırlatıcılar kurma, yapılacaklar için Kanban modu kullanma ve verileri yerel olarak saklama gibi özellikler sunar. Uygulamanın modüler yapısı, kolay özelleştirme ve genişletme imkânı sağlar.",
         "title": "Verimlilik Zamanlayıcısı"
       },
@@ -2015,7 +2385,14 @@
           "Tailwind",
           "jQuery"
         ],
-        "tags": ["Full stack", "Yönetici paneli", "CRUD", "Responsive tasarım"],
+        "tags": [
+          "Full stack",
+          "Back end",
+          "Front end",
+          "Yönetici paneli",
+          "CRUD",
+          "Responsive tasarım"
+        ],
         "text": "Mario's Pizza Villa, hayali pizzacımız \"Mario's Pizza Villa\" için çevrimiçi varlık sunan bir Ruby on Rails web uygulamasıdır. Kullanıcılar bu platform üzerinden menüyü inceleyebilir, sipariş verebilir ve sipariş durumlarını kolayca takip edebilir. Ayrıca analizler ve menü yönetimi özellikleri sunan bir yönetici paneli de mevcuttur.",
         "title": "Mario's Pizza Villa"
       },
@@ -2069,7 +2446,7 @@
           "Tailwind UI",
           "jQuery"
         ],
-        "tags": ["Full Stack", "Responsive"],
+        "tags": ["Full Stack", "Front end", "Back end", "Responsive"],
         "text": "Jazzed Sips, şık ve cazdan ilham alan bir kafenin çevrim içi varlığına hayat veriyor. İçeriği yapılandırmak için HTML temel alınırken, zarif ve uyumlu bir tasarım için Tailwind CSS kullanılmıştır. Ruby on Rails, verileri yöneterek arka ucu desteklerken, JavaScript ve jQuery kitaplığı da dinamik özellikler kazandırmakta ve kullanıcı etkileşimini geliştirmektedir.",
         "title": "Jazzed Sips"
       },
@@ -2130,7 +2507,7 @@
           "Anlık özel mesajlaşma",
           "Sosyal akış"
         ],
-        "tags": ["Full Stack", "Responsive Tasarım"],
+        "tags": ["Full Stack", "Front end", "Back end", "Responsive Tasarım"],
         "text": "ZoneFit, egzersiz videoları ve sağlıklı yaşam tariflerini arama özelliğiyle sunan, fitness/sağlıklı yaşam meraklılarına yönelik bir web uygulamasıdır. Aynı zamanda sosyal medya özellikleri de içerir: antrenmanlara ve tariflere yorum yapma, gönderi oluşturma, gönderilere yorum yapma, arkadaş ekleme/kabul etme/reddetme, genel topluluklarda sohbet etme ve özel mesajlaşma gibi. Detaylar için proje deposuna göz atabilirsiniz.",
         "title": "ZoneFit"
       }
@@ -2146,6 +2523,11 @@
           "description": "Geliştirici verimliliğini ve kod kalitesini artıran, JavaScript'in güçlü türlere sahip bir üst kümesidir.",
           "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
           "name": "TypeScript"
+        },
+        {
+          "description": "Basitlik, eşzamanlılık ve yüksek performanslı arka uç geliştirme için tasarlanmış, statik türlere sahip derlenmiş bir dil.",
+          "icon": "https://www.svgrepo.com/show/353795/go.svg",
+          "name": "Go"
         },
         {
           "description": "Bileşen tabanlı mimarisiyle hızlı ve etkileşimli kullanıcı arayüzleri oluşturmaya yarayan popüler bir JavaScript kütüphanesidir.",

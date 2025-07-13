@@ -16,8 +16,8 @@ export default function StackIconGrid({ stack }: Props) {
   rounded-3xl
   border-3
   bg-gradient-to-br from-white to-gray-100
-  dark:from-emerald-950 dark:to-gray-900
-  border-gray-300 dark:border-emerald-800
+  dark:from-emerald-400 dark:to-gray-700
+  border-gray-300 dark:border-emerald-500
   shadow-md dark:shadow-lg
   transition duration-300
   hover:scale-105
