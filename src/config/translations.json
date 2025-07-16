@@ -256,7 +256,7 @@
           },
           {
             "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
-            "tool": "Tailwind CSS"
+            "tool": "Tailwind"
           },
           {
             "icon": "https://www.svgrepo.com/show/373669/html.svg",
@@ -319,7 +319,7 @@
           },
           {
             "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
-            "tool": "Tailwind CSS"
+            "tool": "Tailwind"
           },
           {
             "icon": "https://www.svgrepo.com/show/373669/html.svg",
@@ -350,7 +350,7 @@
           "Responsiv",
           "Branding"
         ],
-        "text": "Jazzed Sips verleiht dem Online-Auftritt eines stilvollen, jazz-inspirierten Cafés neues Leben. Die Seite basiert auf HTML zur Strukturierung der Inhalte und verwendet Tailwind CSS für ein elegantes und responsives Design. Ruby on Rails bildet das Backend und übernimmt das Datenmanagement, während JavaScript in Kombination mit der jQuery-Bibliothek dynamische Funktionen und verbesserte Benutzerinteraktionen ermöglicht.",
+        "text": "Jazzed Sips verleiht dem Online-Auftritt eines stilvollen, jazz-inspirierten Cafés neues Leben. Die Seite basiert auf HTML zur Strukturierung der Inhalte und verwendet Tailwind für ein elegantes und responsives Design. Ruby on Rails bildet das Backend und übernimmt das Datenmanagement, während JavaScript in Kombination mit der jQuery-Bibliothek dynamische Funktionen und verbesserte Benutzerinteraktionen ermöglicht.",
         "title": "Jazzed Sips"
       },
       {
@@ -438,6 +438,11 @@
           "description": "Eine statisch typisierte, kompilierte Sprache, die für Einfachheit, Nebenläufigkeit und leistungsstarke Backend-Entwicklung entwickelt wurde.",
           "icon": "https://www.svgrepo.com/show/353795/go.svg",
           "name": "Go"
+        },
+        {
+          "description": "Amazon Web Services (AWS) ist eine führende Cloud-Plattform, die eine Vielzahl von Diensten für Rechenleistung, Speicher, Netzwerke und mehr anbietet. Derzeit bereite ich mich auf die AWS Cloud Practitioner-Zertifizierung vor, um mein Verständnis der Cloud-Grundlagen zu vertiefen.",
+          "icon": "https://www.svgrepo.com/show/448266/aws.svg",
+          "name": "AWS"
         },
         {
           "description": "Eine beliebte JavaScript-Bibliothek zum Erstellen schneller und interaktiver Benutzeroberflächen mit komponentenbasierter Architektur.",
@@ -775,7 +780,7 @@
           },
           {
             "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
-            "tool": "Tailwind CSS"
+            "tool": "Tailwind"
           },
           {
             "icon": "https://www.svgrepo.com/show/373669/html.svg",
@@ -838,7 +843,7 @@
           },
           {
             "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
-            "tool": "Tailwind CSS"
+            "tool": "Tailwind"
           },
           {
             "icon": "https://www.svgrepo.com/show/373669/html.svg",
@@ -873,7 +878,7 @@
           "E-commerce",
           "Branding"
         ],
-        "text": "Jazzed Sips breathes life into a stylish and jazz-inspired coffee shop's online presence. It's built on a foundation of HTML, which structures the content, and utilizes Tailwind CSS to create an elegant and responsive design. Ruby on Rails powers the backend, handling data management, while JavaScript with the jQuery library adds dynamic features and enhances user interactions.",
+        "text": "Jazzed Sips breathes life into a stylish and jazz-inspired coffee shop's online presence. It's built on a foundation of HTML, which structures the content, and utilizes Tailwind to create an elegant and responsive design. Ruby on Rails powers the backend, handling data management, while JavaScript with the jQuery library adds dynamic features and enhances user interactions.",
         "title": "Jazzed Sips"
       },
       {
@@ -961,6 +966,11 @@
           "description": "A statically typed, compiled language designed for simplicity, concurrency, and high-performance backend development.",
           "icon": "https://www.svgrepo.com/show/353795/go.svg",
           "name": "Go"
+        },
+        {
+          "description": "Amazon Web Services (AWS) is a leading cloud platform that provides a wide range of services for computing, storage, networking, and more. I'm currently studying for the AWS Cloud Practitioner certification to deepen my understanding of cloud fundamentals.",
+          "icon": "https://www.svgrepo.com/show/448266/aws.svg",
+          "name": "AWS"
         },
         {
           "description": "A popular JavaScript library for building fast and interactive user interfaces with a component-based architecture.",
@@ -1301,7 +1311,7 @@
           },
           {
             "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
-            "tool": "Tailwind CSS"
+            "tool": "Tailwind"
           },
           {
             "icon": "https://www.svgrepo.com/show/373669/html.svg",
@@ -1364,7 +1374,7 @@
           },
           {
             "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
-            "tool": "Tailwind CSS"
+            "tool": "Tailwind"
           },
           {
             "icon": "https://www.svgrepo.com/show/373669/html.svg",
@@ -1399,7 +1409,7 @@
           "E-Commerce",
           "Branding"
         ],
-        "text": "Jazzed Sips da vida a la presencia en línea de una cafetería elegante e inspirada en el jazz. Está construido sobre una base de HTML para estructurar el contenido, y utiliza Tailwind CSS para crear un diseño elegante y adaptable. Ruby on Rails gestiona el backend y el manejo de datos, mientras que JavaScript y la biblioteca jQuery aportan dinamismo e interactividad a la experiencia del usuario.",
+        "text": "Jazzed Sips da vida a la presencia en línea de una cafetería elegante e inspirada en el jazz. Está construido sobre una base de HTML para estructurar el contenido, y utiliza Tailwind para crear un diseño elegante y adaptable. Ruby on Rails gestiona el backend y el manejo de datos, mientras que JavaScript y la biblioteca jQuery aportan dinamismo e interactividad a la experiencia del usuario.",
         "title": "Jazzed Sips"
       },
       {
@@ -1487,6 +1497,11 @@
           "description": "Un lenguaje compilado y de tipado estático diseñado para la simplicidad, la concurrencia y el desarrollo backend de alto rendimiento.",
           "icon": "https://www.svgrepo.com/show/353795/go.svg",
           "name": "Go"
+        },
+        {
+          "description": "Amazon Web Services (AWS) es una plataforma de nube líder que ofrece una amplia gama de servicios de computación, almacenamiento, redes y más. Actualmente estoy estudiando para obtener la certificación AWS Cloud Practitioner y así profundizar en los fundamentos de la nube.",
+          "icon": "https://www.svgrepo.com/show/448266/aws.svg",
+          "name": "AWS"
         },
         {
           "description": "Una biblioteca de JavaScript popular para construir interfaces de usuario rápidas e interactivas con una arquitectura basada en componentes.",
@@ -1828,7 +1843,7 @@
           },
           {
             "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
-            "tool": "Tailwind CSS"
+            "tool": "Tailwind"
           },
           {
             "icon": "https://www.svgrepo.com/show/373669/html.svg",
@@ -1891,7 +1906,7 @@
           },
           {
             "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
-            "tool": "Tailwind CSS"
+            "tool": "Tailwind"
           },
           {
             "icon": "https://www.svgrepo.com/show/373669/html.svg",
@@ -1926,7 +1941,7 @@
           "E-Commerce",
           "Branding"
         ],
-        "text": "Jazzed Sips donne vie à la présence en ligne d’un café élégant inspiré du jazz. Il repose sur une base HTML pour structurer le contenu, et utilise Tailwind CSS pour créer un design raffiné et adaptable. Ruby on Rails alimente le backend et gère les données, tandis que JavaScript et la bibliothèque jQuery apportent des fonctionnalités dynamiques et enrichissent l’interaction utilisateur.",
+        "text": "Jazzed Sips donne vie à la présence en ligne d’un café élégant inspiré du jazz. Il repose sur une base HTML pour structurer le contenu, et utilise Tailwind pour créer un design raffiné et adaptable. Ruby on Rails alimente le backend et gère les données, tandis que JavaScript et la bibliothèque jQuery apportent des fonctionnalités dynamiques et enrichissent l’interaction utilisateur.",
         "title": "Jazzed Sips"
       },
       {
@@ -2014,6 +2029,11 @@
           "description": "Un langage compilé et typé statiquement, conçu pour la simplicité, la concurrence et le développement backend haute performance.",
           "icon": "https://www.svgrepo.com/show/353795/go.svg",
           "name": "Go"
+        },
+        {
+          "description": "Amazon Web Services (AWS) est une plateforme cloud de premier plan qui propose une large gamme de services en informatique, stockage, réseau et plus encore. Je prépare actuellement la certification AWS Cloud Practitioner pour approfondir ma compréhension des bases du cloud.",
+          "icon": "https://www.svgrepo.com/show/448266/aws.svg",
+          "name": "AWS"
         },
         {
           "description": "Une bibliothèque JavaScript populaire pour créer des interfaces utilisateur rapides et interactives avec une architecture basée sur les composants.",
@@ -2359,7 +2379,7 @@
           },
           {
             "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
-            "tool": "Tailwind CSS"
+            "tool": "Tailwind"
           },
           {
             "icon": "https://www.svgrepo.com/show/373669/html.svg",
@@ -2422,7 +2442,7 @@
           },
           {
             "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
-            "tool": "Tailwind CSS"
+            "tool": "Tailwind"
           },
           {
             "icon": "https://www.svgrepo.com/show/373669/html.svg",
@@ -2447,7 +2467,7 @@
           "jQuery"
         ],
         "tags": ["Full Stack", "Front end", "Back end", "Responsive"],
-        "text": "Jazzed Sips, şık ve cazdan ilham alan bir kafenin çevrim içi varlığına hayat veriyor. İçeriği yapılandırmak için HTML temel alınırken, zarif ve uyumlu bir tasarım için Tailwind CSS kullanılmıştır. Ruby on Rails, verileri yöneterek arka ucu desteklerken, JavaScript ve jQuery kitaplığı da dinamik özellikler kazandırmakta ve kullanıcı etkileşimini geliştirmektedir.",
+        "text": "Jazzed Sips, şık ve cazdan ilham alan bir kafenin çevrim içi varlığına hayat veriyor. İçeriği yapılandırmak için HTML temel alınırken, zarif ve uyumlu bir tasarım için Tailwind kullanılmıştır. Ruby on Rails, verileri yöneterek arka ucu desteklerken, JavaScript ve jQuery kitaplığı da dinamik özellikler kazandırmakta ve kullanıcı etkileşimini geliştirmektedir.",
         "title": "Jazzed Sips"
       },
       {
@@ -2528,6 +2548,11 @@
           "description": "Basitlik, eşzamanlılık ve yüksek performanslı arka uç geliştirme için tasarlanmış, statik türlere sahip derlenmiş bir dil.",
           "icon": "https://www.svgrepo.com/show/353795/go.svg",
           "name": "Go"
+        },
+        {
+          "description": "Amazon Web Services (AWS), bilgi işlem, depolama, ağ iletişimi ve daha fazlası için geniş hizmetler sunan lider bir bulut platformudur. Bulut bilişim temellerini daha iyi anlamak için şu anda AWS Cloud Practitioner sertifikasına çalışıyorum.",
+          "icon": "https://www.svgrepo.com/show/448266/aws.svg",
+          "name": "AWS"
         },
         {
           "description": "Bileşen tabanlı mimarisiyle hızlı ve etkileşimli kullanıcı arayüzleri oluşturmaya yarayan popüler bir JavaScript kütüphanesidir.",

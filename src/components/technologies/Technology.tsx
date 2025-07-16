@@ -26,7 +26,7 @@ const Technology: React.FC<TechnologyProps> = ({
         }}
         aria-label={`${name} technology logo with description`}
       >
-        <div className="w-28 h-28 mt-6 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center shadow-md transition-all duration-300">
+        <div className="w-28 h-28 mt-6 rounded-full bg-gray-100 dark:bg-gray-500 flex items-center justify-center shadow-md transition-all duration-300">
           <img
             src={icon}
             alt={`${name} icon`}
