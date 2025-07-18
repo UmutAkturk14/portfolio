@@ -98,10 +98,10 @@ const LanguageSwitch = () => {
                   handleSelect(code as Language);
                 }
               }}
-              className={`flex items-center gap-2 px-4 py-2 cursor-pointer select-none ${
+              className={`flex items-center gap-2 px-4 py-2 cursor-none select-none ${
                 language === code
                   ? "font-semibold text-cyan-600"
-                  : "hover:bg-gray-100 dark:hover:bg-gray-800"
+                  : "hover:text-amber-600 hover:dark:text-amber-400"
               }`}
             >
               <Icon className="w-6 h-6" />
