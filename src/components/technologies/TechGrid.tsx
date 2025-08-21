@@ -9,10 +9,13 @@ const TechGrid = () => {
   const [isVisible, setIsVisible] = useState(false);
   const { title, stack } = translations.techStack ?? {};
 
-  const techStack: Record<
-    string,
-    { name: string; description: string; icon: string }
-  > = stack ?? {};
+  type Tech = {
+    name: string;
+    description: string;
+    icon: string;
+  };
+
+  const techStack: Tech[] = stack ?? {};
 
   useEffect(() => {
     setIsVisible(false);

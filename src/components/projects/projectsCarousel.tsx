@@ -9,7 +9,7 @@ import "../sectionComponents/customStyles.css";
 export default function ProjectsCarousel() {
   const { language, translations } = useLanguage();
   const projects: Project[] = useMemo(
-    () => translations[language].projects ?? [],
+    () => translations.projects ?? [],
     [language, translations]
   );
 

@@ -12,7 +12,7 @@ function Hero() {
     setIsVisible(false);
 
     const timeout = setTimeout(() => {
-      setText(translations[language]?.hero?.title || "");
+      setText(translations?.hero?.title || "");
       setIsVisible(true); // Trigger fade in
     }, 200); // match with transition duration
 

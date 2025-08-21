@@ -1,6 +1,7 @@
 // src/context/LanguageContext.tsx
 import { createContext, useContext, useState, useEffect } from "react";
 import type { ReactNode } from "react";
+import type { LanguageType } from "../types/Language";
 
 import en from "../config/en.json";
 import fr from "../config/fr.json";
@@ -10,7 +11,7 @@ import tr from "../config/tr.json";
 
 type Language = "en" | "fr" | "de" | "es" | "tr";
 
-const translationsMap: Record<Language, Record<string, object>> = {
+const translationsMap: Record<Language, LanguageType> = {
   en,
   fr,
   de,
@@ -21,7 +22,7 @@ const translationsMap: Record<Language, Record<string, object>> = {
 const LanguageContext = createContext<{
   language: Language;
   setLanguage: (lang: Language) => void;
-  translations: Record<string, object>;
+  translations: LanguageType;
 }>({
   language: "en",
   setLanguage: () => {},

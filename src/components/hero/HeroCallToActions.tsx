@@ -16,7 +16,7 @@ const HeroCallToActions = () => {
     return () => clearTimeout(timeout);
   }, [language]);
 
-  const buttonLabels = translations[language]?.buttons || {};
+  const buttonLabels = translations?.buttons || {};
   const { cv, hireMe } = buttonLabels;
 
   return (
