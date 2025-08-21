@@ -8,7 +8,7 @@ export default function ProjectsSection() {
   const { language, translations } = useLanguage();
 
   const projects: Project[] = useMemo(
-    () => translations[language].projects ?? [],
+    () => translations.projects ?? [],
     [language, translations]
   );
 

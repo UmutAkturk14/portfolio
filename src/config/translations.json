@@ -67,6 +67,60 @@
     },
     "projects": [
       {
+        "color": "#e35502",
+        "date": "Juli 2025",
+        "icon": "pathfinder",
+        "id": "pathfinder",
+        "links": {
+          "github": {
+            "buttonTitle": "Sieh dir den Code an!",
+            "link": "https://github.com/UmutAkturk14/Pathfinder"
+          },
+          "deployment": {
+            "buttonTitle": "Webseite",
+            "link": "https://umutakturk14.github.io/Pathfinder/"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+            "tool": "TypeScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+            "tool": "React"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/494343/github.svg",
+            "tool": "GitHub"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          }
+        ],
+        "subTechs": [
+          "A*-Pfadsuche",
+          "Labyrinth-Generierung",
+          "Canvas-Rendering",
+          "Algorithmen",
+          "Datenvisualisierung"
+        ],
+        "tags": [
+          "Frontend",
+          "Pfadsuche",
+          "A*",
+          "Labyrinth-Generierung",
+          "Canvas"
+        ],
+        "text": "Eine interaktive Pfadsuch-App, die den A*-Algorithmus in einem prozedural generierten Labyrinth visualisiert. Bei jedem Start wird ein neues Labyrinth erstellt – platziere die Maus und den Käse, und die App berechnet und animiert den kürzesten Weg zwischen ihnen. Entwickelt mit React, TypeScript und Tailwind.",
+        "title": "Pathfinder"
+      },
+      {
         "color": "#e31102",
         "date": "Juli 2025",
         "icon": "crawler",
@@ -586,6 +640,102 @@
       "title": "Full-Stack Developer"
     },
     "projects": [
+      {
+        "color": "#e35502",
+        "date": "July 2025",
+        "icon": "FoodieGoodie",
+        "id": "foodie",
+        "links": {
+          "github": {
+            "buttonTitle": "See the code!",
+            "link": "https://github.com/UmutAkturk14/Foodie"
+          },
+          "deployment": {
+            "buttonTitle": "Website",
+            "link": "https://umutakturk14.github.io/Foodie/"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+            "tool": "TypeScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+            "tool": "React"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/494343/github.svg",
+            "tool": "GitHub"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          }
+        ],
+        "subTechs": [
+          "A* Pathfinding",
+          "Maze generation",
+          "Canvas rendering",
+          "Algorithms",
+          "Data visualization"
+        ],
+        "tags": ["Front end", "Pathfinding", "A*", "Maze generation", "Canvas"],
+        "text": "An interactive pathfinding app that visualizes the A* algorithm on a procedurally generated maze. Each run creates a new labyrinth—place the mouse and the cheese, and the app computes and animates the shortest path between them. Built with React, TypeScript, and Tailwind.",
+        "title": "Pathfinder"
+      },
+      {
+        "color": "#e35502",
+        "date": "July 2025",
+        "icon": "pathfinder",
+        "id": "pathfinder",
+        "links": {
+          "github": {
+            "buttonTitle": "See the code!",
+            "link": "https://github.com/UmutAkturk14/Pathfinder"
+          },
+          "deployment": {
+            "buttonTitle": "Website",
+            "link": "https://umutakturk14.github.io/Pathfinder/"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+            "tool": "TypeScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+            "tool": "React"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/494343/github.svg",
+            "tool": "GitHub"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          }
+        ],
+        "subTechs": [
+          "A* Pathfinding",
+          "Maze generation",
+          "Canvas rendering",
+          "Algorithms",
+          "Data visualization"
+        ],
+        "tags": ["Front end", "Pathfinding", "A*", "Maze generation", "Canvas"],
+        "text": "An interactive pathfinding app that visualizes the A* algorithm on a procedurally generated maze. Each run creates a new labyrinth—place the mouse and the cheese, and the app computes and animates the shortest path between them. Built with React, TypeScript, and Tailwind.",
+        "title": "Pathfinder"
+      },
       {
         "color": "#e31102",
         "date": "July 2025",
@@ -1114,6 +1264,60 @@
       "title": "Desarrollador Full-Stack"
     },
     "projects": [
+      {
+        "color": "#e35502",
+        "date": "Julio 2025",
+        "icon": "pathfinder",
+        "id": "pathfinder",
+        "links": {
+          "github": {
+            "buttonTitle": "¡Ver el código!",
+            "link": "https://github.com/UmutAkturk14/Pathfinder"
+          },
+          "deployment": {
+            "buttonTitle": "Sitio web",
+            "link": "https://umutakturk14.github.io/Pathfinder/"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+            "tool": "TypeScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+            "tool": "React"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/494343/github.svg",
+            "tool": "GitHub"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          }
+        ],
+        "subTechs": [
+          "Búsqueda de caminos A*",
+          "Generación de laberintos",
+          "Renderizado en Canvas",
+          "Algoritmos",
+          "Visualización de datos"
+        ],
+        "tags": [
+          "Frontend",
+          "Búsqueda de caminos",
+          "A*",
+          "Generación de laberintos",
+          "Canvas"
+        ],
+        "text": "Una aplicación interactiva de búsqueda de caminos que visualiza el algoritmo A* en un laberinto generado proceduralmente. En cada ejecución se crea un nuevo laberinto: coloca el ratón y el queso, y la aplicación calculará y animará el camino más corto entre ellos. Construida con React, TypeScript y Tailwind.",
+        "title": "Pathfinder"
+      },
       {
         "color": "#e31102",
         "date": "Julio 2025",
@@ -1646,6 +1850,61 @@
     },
     "projects": [
       {
+        "color": "#e35502",
+        "date": "Juillet 2025",
+        "icon": "pathfinder",
+        "id": "pathfinder",
+        "links": {
+          "github": {
+            "buttonTitle": "Voir le code !",
+            "link": "https://github.com/UmutAkturk14/Pathfinder"
+          },
+          "deployment": {
+            "buttonTitle": "Site Web",
+            "link": "https://umutakturk14.github.io/Pathfinder/"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+            "tool": "TypeScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+            "tool": "React"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/494343/github.svg",
+            "tool": "GitHub"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          }
+        ],
+        "subTechs": [
+          "Recherche de chemin A*",
+          "Génération de labyrinthe",
+          "Rendu Canvas",
+          "Algorithmes",
+          "Visualisation de données"
+        ],
+        "tags": [
+          "Frontend",
+          "Recherche de chemin",
+          "A*",
+          "Génération de labyrinthe",
+          "Canvas"
+        ],
+        "text": "Une application interactive de recherche de chemin qui visualise l’algorithme A* sur un labyrinthe généré procéduralement. À chaque exécution, un nouveau labyrinthe est créé – placez la souris et le fromage, et l’application calcule et anime le chemin le plus court entre eux. Développée avec React, TypeScript et Tailwind.",
+        "title": "Pathfinder"
+      },
+
+      {
         "color": "#e31102",
         "date": "Juillet 2025",
         "icon": "crawler",
@@ -2177,6 +2436,54 @@
       "title": "Full Stack Developer"
     },
     "projects": [
+      {
+        "color": "#e35502",
+        "date": "Temmuz 2025",
+        "icon": "pathfinder",
+        "id": "pathfinder",
+        "links": {
+          "github": {
+            "buttonTitle": "Kodu gör!",
+            "link": "https://github.com/UmutAkturk14/Pathfinder"
+          },
+          "deployment": {
+            "buttonTitle": "Web Sitesi",
+            "link": "https://umutakturk14.github.io/Pathfinder/"
+          }
+        },
+        "stack": [
+          {
+            "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+            "tool": "TypeScript"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+            "tool": "React"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+            "tool": "Tailwind"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/494343/github.svg",
+            "tool": "GitHub"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/452210/git.svg",
+            "tool": "Git"
+          }
+        ],
+        "subTechs": [
+          "A* Yol Bulma",
+          "Labirent üretimi",
+          "Canvas ile render",
+          "Algoritmalar",
+          "Veri görselleştirme"
+        ],
+        "tags": ["Frontend", "Yol bulma", "A*", "Labirent üretimi", "Canvas"],
+        "text": "A* algoritmasını prosedürel olarak üretilen bir labirent üzerinde görselleştiren etkileşimli bir yol bulma uygulaması. Her çalıştırmada yeni bir labirent oluşturulur – fareyi ve peyniri yerleştirin, uygulama aralarındaki en kısa yolu hesaplayıp animasyonla gösterir. React, TypeScript ve Tailwind ile geliştirilmiştir.",
+        "title": "Pathfinder"
+      },
       {
         "color": "#e31102",
         "date": "Temmuz 2025",

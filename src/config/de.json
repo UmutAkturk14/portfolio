@@ -1,0 +1,571 @@
+{
+  "about": {
+    "bio": "Ich bin Full-Stack-Entwickler mit einem Hintergrund in Linguistik und Redaktion – Wörter und Code sind also beides meine Welt. Ich liebe es, durchdachte, benutzerfreundliche Web-Erlebnisse zu schaffen und dabei ständig Neues zu lernen, von neuen Tech-Stacks bis hin zu Fremdsprachen. Wenn ich nicht programmiere, findest du mich am Meer spazieren, beim Ideen-Scribbeln oder auf Kaffee-getriebenen Gedankensprüngen. Immer neugierig. Immer am Bauen.",
+    "techSkills": [
+      { "name": "JavaScript", "level": 4 },
+      { "name": "Go", "level": 2 },
+      { "name": "HTML", "level": 4 },
+      { "name": "CSS", "level": 4 },
+      { "name": "TypeScript", "level": 3 },
+      { "name": "React", "level": 3 },
+      { "name": "Tailwind", "level": 4 }
+    ],
+    "languageSkills": [
+      { "name": "Englisch", "level": 5 },
+      { "name": "Türkisch", "level": 5 },
+      { "name": "Französisch", "level": 4 },
+      { "name": "Spanisch", "level": 3 },
+      { "name": "Deutsch", "level": 2 }
+    ],
+    "interests": ["Schreiben", "Sport", "Lange Spaziergänge", "Lesen"],
+    "photo": "https://avatars.githubusercontent.com/u/84997345?v=4",
+    "contact": {
+      "email": "umut.akturk14@gmail.com",
+      "linkedin": "https://linkedin.com/in/umut-akturk",
+      "github": "https://github.com/UmutAkturk14",
+      "medium": "https://medium.com/@zookeeper14"
+    },
+    "funFacts": [
+      "Ich habe in 3 Ländern gelebt und spreche 5 Sprachen",
+      "Anfangs Linguist, am Ende Entwickler",
+      "Ich liebe es, lange am Meer spazieren zu gehen, um den Kopf freizubekommen",
+      "Ich verbringe die Wochenenden damit, neue Technik zu erkunden oder über Sprache zu lesen",
+      "Kaffee + Kopfhörer = mein Coding-Ritual"
+    ]
+  },
+  "buttons": {
+    "backToTop": "Nach oben",
+    "contact": "Kontaktieren Sie mich",
+    "copyEmail": "E-Mail kopieren",
+    "cv": "Lebenslauf herunterladen",
+    "download": "Herunterladen",
+    "githubRepo": "GitHub-Repository",
+    "goBack": "Zurück",
+    "hireMe": "Stellen Sie mich ein",
+    "learnMore": "Mehr erfahren",
+    "liveDemo": "Live-Demo",
+    "openInNewTab": "In neuem Tab öffnen",
+    "readMore": "Mehr erfahren",
+    "seeCode": "Code ansehen",
+    "showLess": "Weniger anzeigen",
+    "showMore": "Mehr anzeigen",
+    "viewProjects": "Projekte ansehen",
+    "visitWebsite": "Webseite besuchen"
+  },
+  "contact": {},
+  "hero": {
+    "motto": "Schnell. Klar. Wartbar.",
+    "services": [
+      "Moderne Fullstack-Webentwicklung",
+      "Design von Einzelseiten-Websites",
+      "Entwicklung statischer Webseiten",
+      "Individuelle Webanwendungen",
+      "Website-Überarbeitung \u0026 Neugestaltung"
+    ],
+    "title": "Full-stack Entwickler"
+  },
+  "projects": [
+    {
+      "color": "#e35502",
+      "date": "Juli 2025",
+      "icon": "pathfinder",
+      "id": "pathfinder",
+      "links": {
+        "github": {
+          "buttonTitle": "Sieh dir den Code an!",
+          "link": "https://github.com/UmutAkturk14/Pathfinder"
+        },
+        "deployment": {
+          "buttonTitle": "Webseite",
+          "link": "https://umutakturk14.github.io/Pathfinder/"
+        }
+      },
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+          "tool": "TypeScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+          "tool": "React"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+          "tool": "Tailwind"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/494343/github.svg",
+          "tool": "GitHub"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452210/git.svg",
+          "tool": "Git"
+        }
+      ],
+      "subTechs": [
+        "A*-Pfadsuche",
+        "Labyrinth-Generierung",
+        "Canvas-Rendering",
+        "Algorithmen",
+        "Datenvisualisierung"
+      ],
+      "tags": [
+        "Frontend",
+        "Pfadsuche",
+        "A*",
+        "Labyrinth-Generierung",
+        "Canvas"
+      ],
+      "text": "Eine interaktive Pfadsuch-App, die den A*-Algorithmus in einem prozedural generierten Labyrinth visualisiert. Bei jedem Start wird ein neues Labyrinth erstellt – platziere die Maus und den Käse, und die App berechnet und animiert den kürzesten Weg zwischen ihnen. Entwickelt mit React, TypeScript und Tailwind.",
+      "title": "Pathfinder"
+    },
+    {
+      "color": "#e31102",
+      "date": "Juli 2025",
+      "icon": "crawler",
+      "id": "crawler",
+      "links": {
+        "github": {
+          "buttonTitle": "Code ansehen!",
+          "link": "https://github.com/UmutAkturk14/web-crawler"
+        }
+      },
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+          "tool": "TypeScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/353795/go.svg",
+          "tool": "Go"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+          "tool": "React"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+          "tool": "Tailwind"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/494343/github.svg",
+          "tool": "GitHub"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452210/git.svg",
+          "tool": "Git"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/353659/docker-icon.svg",
+          "tool": "Docker"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/342053/mysql.svg",
+          "tool": "MySQL"
+        }
+      ],
+      "subTechs": [
+        "Gin Web-Framework",
+        "Vite-Bundler",
+        "Playwright-Tests",
+        "MySQL-Datenbank",
+        "JWT-Authentifizierung",
+        "Polling-basierte Statusaktualisierungen",
+        "Responsives UI mit Tailwind",
+        "Docker-Compose-Orchestrierung",
+        "CORS-Konfiguration",
+        "Echtzeit-Crawl-Fortschritt"
+      ],
+      "tags": ["Full Stack", "Webanwendung", "Crawler", "Dashboard"],
+      "text": "Eine Full-Stack-Webanwendung, mit der Benutzer Webseiten einreichen und analysieren können. Dabei werden strukturierte Daten wie HTML-Version, Überschriften, Links und das Vorhandensein von Login-Formularen bereitgestellt. Entwickelt mit Go (Gin), React, TypeScript, MySQL und Docker. Die App bietet Funktionen wie Echtzeit-Crawl-Fortschritt, Massenaktionen, ein detailliertes Dashboard und End-to-End-Tests mit Playwright.",
+      "title": "Web Crawler"
+    },
+    {
+      "color": "#0ffff3",
+      "date": "April 2025 -      ",
+      "icon": "https://www.svgrepo.com/show/191160/kangaroo.svg",
+      "id": "quokka",
+      "links": {
+        "deployment": {
+          "buttonTitle": "Website",
+          "link": "https://umutakturk14.github.io/Quokka-JS/"
+        },
+        "documentation": {
+          "buttonTitle": "Dokumentation",
+          "link": "https://umutakturk14.github.io/QuokkaDocs/"
+        },
+        "github": {
+          "buttonTitle": "Code ansehen!",
+          "link": "https://github.com/UmutAkturk14/QuokkaJS"
+        }
+      },
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+          "tool": "TypeScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+          "tool": "React"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452210/git.svg",
+          "tool": "Git"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/373669/html.svg",
+          "tool": "HTML"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452185/css-3.svg",
+          "tool": "CSS"
+        }
+      ],
+      "subTechs": [
+        "Kompatibel mit Vanilla JS",
+        "Modulare Architektur",
+        "Benutzerdefinierte Events",
+        "Storage-API",
+        "Asynchrone Hilfsfunktionen",
+        "Rollup-Bündelung",
+        "Tree Shaking",
+        "Vitest",
+        "Leistungsorientiert"
+      ],
+      "tags": ["Front end", "Werkzeug", "Bibliothek"],
+      "text": "QuokkaJS ist eine moderne, funktionsreiche Bibliothek in Arbeit, inspiriert von jQuery und mit TypeScript entwickelt. Ziel ist es, eine robuste, modulare und entwicklerfreundliche Bibliothek für DOM-Manipulation, Speicherzugriff, asynchrone Hilfsfunktionen und mehr zu schaffen – mit der Typsicherheit von TypeScript und modernen JavaScript-Funktionen.",
+      "title": "Quokka JS"
+    },
+    {
+      "color": "#471396",
+      "date": "Mai 2025",
+      "icon": "timer",
+      "id": "timer",
+      "links": {
+        "deployment": {
+          "buttonTitle": "Webseite",
+          "link": "https://umutakturk14.github.io/study-timer/"
+        },
+        "github": {
+          "buttonTitle": "Code ansehen!",
+          "link": "https://github.com/UmutAkturk14/study-timer"
+        }
+      },
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+          "tool": "TypeScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452210/git.svg",
+          "tool": "Git"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/373669/html.svg",
+          "tool": "HTML"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452185/css-3.svg",
+          "tool": "CSS"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+          "tool": "React"
+        }
+      ],
+      "subTechs": [
+        "Produktivität",
+        "Ereignisverarbeitung",
+        "Eigene Hooks",
+        "Lokaler Speicher"
+      ],
+      "tags": ["Frontend", "Werkzeuge", "Open Source"],
+      "text": "Productivity Timer ist ein Produktivitätstool, das Nutzern dabei hilft, ihre Lernsitzungen effektiv zu organisieren. Entwickelt mit TypeScript und React, bietet es eine einfache Benutzeroberfläche zur Festlegung von Lernintervallen, Fortschrittsverfolgung, Notizen, Aufgabenverwaltung, detaillierte Arbeitsanalysen, Habit-Tracking, Erinnerungen, einen Kanban-Modus für Aufgaben sowie lokale Datenspeicherung. Die modulare Architektur der App ermöglicht eine einfache Anpassung und Erweiterung.",
+      "title": "Produktivitäts-Timer"
+    },
+    {
+      "color": "#D61C4E",
+      "date": "März 2024",
+      "icon": "pizza",
+      "id": "marios-pizza-villa",
+      "links": {
+        "github": {
+          "buttonTitle": "See the code!",
+          "link": "https://github.com/UmutAkturk14/mario-s-pizza-villa"
+        }
+      },
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+          "tool": "Ruby on Rails"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+          "tool": "JavaScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452242/jquery.svg",
+          "tool": "jQuery"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+          "tool": "Tailwind"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/373669/html.svg",
+          "tool": "HTML"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/473662/inkscape.svg",
+          "tool": "Inkscape"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452210/git.svg",
+          "tool": "Git"
+        }
+      ],
+      "subTechs": [
+        "MVC-Muster",
+        "Bestellverfolgung",
+        "Admin-Dashboard",
+        "Formularvalidierung",
+        "Analytik",
+        "Menüverwaltung",
+        "RESTful-Routing",
+        "Tailwind UI",
+        "jQuery"
+      ],
+      "tags": [
+        "Full Stack",
+        "Back end",
+        "Front end",
+        "Dashboard",
+        "CRUD",
+        "Responsiv"
+      ],
+      "text": "Mario's Pizza Villa ist eine Ruby on Rails-Webanwendung, die als Online-Präsenz unserer fiktiven Pizzeria \"Mario's Pizza Villa\" dient. Über die Plattform können Nutzer unsere Speisekarte einsehen, Bestellungen aufgeben und den Status ihrer Bestellungen bequem verfolgen. Außerdem bietet sie ein Admin-Dashboard mit Analysen und Menüverwaltung.",
+      "title": "Mario's Pizza Villa"
+    },
+    {
+      "color": "#8B5E3C",
+      "date": "September 2023",
+      "icon": "coffee",
+      "id": "jazzed-sips",
+      "links": {
+        "github": {
+          "buttonTitle": "Code ansehen!",
+          "link": "https://github.com/UmutAkturk14/Jazzed-Sips-202309252243"
+        }
+      },
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+          "tool": "Ruby on Rails"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+          "tool": "JavaScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452242/jquery.svg",
+          "tool": "jQuery"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+          "tool": "Tailwind"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/373669/html.svg",
+          "tool": "HTML"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/473662/inkscape.svg",
+          "tool": "Inkscape"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452210/git.svg",
+          "tool": "Git"
+        }
+      ],
+      "subTechs": [
+        "MVC-Muster",
+        "Responsives Design",
+        "UI Design",
+        "RESTful-Routing",
+        "Tailwind UI",
+        "jQuery",
+        "Performance-Optimierung"
+      ],
+      "tags": ["Full Stack", "Back end", "Front end", "Responsiv", "Branding"],
+      "text": "Jazzed Sips verleiht dem Online-Auftritt eines stilvollen, jazz-inspirierten Cafés neues Leben. Die Seite basiert auf HTML zur Strukturierung der Inhalte und verwendet Tailwind für ein elegantes und responsives Design. Ruby on Rails bildet das Backend und übernimmt das Datenmanagement, während JavaScript in Kombination mit der jQuery-Bibliothek dynamische Funktionen und verbesserte Benutzerinteraktionen ermöglicht.",
+      "title": "Jazzed Sips"
+    },
+    {
+      "color": "#5A8F7B",
+      "date": "Juni 2023 – Juli 2023",
+      "icon": "gym",
+      "id": "gym",
+      "links": {
+        "github": {
+          "buttonTitle": "Quellcode ansehen!",
+          "link": "https://github.com/UmutAkturk14/ZoneFit"
+        }
+      },
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+          "tool": "Ruby on Rails"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+          "tool": "JavaScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/353498/bootstrap.svg",
+          "tool": "Bootstrap"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/373669/html.svg",
+          "tool": "HTML"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/373535/css.svg",
+          "tool": "CSS"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452210/git.svg",
+          "tool": "Git"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/349404/heroku.svg",
+          "tool": "Heroku"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/354200/postgresql.svg",
+          "tool": "PostgreSQL"
+        }
+      ],
+      "subTechs": [
+        "Authentifizierung",
+        "durchsuchbare Datenbank",
+        "Videointegration",
+        "Rezeptverwaltung",
+        "Kommentarsystem",
+        "Post-Erstellung",
+        "Freundesystem",
+        "öffentlicher Chat",
+        "Direktnachrichten",
+        "Sozialer Feed"
+      ],
+      "tags": [
+        "Full Stack",
+        "Back end",
+        "Front end",
+        "Responsiv",
+        "Fitness",
+        "Soziale Medien"
+      ],
+      "text": "ZoneFit ist eine Web-App für Fitness- und Gesundheitsbegeisterte, die durchsuchbare Workout-Videos und Rezepte bereitstellt – kombiniert mit sozialen Funktionen wie Kommentieren von Workouts und Rezepten, Erstellen und Kommentieren von Beiträgen, Hinzufügen/Annehmen/Ablehnen von Freunden, Chats in öffentlichen Communities und Direktnachrichten. Weitere Details findest du im Projekt-Repository.",
+      "title": "ZoneFit"
+    }
+  ],
+  "techStack": {
+    "stack": [
+      {
+        "description": "Die zentrale Skriptsprache für die Webentwicklung, die dynamische Inhalte und Interaktivität ermöglicht.",
+        "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+        "name": "JavaScript"
+      },
+      {
+        "description": "Eine stark typisierte Obermenge von JavaScript, die die Produktivität der Entwickler und die Codequalität verbessert.",
+        "icon": "https://www.svgrepo.com/show/374144/typescript.svg",
+        "name": "TypeScript"
+      },
+      {
+        "description": "Eine statisch typisierte, kompilierte Sprache, die für Einfachheit, Nebenläufigkeit und leistungsstarke Backend-Entwicklung entwickelt wurde.",
+        "icon": "https://www.svgrepo.com/show/353795/go.svg",
+        "name": "Go"
+      },
+      {
+        "description": "Amazon Web Services (AWS) ist eine führende Cloud-Plattform, die eine Vielzahl von Diensten für Rechenleistung, Speicher, Netzwerke und mehr anbietet. Derzeit bereite ich mich auf die AWS Cloud Practitioner-Zertifizierung vor, um mein Verständnis der Cloud-Grundlagen zu vertiefen.",
+        "icon": "https://www.svgrepo.com/show/448266/aws.svg",
+        "name": "AWS"
+      },
+      {
+        "description": "Eine beliebte JavaScript-Bibliothek zum Erstellen schneller und interaktiver Benutzeroberflächen mit komponentenbasierter Architektur.",
+        "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+        "name": "React"
+      },
+      {
+        "description": "Die Standard-Auszeichnungssprache zur Erstellung strukturierter Webinhalte und Layouts.",
+        "icon": "https://www.svgrepo.com/show/373669/html.svg",
+        "name": "HTML"
+      },
+      {
+        "description": "Eine Stylesheet-Sprache zur Steuerung der Darstellung und des Layouts von Webseiten.",
+        "icon": "https://www.svgrepo.com/show/452185/css-3.svg",
+        "name": "CSS"
+      },
+      {
+        "description": "Ein Utility-First-CSS-Framework, das eine schnelle UI-Entwicklung mit minimalem benutzerdefinierten Stil ermöglicht.",
+        "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+        "name": "Tailwind"
+      },
+      {
+        "description": "Eine Plattform für Versionskontrolle und Zusammenarbeit, die es Entwicklern ermöglicht, Code zu speichern, zu verwalten und gemeinsam daran zu arbeiten.",
+        "icon": "https://www.svgrepo.com/show/494343/github.svg",
+        "name": "GitHub"
+      },
+      {
+        "description": "Ein verteiltes Versionskontrollsystem zur Nachverfolgung von Codeänderungen und zur Zusammenarbeit.",
+        "icon": "https://www.svgrepo.com/show/452210/git.svg",
+        "name": "Git"
+      },
+      {
+        "description": "Eine Plattform zum Entwickeln, Bereitstellen und Ausführen von Anwendungen in leichtgewichtigen Containern.",
+        "icon": "https://www.svgrepo.com/show/353659/docker-icon.svg",
+        "name": "Docker"
+      },
+      {
+        "description": "Eine schnelle, kleine und funktionsreiche JavaScript-Bibliothek, die DOM-Manipulation und AJAX-Aufrufe vereinfacht.",
+        "icon": "https://www.svgrepo.com/show/452242/jquery.svg",
+        "name": "jQuery"
+      },
+      {
+        "description": "Ein Projektmanagement- und Fehlerverfolgungstool, das für agile Entwicklung und Teamzusammenarbeit verwendet wird.",
+        "icon": "https://www.svgrepo.com/show/353935/jira.svg",
+        "name": "Jira"
+      },
+      {
+        "description": "Ein vollständiges Webanwendungs-Framework in Ruby, das Konvention über Konfiguration und schnelle Entwicklung betont.",
+        "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+        "name": "Rails"
+      },
+      {
+        "description": "Eine dynamische, quelloffene Programmiersprache, die auf Einfachheit und Produktivität ausgelegt ist und häufig mit Rails verwendet wird.",
+        "icon": "https://www.svgrepo.com/show/354298/ruby.svg",
+        "name": "Ruby"
+      },
+      {
+        "description": "Ein fortschrittliches Open-Source-Relationaldatenbanksystem, das für Robustheit, Erweiterbarkeit und Standardkonformität bekannt ist.",
+        "icon": "https://www.svgrepo.com/show/354200/postgresql.svg",
+        "name": "PostgreSQL"
+      }
+    ],
+    "title": "Meine Tech-Tools"
+  },
+  "writings": {
+    "sectionTitle": "Meine Gedankenwelten",
+    "articles": [
+      {
+        "title": "From jQuery to Quokka JS: Rebuilding a Classic to Truly Understand It",
+        "description": "Einen Klassiker neu bauen, um tief zu lernen: wie ich Quokka JS geschaffen habe – eine flexible, moderne Utility-Bibliothek, inspiriert von jQuery und angetrieben von TypeScript.",
+        "date": "May 2025",
+        "link": "https://medium.com/@zookeeper14/from-jquery-to-quokkajs-rebuilding-a-classic-to-truly-understand-it-d8bca777a8d0",
+        "tags": ["Technologie", "Persönlich", "Lernen"],
+        "coverImage": "https://images.unsplash.com/photo-1639431682289-72b9ebb75895?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "themeColor": "#4A90E2"
+      }
+    ]
+  }
+}

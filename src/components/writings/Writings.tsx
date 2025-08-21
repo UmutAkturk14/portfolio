@@ -3,16 +3,9 @@ import Writing from "./Writing";
 import { useLanguage } from "../../context/languageContext";
 
 const Writings = () => {
-  const { language, translations } = useLanguage();
-  const writings = translations[language]?.writings ?? [];
-
-  const sectionTitle = {
-    en: "My Writings",
-    fr: "Mes Écritures",
-    es: "Mis Letras",
-    tr: "Yazdıklarım",
-    de: "Meine Gedankenwelten",
-  }[language];
+  const { translations } = useLanguage();
+  const writings = translations?.writings ?? [];
+  const { articles, sectionTitle } = writings;
 
   return (
     <section id="writings" className="min-h-[100svh] py-20">
@@ -23,7 +16,7 @@ const Writings = () => {
 
         {/* Mobile carousel */}
         <div className="sm:hidden overflow-x-auto flex gap-6 snap-x snap-mandatory scrollbar-thin scrollbar-thumb-primary scroll- scrollbar-track-transparent">
-          {writings.map((item: WritingType) => (
+          {articles.map((item: WritingType) => (
             <div key={item.link} className="snap-start flex-shrink-0 w-[95vw]">
               <Writing writing={item} />
             </div>
@@ -32,7 +25,7 @@ const Writings = () => {
 
         {/* Desktop grid */}
         <div className="hidden sm:grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {writings.map((item: WritingType) => (
+          {articles.map((item: WritingType) => (
             <Writing key={item.link} writing={item} />
           ))}
         </div>

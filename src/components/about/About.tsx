@@ -9,7 +9,7 @@ import ContactLinks from "./ContactLinks";
 
 const About = () => {
   const { language, translations } = useLanguage();
-  const about: AboutMe = translations[language]?.about ?? ({} as AboutMe);
+  const about: AboutMe = translations?.about ?? ({} as AboutMe);
 
   const {
     bio,

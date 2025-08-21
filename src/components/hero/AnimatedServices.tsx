@@ -7,10 +7,10 @@ function AnimatedServices() {
   const [isVisible, setIsVisible] = useState(false);
 
   const services = useMemo(
-    () => translations[language]?.hero?.services || [],
+    () => translations?.hero?.services || [],
     [language, translations]
   );
-  const motto = translations[language]?.hero?.motto || "";
+  const motto = translations.hero?.motto || "";
 
   // Handle cycling through services
   useEffect(() => {

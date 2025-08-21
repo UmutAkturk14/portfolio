@@ -1,0 +1,564 @@
+{
+  "about": {
+    "bio": "Dilbilim ve editörlük geçmi olan bir full stack geliştirmeciyim — kelimeler ve kod ikisi de benim işim. Düşünceli, kullanıcı dostu web deneyimleri yaratmayı ve yeni teknoloji yığınlarından yabancı dillere kadar hemen her şeyi öğrenmeyi seviyorum. Kod yazmadığım zamanlarda, sahil kenarında yürürken, fikirler karalarken ya da kahve destekli keşiflere dalarken bulunabilirim. Hep meraklı. Hep inşa halinde.",
+    "techSkills": [
+      { "name": "JavaScript", "level": 4 },
+      { "name": "Go", "level": 2 },
+      { "name": "HTML", "level": 4 },
+      { "name": "CSS", "level": 4 },
+      { "name": "TypeScript", "level": 3 },
+      { "name": "React", "level": 3 },
+      { "name": "Tailwind", "level": 4 }
+    ],
+    "languageSkills": [
+      { "name": "İngilizce", "level": 5 },
+      { "name": "Türkçe", "level": 5 },
+      { "name": "Fransızca", "level": 4 },
+      { "name": "İspanyolca", "level": 3 },
+      { "name": "Almanca", "level": 2 }
+    ],
+    "interests": ["Yazmak", "Egzersiz", "Uzun yürüyüşler", "Okumak"],
+    "photo": "https://avatars.githubusercontent.com/u/84997345?v=4",
+    "contact": {
+      "email": "umut.akturk14@gmail.com",
+      "linkedin": "https://linkedin.com/in/umut-akturk",
+      "github": "https://github.com/UmutAkturk14",
+      "medium": "https://medium.com/@zookeeper14"
+    },
+    "funFacts": [
+      "3 ülkede yaşadım ve 5 dil konuşuyorum",
+      "Dilbilimci olarak başladım, geliştirici olarak bitirdim",
+      "Zihnimi rahatlatmak için deniz kenarında uzun yürüyüşler yapmayı seviyorum",
+      "Hafta sonlarını yeni teknolojileri keşfederek veya dil üzerine okuyarak geçiriyorum",
+      "Kahve + kulaklık = kodlama ritüelim"
+    ]
+  },
+  "buttons": {
+    "backToTop": "Başa Dön",
+    "contact": "Benimle İletişime Geç",
+    "copyEmail": "E-postayı Kopyala",
+    "cv": "CV'yi İndir",
+    "download": "İndir",
+    "githubRepo": "GitHub Reposu",
+    "goBack": "Geri Dön",
+    "hireMe": "Beni İşe Al",
+    "learnMore": "Daha Fazla Bilgi",
+    "liveDemo": "Canlı Demo",
+    "openInNewTab": "Yeni Sekmede Aç",
+    "readMore": "Daha Fazla Oku",
+    "seeCode": "Kodu Gör",
+    "showLess": "Daha Azını Göster",
+    "showMore": "Daha Fazlasını Göster",
+    "viewProjects": "Projeleri Görüntüle",
+    "visitWebsite": "Web Sitesini Ziyaret Et"
+  },
+  "contact": {},
+  "hero": {
+    "motto": "Hızlı. Temiz. Sürdürülebilir.",
+    "services": [
+      "Modern Full Stack Geliştirme",
+      "Tek Sayfalık Web Sitesi Tasarımı",
+      "Statik Web Sitesi Geliştirme",
+      "Özel Web Uygulama Geliştirme",
+      "Web Sitesi Yenileme ve Revizyon"
+    ],
+    "title": "Full Stack Developer"
+  },
+  "projects": [
+    {
+      "color": "#e35502",
+      "date": "Temmuz 2025",
+      "icon": "pathfinder",
+      "id": "pathfinder",
+      "links": {
+        "github": {
+          "buttonTitle": "Kodu gör!",
+          "link": "https://github.com/UmutAkturk14/Pathfinder"
+        },
+        "deployment": {
+          "buttonTitle": "Web Sitesi",
+          "link": "https://umutakturk14.github.io/Pathfinder/"
+        }
+      },
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+          "tool": "TypeScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+          "tool": "React"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+          "tool": "Tailwind"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/494343/github.svg",
+          "tool": "GitHub"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452210/git.svg",
+          "tool": "Git"
+        }
+      ],
+      "subTechs": [
+        "A* Yol Bulma",
+        "Labirent üretimi",
+        "Canvas ile render",
+        "Algoritmalar",
+        "Veri görselleştirme"
+      ],
+      "tags": ["Frontend", "Yol bulma", "A*", "Labirent üretimi", "Canvas"],
+      "text": "A* algoritmasını prosedürel olarak üretilen bir labirent üzerinde görselleştiren etkileşimli bir yol bulma uygulaması. Her çalıştırmada yeni bir labirent oluşturulur – fareyi ve peyniri yerleştirin, uygulama aralarındaki en kısa yolu hesaplayıp animasyonla gösterir. React, TypeScript ve Tailwind ile geliştirilmiştir.",
+      "title": "Pathfinder"
+    },
+    {
+      "color": "#e31102",
+      "date": "Temmuz 2025",
+      "icon": "crawler",
+      "id": "crawler",
+      "links": {
+        "github": {
+          "buttonTitle": "See the code!",
+          "link": "https://github.com/UmutAkturk14/web-crawler"
+        }
+      },
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+          "tool": "TypeScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/353795/go.svg",
+          "tool": "Go"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+          "tool": "React"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+          "tool": "Tailwind"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/494343/github.svg",
+          "tool": "GitHub"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452210/git.svg",
+          "tool": "Git"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/353659/docker-icon.svg",
+          "tool": "Docker"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/342053/mysql.svg",
+          "tool": "MySQL"
+        }
+      ],
+      "subTechs": [
+        "Gin web çatısı",
+        "Vite paketleyici",
+        "Playwright testleri",
+        "MySQL veritabanı",
+        "JWT kimlik doğrulama",
+        "Anket tabanlı durum güncellemeleri",
+        "Tailwind ile duyarlı arayüz",
+        "Docker Compose ile orkestrasyon",
+        "CORS yapılandırması",
+        "Gerçek zamanlı tarama ilerlemesi"
+      ],
+      "tags": [
+        "Full Stack",
+        "Front end",
+        "Back end",
+        "Web Uygulaması",
+        "Tarama",
+        "Kontrol Paneli"
+      ],
+      "text": "Kullanıcıların web sayfalarını gönderip analiz edebildiği, HTML sürümü, başlıklar, bağlantılar ve giriş formu tespiti gibi yapısal veriler sağlayan full-stack bir web uygulaması. Go (Gin), React, TypeScript, MySQL ve Docker ile geliştirilen bu uygulama, gerçek zamanlı tarama ilerlemesi, toplu işlemler, detaylı bir kontrol paneli ve Playwright ile uçtan uca testler içerir.",
+      "title": "Web Crawler"
+    },
+    {
+      "color": "#0ffff3",
+      "date": "Nisan 2025 -      ",
+      "icon": "https://www.svgrepo.com/show/191160/kangaroo.svg",
+      "id": "quokka",
+      "links": {
+        "deployment": {
+          "buttonTitle": "Website",
+          "link": "https://umutakturk14.github.io/Quokka-JS/"
+        },
+        "documentation": {
+          "buttonTitle": "Dökümantasyon",
+          "link": "https://umutakturk14.github.io/QuokkaDocs/"
+        },
+        "github": {
+          "buttonTitle": "Koda göz at!",
+          "link": "https://github.com/UmutAkturk14/QuokkaJS"
+        }
+      },
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+          "tool": "TypeScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+          "tool": "React"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452210/git.svg",
+          "tool": "Git"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/373669/html.svg",
+          "tool": "HTML"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452185/css-3.svg",
+          "tool": "CSS"
+        }
+      ],
+      "subTechs": [
+        "Vanilla JS ile uyumlu",
+        "Modüler mimari",
+        "Storage API",
+        "Async",
+        "Rollup",
+        "Tree shaking",
+        "Vitest",
+        "Performans odaklı"
+      ],
+      "tags": ["Full stack", "Back end", "Front end", "Tooling", "Kütüphane"],
+      "text": "QuokkaJS, jQuery'den ilham alan, TypeScript ile geliştirilmiş, modern ve özelliklerle dolu bir kütüphane projesidir. Amaç, DOM manipülasyonu, depolama erişimi, asenkron yardımcılar ve daha fazlası için sağlam, modüler ve geliştirici dostu bir kütüphane oluşturmaktır; TypeScript’in sağladığı tip güvenliği ve modern JavaScript özelliklerinden faydalanır.",
+      "title": "Quokka JS"
+    },
+    {
+      "color": "#471396",
+      "date": "Mayıs 2025",
+      "icon": "timer",
+      "id": "timer",
+      "links": {
+        "deployment": {
+          "buttonTitle": "Web Sitesi",
+          "link": "https://umutakturk14.github.io/study-timer/"
+        },
+        "github": {
+          "buttonTitle": "Kodu Görüntüle!",
+          "link": "https://github.com/UmutAkturk14/study-timer"
+        }
+      },
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+          "tool": "TypeScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452210/git.svg",
+          "tool": "Git"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/373669/html.svg",
+          "tool": "HTML"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452185/css-3.svg",
+          "tool": "CSS"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+          "tool": "React"
+        }
+      ],
+      "subTechs": [
+        "Verimlilik",
+        "Olay yönetimi",
+        "Özel hook'lar",
+        "Yerel depolama"
+      ],
+      "tags": ["Ön yüz", "Front end", "Open Source", "Araçlar", "Açık kaynak"],
+      "text": "Productivity Timer, kullanıcıların çalışma oturumlarını verimli bir şekilde yönetmelerine yardımcı olmak için tasarlanmış bir verimlilik aracıdır. TypeScript ve React ile geliştirilmiş olup; çalışma aralıkları ayarlama, ilerlemeyi takip etme, not alma, yapılacaklar listesini yönetme, detaylı çalışma analizi sunma, alışkanlık takibi, hatırlatıcılar kurma, yapılacaklar için Kanban modu kullanma ve verileri yerel olarak saklama gibi özellikler sunar. Uygulamanın modüler yapısı, kolay özelleştirme ve genişletme imkânı sağlar.",
+      "title": "Verimlilik Zamanlayıcısı"
+    },
+    {
+      "color": "#D61C4E",
+      "date": "Mart 2024",
+      "icon": "pizza",
+      "id": "marios-pizza-villa",
+      "links": {
+        "github": {
+          "buttonTitle": "See the code!",
+          "link": "https://github.com/UmutAkturk14/mario-s-pizza-villa"
+        }
+      },
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+          "tool": "Ruby on Rails"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+          "tool": "JavaScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452242/jquery.svg",
+          "tool": "jQuery"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+          "tool": "Tailwind"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/373669/html.svg",
+          "tool": "HTML"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/473662/inkscape.svg",
+          "tool": "Inkscape"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452210/git.svg",
+          "tool": "Git"
+        }
+      ],
+      "subTechs": [
+        "MVC",
+        "Sipariş takibi",
+        "Yönetici paneli",
+        "Form doğrulamaları",
+        "Analitik",
+        "Menü yönetimi",
+        "REST",
+        "Tailwind",
+        "jQuery"
+      ],
+      "tags": [
+        "Full stack",
+        "Back end",
+        "Front end",
+        "Yönetici paneli",
+        "CRUD",
+        "Responsive tasarım"
+      ],
+      "text": "Mario's Pizza Villa, hayali pizzacımız \"Mario's Pizza Villa\" için çevrimiçi varlık sunan bir Ruby on Rails web uygulamasıdır. Kullanıcılar bu platform üzerinden menüyü inceleyebilir, sipariş verebilir ve sipariş durumlarını kolayca takip edebilir. Ayrıca analizler ve menü yönetimi özellikleri sunan bir yönetici paneli de mevcuttur.",
+      "title": "Mario's Pizza Villa"
+    },
+    {
+      "color": "#8B5E3C",
+      "date": "Eylül 2023",
+      "icon": "coffee",
+      "id": "jazzed-sips",
+      "links": {
+        "github": {
+          "buttonTitle": "Koda göz at!",
+          "link": "https://github.com/UmutAkturk14/Jazzed-Sips-202309252243"
+        }
+      },
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+          "tool": "Ruby on Rails"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+          "tool": "JavaScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452242/jquery.svg",
+          "tool": "jQuery"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+          "tool": "Tailwind"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/373669/html.svg",
+          "tool": "HTML"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/473662/inkscape.svg",
+          "tool": "Inkscape"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452210/git.svg",
+          "tool": "Git"
+        }
+      ],
+      "subTechs": [
+        "MVC",
+        "Responsive Tasarım",
+        "Arayüz",
+        "Dinamik Menü",
+        "REST",
+        "Tailwind UI",
+        "jQuery"
+      ],
+      "tags": ["Full Stack", "Front end", "Back end", "Responsive"],
+      "text": "Jazzed Sips, şık ve cazdan ilham alan bir kafenin çevrim içi varlığına hayat veriyor. İçeriği yapılandırmak için HTML temel alınırken, zarif ve uyumlu bir tasarım için Tailwind kullanılmıştır. Ruby on Rails, verileri yöneterek arka ucu desteklerken, JavaScript ve jQuery kitaplığı da dinamik özellikler kazandırmakta ve kullanıcı etkileşimini geliştirmektedir.",
+      "title": "Jazzed Sips"
+    },
+    {
+      "color": "#5A8F7B",
+      "date": "Haz 2023 – Tem 2023",
+      "icon": "gym",
+      "id": "gym",
+      "links": {
+        "github": {
+          "buttonTitle": "Koda göz at!",
+          "link": "https://github.com/UmutAkturk14/ZoneFit"
+        }
+      },
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+          "tool": "Ruby on Rails"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+          "tool": "JavaScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/353498/bootstrap.svg",
+          "tool": "Bootstrap"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/373669/html.svg",
+          "tool": "HTML"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/373535/css.svg",
+          "tool": "CSS"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/452210/git.svg",
+          "tool": "Git"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/349404/heroku.svg",
+          "tool": "Heroku"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/354200/postgresql.svg",
+          "tool": "PostgreSQL"
+        }
+      ],
+      "subTechs": [
+        "Kimlik doğrulama",
+        "Search",
+        "Video entegrasyonu",
+        "Tarif yönetimi",
+        "Yorum sistemi",
+        "Gönderi oluşturma",
+        "Arkadaşlık sistemi",
+        "Anlık genel sohbet",
+        "Anlık özel mesajlaşma",
+        "Sosyal akış"
+      ],
+      "tags": ["Full Stack", "Front end", "Back end", "Responsive Tasarım"],
+      "text": "ZoneFit, egzersiz videoları ve sağlıklı yaşam tariflerini arama özelliğiyle sunan, fitness/sağlıklı yaşam meraklılarına yönelik bir web uygulamasıdır. Aynı zamanda sosyal medya özellikleri de içerir: antrenmanlara ve tariflere yorum yapma, gönderi oluşturma, gönderilere yorum yapma, arkadaş ekleme/kabul etme/reddetme, genel topluluklarda sohbet etme ve özel mesajlaşma gibi. Detaylar için proje deposuna göz atabilirsiniz.",
+      "title": "ZoneFit"
+    }
+  ],
+  "techStack": {
+    "stack": [
+      {
+        "description": "Web geliştirme için temel betik dili olup, dinamik içerik ve etkileşim sağlar.",
+        "icon": "https://www.svgrepo.com/show/353925/javascript.svg",
+        "name": "JavaScript"
+      },
+      {
+        "description": "Geliştirici verimliliğini ve kod kalitesini artıran, JavaScript'in güçlü türlere sahip bir üst kümesidir.",
+        "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+        "name": "TypeScript"
+      },
+      {
+        "description": "Basitlik, eşzamanlılık ve yüksek performanslı arka uç geliştirme için tasarlanmış, statik türlere sahip derlenmiş bir dil.",
+        "icon": "https://www.svgrepo.com/show/353795/go.svg",
+        "name": "Go"
+      },
+      {
+        "description": "Amazon Web Services (AWS), bilgi işlem, depolama, ağ iletişimi ve daha fazlası için geniş hizmetler sunan lider bir bulut platformudur. Bulut bilişim temellerini daha iyi anlamak için şu anda AWS Cloud Practitioner sertifikasına çalışıyorum.",
+        "icon": "https://www.svgrepo.com/show/448266/aws.svg",
+        "name": "AWS"
+      },
+      {
+        "description": "Bileşen tabanlı mimarisiyle hızlı ve etkileşimli kullanıcı arayüzleri oluşturmaya yarayan popüler bir JavaScript kütüphanesidir.",
+        "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+        "name": "React"
+      },
+      {
+        "description": "Yapılandırılmış web içeriği ve düzenleri oluşturmak için kullanılan standart işaretleme dilidir.",
+        "icon": "https://www.svgrepo.com/show/373669/html.svg",
+        "name": "HTML"
+      },
+      {
+        "description": "Web sayfalarının görünümünü ve düzenini kontrol etmek için kullanılan stil sayfası dilidir.",
+        "icon": "https://www.svgrepo.com/show/452185/css-3.svg",
+        "name": "CSS"
+      },
+      {
+        "description": "Minimum özel stil ile hızlı arayüz geliştirme sağlayan utility-first CSS framework'üdür.",
+        "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+        "name": "Tailwind"
+      },
+      {
+        "description": "Eine Plattform für Versionskontrolle und Zusammenarbeit, die es Entwicklern ermöglicht, Code zu speichern, zu verwalten und gemeinsam daran zu arbeiten.",
+        "icon": "https://www.svgrepo.com/show/494343/github.svg",
+        "name": "GitHub"
+      },
+      {
+        "description": "Kod değişikliklerini izlemek ve başkalarıyla iş birliği yapmak için kullanılan dağıtık bir versiyon kontrol sistemidir.",
+        "icon": "https://www.svgrepo.com/show/452210/git.svg",
+        "name": "Git"
+      },
+      {
+        "description": "Uygulamaları hafif konteynerlerde geliştirme, dağıtma ve çalıştırma platformudur.",
+        "icon": "https://www.svgrepo.com/show/353659/docker-icon.svg",
+        "name": "Docker"
+      },
+      {
+        "description": "DOM manipülasyonunu ve AJAX çağrılarını kolaylaştıran hızlı, küçük ve özellik açısından zengin bir JavaScript kütüphanesidir.",
+        "icon": "https://www.svgrepo.com/show/452242/jquery.svg",
+        "name": "jQuery"
+      },
+      {
+        "description": "Agile geliştirme ve ekip iş birliği için kullanılan proje yönetim ve hata takip aracıdır.",
+        "icon": "https://www.svgrepo.com/show/353935/jira.svg",
+        "name": "Jira"
+      },
+      {
+        "description": "Ruby ile yazılmış, yapılandırma yerine varsayılanı esas alan ve hızlı geliştirmeyi amaçlayan full-stack bir web uygulama framework'üdür.",
+        "icon": "https://www.svgrepo.com/show/354252/rails.svg",
+        "name": "Rails"
+      },
+      {
+        "description": "Basitlik ve üretkenliğe odaklanan dinamik, açık kaynaklı bir programlama dilidir; genellikle Rails ile birlikte kullanılır.",
+        "icon": "https://www.svgrepo.com/show/354298/ruby.svg",
+        "name": "Ruby"
+      },
+      {
+        "description": "Gelişmiş, açık kaynaklı, güvenilirliği, genişletilebilirliği ve standartlara uygunluğu ile tanınan ilişkisel veritabanı sistemidir.",
+        "icon": "https://www.svgrepo.com/show/354200/postgresql.svg",
+        "name": "PostgreSQL"
+      }
+    ],
+    "title": "Teknolojiler"
+  },
+  "writings": {
+    "sectionTitle": "Yazdıklarım",
+    "articles": [
+      {
+        "title": "From jQuery to Quokka JS: Rebuilding a Classic to Truly Understand It",
+        "description": "Derinlemesine öğrenmek için bir klasiği yeniden inşa etmek: jQuery’den ilham alarak TypeScript ile oluşturduğum modern ve esnek yardımcı kütüphane Quokka JS’in hikâyesi.",
+        "date": "Mayıs 2025",
+        "link": "https://medium.com/@zookeeper14/from-jquery-to-quokkajs-rebuilding-a-classic-to-truly-understand-it-d8bca777a8d0",
+        "tags": ["Teknoloji", "Kişisel", "Öğrenme"],
+        "coverImage": "https://images.unsplash.com/photo-1639431682289-72b9ebb75895?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "themeColor": "#4A90E2"
+      }
+    ]
+  }
+}

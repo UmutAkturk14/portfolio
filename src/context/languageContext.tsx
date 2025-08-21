@@ -1,23 +1,38 @@
 // src/context/LanguageContext.tsx
 import { createContext, useContext, useState, useEffect } from "react";
 import type { ReactNode } from "react";
-import translations from "../config/translations.json";
+
+import en from "../config/en.json";
+import fr from "../config/fr.json";
+import de from "../config/de.json";
+import es from "../config/es.json";
+import tr from "../config/tr.json";
 
 type Language = "en" | "fr" | "de" | "es" | "tr";
+
+const translationsMap: Record<Language, Record<string, object>> = {
+  en,
+  fr,
+  de,
+  es,
+  tr,
+};
 
 const LanguageContext = createContext<{
   language: Language;
   setLanguage: (lang: Language) => void;
-  translations: Record<string, any>;
+  translations: Record<string, object>;
 }>({
   language: "en",
   setLanguage: () => {},
-  translations: translations,
+  translations: en,
 });
 
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
   const [language, setLanguageState] = useState<Language>("en");
-  const [currentTranslations] = useState(translations);
+  const [currentTranslations, setCurrentTranslations] = useState(
+    translationsMap["en"]
+  );
 
   // Get saved language from localStorage or fall back to browser language
   useEffect(() => {
@@ -25,20 +40,24 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
       "preferredLanguage"
     ) as Language | null;
 
-    if (savedLang && translations[savedLang]) {
-      setLanguageState(savedLang);
+    let lang: Language;
+    if (savedLang && translationsMap[savedLang]) {
+      lang = savedLang;
     } else {
       const browserLang = navigator.language.slice(0, 2); // e.g., "en", "fr"
-      const supportedLang = ["en", "fr", "de", "es", "tr"].includes(browserLang)
+      lang = ["en", "fr", "de", "es", "tr"].includes(browserLang)
         ? (browserLang as Language)
         : "en";
-      setLanguageState(supportedLang);
     }
+
+    setLanguageState(lang);
+    setCurrentTranslations(translationsMap[lang]);
   }, []);
 
   const setLanguage = (lang: Language) => {
     localStorage.setItem("preferredLanguage", lang);
     setLanguageState(lang);
+    setCurrentTranslations(translationsMap[lang]);
   };
 
   return (

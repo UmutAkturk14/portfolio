@@ -4,9 +4,10 @@ import Technology from "./Technology"; // ⬅️ new import
 import "../sectionComponents/customStyles.css";
 
 const TechGrid = () => {
+  // debugger;
   const { language, translations } = useLanguage();
   const [isVisible, setIsVisible] = useState(false);
-  const { title, stack } = translations[language].techStack ?? {};
+  const { title, stack } = translations.techStack ?? {};
 
   const techStack: Record<
     string,
