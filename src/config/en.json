@@ -53,12 +53,7 @@
         "level": 2
       }
     ],
-    "interests": [
-      "Writing",
-      "Exercise",
-      "Long walks",
-      "Reading"
-    ],
+    "interests": ["Writing", "Exercise", "Long walks", "Reading"],
     "photo": "https://avatars.githubusercontent.com/u/84997345?v=4",
     "contact": {
       "email": "umut.akturk14@gmail.com",
@@ -140,8 +135,14 @@
         }
       ],
       "links": {
-        "github": "https://github.com/UmutAkturk14/Foodie",
-        "deployment": "umutakturk14.github.io/Foodie"
+        "github": {
+          "buttonTitle": "See the code!",
+          "link": "https://github.com/UmutAkturk14/Foodie"
+        },
+        "deployment": {
+          "buttonTitle": "Website",
+          "link": "umutakturk14.github.io/Foodie"
+        }
       }
     },
     {
@@ -188,13 +189,7 @@
         "Algorithms",
         "Data visualization"
       ],
-      "tags": [
-        "Front end",
-        "Pathfinding",
-        "A*",
-        "Maze generation",
-        "Canvas"
-      ],
+      "tags": ["Front end", "Pathfinding", "A*", "Maze generation", "Canvas"],
       "text": "An interactive pathfinding app that visualizes the A* algorithm on a procedurally generated maze. Each run creates a new labyrinth—place the mouse and the cheese, and the app computes and animates the shortest path between them. Built with React, TypeScript, and Tailwind.",
       "title": "Pathfinder"
     },
@@ -315,12 +310,7 @@
         "Vitest",
         "performance-focused"
       ],
-      "tags": [
-        "Front end",
-        "Tooling",
-        "Library",
-        "Open source"
-      ],
+      "tags": ["Front end", "Tooling", "Library", "Open source"],
       "text": "QuokkaJS is a work-in-progress, modern, feature-rich library inspired by jQuery, built with TypeScript. The goal is to create a robust, modular, and developer-friendly library for DOM manipulation, storage access, async utilities, and more, while leveraging the power of TypeScript for type safety and modern JavaScript features.",
       "title": "Quokka JS"
     },
@@ -367,11 +357,7 @@
         "Custom hooks",
         "Local storage"
       ],
-      "tags": [
-        "Front end",
-        "Tooling",
-        "Open source"
-      ],
+      "tags": ["Front end", "Tooling", "Open source"],
       "text": "Productivity Timer is a productivity tool designed to help users manage their study sessions effectively. Built with TypeScript and React, it features a simple interface for setting study intervals, tracking progress, taking notes, handling to-dos, getting detailed work analysis, tracking habits, setting reminders, a Kanban mode for to-dos and storing session data locally. The app's modular architecture allows for easy customization and extension.",
       "title": "Productivity Timer"
     },
@@ -664,11 +650,7 @@
         "description": "Rebuilding a classic to learn deeply: how I created Quokka JS, a flexible, modern utility library inspired by jQuery and powered by TypeScript.",
         "date": "May 2025",
         "link": "https://medium.com/@zookeeper14/from-jquery-to-quokkajs-rebuilding-a-classic-to-truly-understand-it-d8bca777a8d0",
-        "tags": [
-          "Tech",
-          "Personal",
-          "Learning"
-        ],
+        "tags": ["Tech", "Personal", "Learning"],
         "coverImage": "https://images.unsplash.com/photo-1639431682289-72b9ebb75895?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "themeColor": "#4A90E2"
       }
