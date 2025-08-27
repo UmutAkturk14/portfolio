@@ -107,46 +107,24 @@
   },
   "projects": [
     {
-      "id": "my-project",
-      "title": "My Project",
-      "color": "#000000",
-      "date": "August 2025",
-      "icon": "cloud",
-      "subTechs": [],
-      "tags": [
-        "CLI",
-        "Portfolio"
-      ],
-      "text": "A sample project description.",
-      "stack": [
-        {
-          "icon": "https://www.svgrepo.com/show/353659/docker-icon.svg",
-          "tool": "Docker"
-        },
-        {
-          "icon": "https://www.svgrepo.com/show/452210/git.svg",
-          "tool": "Git"
-        }
-      ],
-      "links": {
-        "github": "test"
-      }
-    },
-    {
-      "color": "#e35502",
+      "id": "Foodie",
+      "title": "Foodie",
+      "color": "#fcba03",
       "date": "July 2025",
-      "icon": "FoodieGoodie",
-      "id": "foodie",
-      "links": {
-        "github": {
-          "buttonTitle": "See the code!",
-          "link": "https://github.com/UmutAkturk14/Foodie"
-        },
-        "deployment": {
-          "buttonTitle": "Website",
-          "link": "https://umutakturk14.github.io/Foodie/"
-        }
-      },
+      "icon": "Plate",
+      "subTechs": [
+        "Responsive UI",
+        "Animations",
+        "Framer motion",
+        "Landing page"
+      ],
+      "tags": [
+        "Custom UI design",
+        "Responsive Design",
+        "Animation",
+        "Landing page"
+      ],
+      "text": "A health-focused web app concept designed with elegance and user experience in mind. It features a sleek landing page that guides users through a personalized health questionnaire, collecting information such as age, sex, exercise routines, and eating habits. Based on the responses, the app provides tailored food and exercise recommendations, combining intuitive design with meaningful insights for healthier living.",
       "stack": [
         {
           "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
@@ -159,32 +137,12 @@
         {
           "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
           "tool": "Tailwind"
-        },
-        {
-          "icon": "https://www.svgrepo.com/show/494343/github.svg",
-          "tool": "GitHub"
-        },
-        {
-          "icon": "https://www.svgrepo.com/show/452210/git.svg",
-          "tool": "Git"
         }
       ],
-      "subTechs": [
-        "A* Pathfinding",
-        "Maze generation",
-        "Canvas rendering",
-        "Algorithms",
-        "Data visualization"
-      ],
-      "tags": [
-        "Front end",
-        "Pathfinding",
-        "A*",
-        "Maze generation",
-        "Canvas"
-      ],
-      "text": "An interactive pathfinding app that visualizes the A* algorithm on a procedurally generated maze. Each run creates a new labyrinth—place the mouse and the cheese, and the app computes and animates the shortest path between them. Built with React, TypeScript, and Tailwind.",
-      "title": "Pathfinder"
+      "links": {
+        "github": "https://github.com/UmutAkturk14/Foodie",
+        "deployment": "umutakturk14.github.io/Foodie"
+      }
     },
     {
       "color": "#e35502",
