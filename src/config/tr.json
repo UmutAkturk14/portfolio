@@ -2,22 +2,63 @@
   "about": {
     "bio": "Dilbilim ve editörlük geçmi olan bir full stack geliştirmeciyim — kelimeler ve kod ikisi de benim işim. Düşünceli, kullanıcı dostu web deneyimleri yaratmayı ve yeni teknoloji yığınlarından yabancı dillere kadar hemen her şeyi öğrenmeyi seviyorum. Kod yazmadığım zamanlarda, sahil kenarında yürürken, fikirler karalarken ya da kahve destekli keşiflere dalarken bulunabilirim. Hep meraklı. Hep inşa halinde.",
     "techSkills": [
-      { "name": "JavaScript", "level": 4 },
-      { "name": "Go", "level": 2 },
-      { "name": "HTML", "level": 4 },
-      { "name": "CSS", "level": 4 },
-      { "name": "TypeScript", "level": 3 },
-      { "name": "React", "level": 3 },
-      { "name": "Tailwind", "level": 4 }
+      {
+        "name": "JavaScript",
+        "level": 4
+      },
+      {
+        "name": "Go",
+        "level": 2
+      },
+      {
+        "name": "HTML",
+        "level": 4
+      },
+      {
+        "name": "CSS",
+        "level": 4
+      },
+      {
+        "name": "TypeScript",
+        "level": 3
+      },
+      {
+        "name": "React",
+        "level": 3
+      },
+      {
+        "name": "Tailwind",
+        "level": 4
+      }
     ],
     "languageSkills": [
-      { "name": "İngilizce", "level": 5 },
-      { "name": "Türkçe", "level": 5 },
-      { "name": "Fransızca", "level": 4 },
-      { "name": "İspanyolca", "level": 3 },
-      { "name": "Almanca", "level": 2 }
+      {
+        "name": "İngilizce",
+        "level": 5
+      },
+      {
+        "name": "Türkçe",
+        "level": 5
+      },
+      {
+        "name": "Fransızca",
+        "level": 4
+      },
+      {
+        "name": "İspanyolca",
+        "level": 3
+      },
+      {
+        "name": "Almanca",
+        "level": 2
+      }
     ],
-    "interests": ["Yazmak", "Egzersiz", "Uzun yürüyüşler", "Okumak"],
+    "interests": [
+      "Yazmak",
+      "Egzersiz",
+      "Uzun yürüyüşler",
+      "Okumak"
+    ],
     "photo": "https://avatars.githubusercontent.com/u/84997345?v=4",
     "contact": {
       "email": "umut.akturk14@gmail.com",
@@ -66,6 +107,31 @@
   },
   "projects": [
     {
+      "id": "dungeon-crawler",
+      "title": "Zindanda Gezinme - CLI Oyunu",
+      "color": "#000000",
+      "date": "Ekim 2025",
+      "icon": "cave",
+      "subTechs": [],
+      "tags": [
+        "CLI",
+        "Oyun"
+      ],
+      "text": "Dil temellerini gözden geçirirken Ruby ile inşa edilmiş kompakt, sıra tabanlı bir zindanda gezinme oyunu. Rastgele ortaya çıkan canavarlarla savaşın, ganimet toplayın ve maceracınızı seviye atlatın ta ki Eclipsed Warden'ı devirdiğinizde derinliklerden kaçana kadar.",
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354298/ruby.svg",
+          "tool": "Ruby"
+        }
+      ],
+      "links": {
+        "github": {
+          "buttonTitle": "Kodu Gör",
+          "link": "https://github.com/UmutAkturk14/dungeon-crawler"
+        }
+      }
+    },
+    {
       "color": "#e35502",
       "date": "Temmuz 2025",
       "icon": "pathfinder",
@@ -109,7 +175,13 @@
         "Algoritmalar",
         "Veri görselleştirme"
       ],
-      "tags": ["Frontend", "Yol bulma", "A*", "Labirent üretimi", "Canvas"],
+      "tags": [
+        "Frontend",
+        "Yol bulma",
+        "A*",
+        "Labirent üretimi",
+        "Canvas"
+      ],
       "text": "A* algoritmasını prosedürel olarak üretilen bir labirent üzerinde görselleştiren etkileşimli bir yol bulma uygulaması. Her çalıştırmada yeni bir labirent oluşturulur – fareyi ve peyniri yerleştirin, uygulama aralarındaki en kısa yolu hesaplayıp animasyonla gösterir. React, TypeScript ve Tailwind ile geliştirilmiştir.",
       "title": "Pathfinder"
     },
@@ -232,7 +304,13 @@
         "Vitest",
         "Performans odaklı"
       ],
-      "tags": ["Full stack", "Back end", "Front end", "Tooling", "Kütüphane"],
+      "tags": [
+        "Full stack",
+        "Back end",
+        "Front end",
+        "Tooling",
+        "Kütüphane"
+      ],
       "text": "QuokkaJS, jQuery'den ilham alan, TypeScript ile geliştirilmiş, modern ve özelliklerle dolu bir kütüphane projesidir. Amaç, DOM manipülasyonu, depolama erişimi, asenkron yardımcılar ve daha fazlası için sağlam, modüler ve geliştirici dostu bir kütüphane oluşturmaktır; TypeScript’in sağladığı tip güvenliği ve modern JavaScript özelliklerinden faydalanır.",
       "title": "Quokka JS"
     },
@@ -279,7 +357,13 @@
         "Özel hook'lar",
         "Yerel depolama"
       ],
-      "tags": ["Ön yüz", "Front end", "Open Source", "Araçlar", "Açık kaynak"],
+      "tags": [
+        "Ön yüz",
+        "Front end",
+        "Open Source",
+        "Araçlar",
+        "Açık kaynak"
+      ],
       "text": "Productivity Timer, kullanıcıların çalışma oturumlarını verimli bir şekilde yönetmelerine yardımcı olmak için tasarlanmış bir verimlilik aracıdır. TypeScript ve React ile geliştirilmiş olup; çalışma aralıkları ayarlama, ilerlemeyi takip etme, not alma, yapılacaklar listesini yönetme, detaylı çalışma analizi sunma, alışkanlık takibi, hatırlatıcılar kurma, yapılacaklar için Kanban modu kullanma ve verileri yerel olarak saklama gibi özellikler sunar. Uygulamanın modüler yapısı, kolay özelleştirme ve genişletme imkânı sağlar.",
       "title": "Verimlilik Zamanlayıcısı"
     },
@@ -396,7 +480,12 @@
         "Tailwind UI",
         "jQuery"
       ],
-      "tags": ["Full Stack", "Front end", "Back end", "Responsive"],
+      "tags": [
+        "Full Stack",
+        "Front end",
+        "Back end",
+        "Responsive"
+      ],
       "text": "Jazzed Sips, şık ve cazdan ilham alan bir kafenin çevrim içi varlığına hayat veriyor. İçeriği yapılandırmak için HTML temel alınırken, zarif ve uyumlu bir tasarım için Tailwind kullanılmıştır. Ruby on Rails, verileri yöneterek arka ucu desteklerken, JavaScript ve jQuery kitaplığı da dinamik özellikler kazandırmakta ve kullanıcı etkileşimini geliştirmektedir.",
       "title": "Jazzed Sips"
     },
@@ -457,7 +546,12 @@
         "Anlık özel mesajlaşma",
         "Sosyal akış"
       ],
-      "tags": ["Full Stack", "Front end", "Back end", "Responsive Tasarım"],
+      "tags": [
+        "Full Stack",
+        "Front end",
+        "Back end",
+        "Responsive Tasarım"
+      ],
       "text": "ZoneFit, egzersiz videoları ve sağlıklı yaşam tariflerini arama özelliğiyle sunan, fitness/sağlıklı yaşam meraklılarına yönelik bir web uygulamasıdır. Aynı zamanda sosyal medya özellikleri de içerir: antrenmanlara ve tariflere yorum yapma, gönderi oluşturma, gönderilere yorum yapma, arkadaş ekleme/kabul etme/reddetme, genel topluluklarda sohbet etme ve özel mesajlaşma gibi. Detaylar için proje deposuna göz atabilirsiniz.",
       "title": "ZoneFit"
     }
@@ -555,7 +649,11 @@
         "description": "Derinlemesine öğrenmek için bir klasiği yeniden inşa etmek: jQuery’den ilham alarak TypeScript ile oluşturduğum modern ve esnek yardımcı kütüphane Quokka JS’in hikâyesi.",
         "date": "Mayıs 2025",
         "link": "https://medium.com/@zookeeper14/from-jquery-to-quokkajs-rebuilding-a-classic-to-truly-understand-it-d8bca777a8d0",
-        "tags": ["Teknoloji", "Kişisel", "Öğrenme"],
+        "tags": [
+          "Teknoloji",
+          "Kişisel",
+          "Öğrenme"
+        ],
         "coverImage": "https://images.unsplash.com/photo-1639431682289-72b9ebb75895?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "themeColor": "#4A90E2"
       }

@@ -2,22 +2,63 @@
   "about": {
     "bio": "Je suis développeur full stack avec une formation en linguistique et en édition — les mots et le code sont donc mes domaines de prédilection. J’adore créer des expériences web réfléchies et conviviales, tout en apprenant constamment, que ce soit de nouvelles technologies ou des langues étrangères. Quand je ne code pas, vous me trouverez en train de marcher au bord de la mer, de griffonner des idées ou de me lancer dans des aventures caféinées. Toujours curieux. Toujours en train de construire.",
     "techSkills": [
-      { "name": "JavaScript", "level": 4 },
-      { "name": "Go", "level": 2 },
-      { "name": "HTML", "level": 4 },
-      { "name": "CSS", "level": 4 },
-      { "name": "TypeScript", "level": 3 },
-      { "name": "React", "level": 3 },
-      { "name": "Tailwind", "level": 4 }
+      {
+        "name": "JavaScript",
+        "level": 4
+      },
+      {
+        "name": "Go",
+        "level": 2
+      },
+      {
+        "name": "HTML",
+        "level": 4
+      },
+      {
+        "name": "CSS",
+        "level": 4
+      },
+      {
+        "name": "TypeScript",
+        "level": 3
+      },
+      {
+        "name": "React",
+        "level": 3
+      },
+      {
+        "name": "Tailwind",
+        "level": 4
+      }
     ],
     "languageSkills": [
-      { "name": "Anglais", "level": 5 },
-      { "name": "Turc", "level": 5 },
-      { "name": "Français", "level": 4 },
-      { "name": "Espagnol", "level": 3 },
-      { "name": "Allemand", "level": 2 }
+      {
+        "name": "Anglais",
+        "level": 5
+      },
+      {
+        "name": "Turc",
+        "level": 5
+      },
+      {
+        "name": "Français",
+        "level": 4
+      },
+      {
+        "name": "Espagnol",
+        "level": 3
+      },
+      {
+        "name": "Allemand",
+        "level": 2
+      }
     ],
-    "interests": ["Écriture", "Exercice", "Longues promenades", "Lecture"],
+    "interests": [
+      "Écriture",
+      "Exercice",
+      "Longues promenades",
+      "Lecture"
+    ],
     "photo": "https://avatars.githubusercontent.com/u/84997345?v=4",
     "contact": {
       "email": "umut.akturk14@gmail.com",
@@ -65,6 +106,31 @@
     "title": "Développeur Full-Stack"
   },
   "projects": [
+    {
+      "id": "dungeon-crawler",
+      "title": "Explorateur de Donjons - Jeu CLI",
+      "color": "#000000",
+      "date": "Octobre 2025",
+      "icon": "cave",
+      "subTechs": [],
+      "tags": [
+        "CLI",
+        "Jeu"
+      ],
+      "text": "Un jeu de donjon compact au tour par tour créé en Ruby tout en révisant les fondamentaux du langage. Combattez des monstres apparaissant au hasard, récupérez du butin et faites évoluer votre aventurier jusqu'à ce que vous renversiez le Gardien Éclipsé et échappiez aux profondeurs.",
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354298/ruby.svg",
+          "tool": "Ruby"
+        }
+      ],
+      "links": {
+        "github": {
+          "buttonTitle": "Voir le code",
+          "link": "https://github.com/UmutAkturk14/dungeon-crawler"
+        }
+      }
+    },
     {
       "color": "#e35502",
       "date": "Juillet 2025",
@@ -119,7 +185,6 @@
       "text": "Une application interactive de recherche de chemin qui visualise l’algorithme A* sur un labyrinthe généré procéduralement. À chaque exécution, un nouveau labyrinthe est créé – placez la souris et le fromage, et l’application calcule et anime le chemin le plus court entre eux. Développée avec React, TypeScript et Tailwind.",
       "title": "Pathfinder"
     },
-
     {
       "color": "#e31102",
       "date": "Juillet 2025",
@@ -241,7 +306,12 @@
         "Vitest",
         "Axé sur la performance"
       ],
-      "tags": ["Front end", "Back end", "Outil", "Bibliothèque"],
+      "tags": [
+        "Front end",
+        "Back end",
+        "Outil",
+        "Bibliothèque"
+      ],
       "text": "QuokkaJS est une bibliothèque moderne et riche en fonctionnalités en cours de développement, inspirée de jQuery et construite avec TypeScript. L'objectif est de créer une bibliothèque robuste, modulaire et conviviale pour les développeurs, pour manipuler le DOM, accéder au stockage, utiliser des utilitaires asynchrones, et plus encore, tout en bénéficiant de la sécurité de TypeScript.",
       "title": "Quokka JS"
     },
@@ -288,7 +358,11 @@
         "Hooks personnalisés",
         "Stockage local"
       ],
-      "tags": ["Front-end", "Outils", "Open source"],
+      "tags": [
+        "Front-end",
+        "Outils",
+        "Open source"
+      ],
       "text": "Productivity Timer est un outil de productivité conçu pour aider les utilisateurs à gérer efficacement leurs sessions d’étude. Développé avec TypeScript et React, il propose une interface simple pour définir des intervalles d’étude, suivre les progrès, prendre des notes, gérer les tâches, obtenir une analyse détaillée du travail, suivre les habitudes, définir des rappels, activer un mode Kanban pour les tâches et stocker les données localement. L’architecture modulaire de l’application permet une personnalisation et une extension faciles.",
       "title": "Minuteur de Productivité"
     },
@@ -581,7 +655,11 @@
         "description": "Reconstruire un classique pour apprendre en profondeur : comment j’ai créé Quokka JS, une bibliothèque utilitaire moderne et flexible, inspirée de jQuery et propulsée par TypeScript.",
         "date": "May 2025",
         "link": "https://medium.com/@zookeeper14/from-jquery-to-quokkajs-rebuilding-a-classic-to-truly-understand-it-d8bca777a8d0",
-        "tags": ["Technologie", "Personnel", "Apprentissage"],
+        "tags": [
+          "Technologie",
+          "Personnel",
+          "Apprentissage"
+        ],
         "coverImage": "https://images.unsplash.com/photo-1639431682289-72b9ebb75895?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "themeColor": "#4A90E2"
       }
