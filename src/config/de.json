@@ -107,6 +107,42 @@
   },
   "projects": [
     {
+      "id": "Deutsch Übung",
+      "title": "Deutsch Übung",
+      "color": "#000000",
+      "date": "November 2025",
+      "icon": "stern",
+      "subTechs": [],
+      "tags": [
+        "Bildung"
+      ],
+      "text": "Vollständige Sprachlern-App mit zwei Lernmodi (Karteikarten und Multiple Choice), JWT-Authentifizierung, OpenAI-unterstützte Inhaltsgenerierung und Fortschrittsverfolgung, unterstützt von PostgreSQL + Prisma. Entwickelt mit React + Vite im Frontend und serverlosen Funktionen von Vercel + GraphQL Yoga im Backend.",
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+          "tool": "TypeScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+          "tool": "React"
+        },
+        {
+          "tool": "OpenAI",
+          "icon": ""
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/354200/postgresql.svg",
+          "tool": "PostgreSQL"
+        }
+      ],
+      "links": {
+        "github": {
+          "buttonTitle": "Siehe den Code",
+          "link": "https://github.com/UmutAkturk14/GermanPractice"
+        }
+      }
+    },
+    {
       "id": "dungeon-crawler",
       "title": "Dungeon Crawler - CLI Spiel",
       "color": "#000000",

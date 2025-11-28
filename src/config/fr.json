@@ -107,6 +107,42 @@
   },
   "projects": [
     {
+      "id": "Pratique de l'allemand",
+      "title": "Pratique de l'allemand",
+      "color": "#000000",
+      "date": "Novembre 2025",
+      "icon": "star",
+      "subTechs": [],
+      "tags": [
+        "Éducation"
+      ],
+      "text": "Application d'apprentissage des langues complète avec deux modes d'étude (cartes mémoire et choix multiples), authentification JWT, génération de contenu alimentée par OpenAI, et suivi des progrès soutenu par PostgreSQL + Prisma. Développé avec React + Vite en front-end et fonctions sans serveur Vercel + GraphQL Yoga en back-end.",
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+          "tool": "TypeScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+          "tool": "React"
+        },
+        {
+          "tool": "OpenAI",
+          "icon": ""
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/354200/postgresql.svg",
+          "tool": "PostgreSQL"
+        }
+      ],
+      "links": {
+        "github": {
+          "buttonTitle": "Voir le code",
+          "link": "https://github.com/UmutAkturk14/GermanPractice"
+        }
+      }
+    },
+    {
       "id": "dungeon-crawler",
       "title": "Explorateur de Donjons - Jeu CLI",
       "color": "#000000",

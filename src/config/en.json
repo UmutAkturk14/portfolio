@@ -107,6 +107,42 @@
   },
   "projects": [
     {
+      "id": "German Practice",
+      "title": "German Practice",
+      "color": "#000000",
+      "date": "November 2025",
+      "icon": "star",
+      "subTechs": [],
+      "tags": [
+        "Education"
+      ],
+      "text": "Full-stack language learning app with two study modes (flashcards and multiple choice), JWT auth, OpenAI-powered content generation, and progress tracking backed by PostgreSQL + Prisma. Built with React + Vite on the front end and Vercel serverless functions + GraphQL Yoga on the back end.",
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+          "tool": "TypeScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+          "tool": "React"
+        },
+        {
+          "tool": "OpenAI",
+          "icon": ""
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/354200/postgresql.svg",
+          "tool": "PostgreSQL"
+        }
+      ],
+      "links": {
+        "github": {
+          "buttonTitle": "See the code",
+          "link": "https://github.com/UmutAkturk14/GermanPractice"
+        }
+      }
+    },
+    {
       "id": "dungeon-crawler",
       "title": "Dungeon Crawler - CLI Game",
       "color": "#000000",

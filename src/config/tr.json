@@ -107,6 +107,42 @@
   },
   "projects": [
     {
+      "id": "Almanca Uygulama",
+      "title": "Almanca Uygulama",
+      "color": "#000000",
+      "date": "Kasım 2025",
+      "icon": "yıldız",
+      "subTechs": [],
+      "tags": [
+        "Eğitim"
+      ],
+      "text": "İki çalışma modu (flashkart ve çoktan seçmeli) ile tam yığın dil öğrenme uygulaması, JWT kimlik doğrulama, OpenAI destekli içerik oluşturma ve PostgreSQL + Prisma ile desteklenen ilerleme izleme. Ön uçta React + Vite ve arka uçta Vercel sunucusuz işlevleri + GraphQL Yoga ile oluşturulmuştur.",
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+          "tool": "TypeScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+          "tool": "React"
+        },
+        {
+          "tool": "OpenAI",
+          "icon": ""
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/354200/postgresql.svg",
+          "tool": "PostgreSQL"
+        }
+      ],
+      "links": {
+        "github": {
+          "buttonTitle": "Kodu Görüntüle",
+          "link": "https://github.com/UmutAkturk14/GermanPractice"
+        }
+      }
+    },
+    {
       "id": "dungeon-crawler",
       "title": "Zindanda Gezinme - CLI Oyunu",
       "color": "#000000",

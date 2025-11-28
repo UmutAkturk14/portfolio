@@ -107,6 +107,42 @@
   },
   "projects": [
     {
+      "id": "Práctica de Alemán",
+      "title": "Práctica de Alemán",
+      "color": "#000000",
+      "date": "Noviembre 2025",
+      "icon": "estrella",
+      "subTechs": [],
+      "tags": [
+        "Educación"
+      ],
+      "text": "Aplicación de aprendizaje de idiomas de pila completa con dos modos de estudio (tarjetas de memoria y opción múltiple), autenticación JWT, generación de contenido impulsada por OpenAI y seguimiento de progreso respaldado por PostgreSQL + Prisma. Construido con React + Vite en el front-end y funciones sin servidor de Vercel + GraphQL Yoga en el back-end.",
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+          "tool": "TypeScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+          "tool": "React"
+        },
+        {
+          "tool": "OpenAI",
+          "icon": ""
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/354200/postgresql.svg",
+          "tool": "PostgreSQL"
+        }
+      ],
+      "links": {
+        "github": {
+          "buttonTitle": "Ver el código",
+          "link": "https://github.com/UmutAkturk14/GermanPractice"
+        }
+      }
+    },
+    {
       "id": "dungeon-crawler",
       "title": "Dungeon Crawler - Juego de CLI",
       "color": "#000000",
