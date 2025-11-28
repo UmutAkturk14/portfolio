@@ -53,12 +53,7 @@
         "level": 2
       }
     ],
-    "interests": [
-      "Schreiben",
-      "Sport",
-      "Lange Spaziergänge",
-      "Lesen"
-    ],
+    "interests": ["Schreiben", "Sport", "Lange Spaziergänge", "Lesen"],
     "photo": "https://avatars.githubusercontent.com/u/84997345?v=4",
     "contact": {
       "email": "umut.akturk14@gmail.com",
@@ -113,9 +108,7 @@
       "date": "November 2025",
       "icon": "stern",
       "subTechs": [],
-      "tags": [
-        "Bildung"
-      ],
+      "tags": ["Bildung"],
       "text": "Vollständige Sprachlern-App mit zwei Lernmodi (Karteikarten und Multiple Choice), JWT-Authentifizierung, OpenAI-unterstützte Inhaltsgenerierung und Fortschrittsverfolgung, unterstützt von PostgreSQL + Prisma. Entwickelt mit React + Vite im Frontend und serverlosen Funktionen von Vercel + GraphQL Yoga im Backend.",
       "stack": [
         {
@@ -128,7 +121,7 @@
         },
         {
           "tool": "OpenAI",
-          "icon": ""
+          "icon": "https://www.svgrepo.com/show/306500/openai.svg"
         },
         {
           "icon": "https://www.svgrepo.com/show/354200/postgresql.svg",
@@ -149,10 +142,7 @@
       "date": "Oktober 2025",
       "icon": "cave",
       "subTechs": [],
-      "tags": [
-        "CLI",
-        "Spiel"
-      ],
+      "tags": ["CLI", "Spiel"],
       "text": "Ein kompaktes, rundenbasiertes Dungeon-Crawl, gebaut in Ruby, während die Sprachgrundlagen aufgefrischt werden. Bekämpfe zufällig erzeugte Monster, sammle Beute und level deinen Abenteurer, bis du den Eclipsed Warden besiegst und aus den Tiefen entkommst.",
       "stack": [
         {
@@ -278,12 +268,7 @@
         "CORS-Konfiguration",
         "Echtzeit-Crawl-Fortschritt"
       ],
-      "tags": [
-        "Full Stack",
-        "Webanwendung",
-        "Crawler",
-        "Dashboard"
-      ],
+      "tags": ["Full Stack", "Webanwendung", "Crawler", "Dashboard"],
       "text": "Eine Full-Stack-Webanwendung, mit der Benutzer Webseiten einreichen und analysieren können. Dabei werden strukturierte Daten wie HTML-Version, Überschriften, Links und das Vorhandensein von Login-Formularen bereitgestellt. Entwickelt mit Go (Gin), React, TypeScript, MySQL und Docker. Die App bietet Funktionen wie Echtzeit-Crawl-Fortschritt, Massenaktionen, ein detailliertes Dashboard und End-to-End-Tests mit Playwright.",
       "title": "Web Crawler"
     },
@@ -339,11 +324,7 @@
         "Vitest",
         "Leistungsorientiert"
       ],
-      "tags": [
-        "Front end",
-        "Werkzeug",
-        "Bibliothek"
-      ],
+      "tags": ["Front end", "Werkzeug", "Bibliothek"],
       "text": "QuokkaJS ist eine moderne, funktionsreiche Bibliothek in Arbeit, inspiriert von jQuery und mit TypeScript entwickelt. Ziel ist es, eine robuste, modulare und entwicklerfreundliche Bibliothek für DOM-Manipulation, Speicherzugriff, asynchrone Hilfsfunktionen und mehr zu schaffen – mit der Typsicherheit von TypeScript und modernen JavaScript-Funktionen.",
       "title": "Quokka JS"
     },
@@ -390,11 +371,7 @@
         "Eigene Hooks",
         "Lokaler Speicher"
       ],
-      "tags": [
-        "Frontend",
-        "Werkzeuge",
-        "Open Source"
-      ],
+      "tags": ["Frontend", "Werkzeuge", "Open Source"],
       "text": "Productivity Timer ist ein Produktivitätstool, das Nutzern dabei hilft, ihre Lernsitzungen effektiv zu organisieren. Entwickelt mit TypeScript und React, bietet es eine einfache Benutzeroberfläche zur Festlegung von Lernintervallen, Fortschrittsverfolgung, Notizen, Aufgabenverwaltung, detaillierte Arbeitsanalysen, Habit-Tracking, Erinnerungen, einen Kanban-Modus für Aufgaben sowie lokale Datenspeicherung. Die modulare Architektur der App ermöglicht eine einfache Anpassung und Erweiterung.",
       "title": "Produktivitäts-Timer"
     },
@@ -511,13 +488,7 @@
         "jQuery",
         "Performance-Optimierung"
       ],
-      "tags": [
-        "Full Stack",
-        "Back end",
-        "Front end",
-        "Responsiv",
-        "Branding"
-      ],
+      "tags": ["Full Stack", "Back end", "Front end", "Responsiv", "Branding"],
       "text": "Jazzed Sips verleiht dem Online-Auftritt eines stilvollen, jazz-inspirierten Cafés neues Leben. Die Seite basiert auf HTML zur Strukturierung der Inhalte und verwendet Tailwind für ein elegantes und responsives Design. Ruby on Rails bildet das Backend und übernimmt das Datenmanagement, während JavaScript in Kombination mit der jQuery-Bibliothek dynamische Funktionen und verbesserte Benutzerinteraktionen ermöglicht.",
       "title": "Jazzed Sips"
     },
@@ -683,11 +654,7 @@
         "description": "Einen Klassiker neu bauen, um tief zu lernen: wie ich Quokka JS geschaffen habe – eine flexible, moderne Utility-Bibliothek, inspiriert von jQuery und angetrieben von TypeScript.",
         "date": "May 2025",
         "link": "https://medium.com/@zookeeper14/from-jquery-to-quokkajs-rebuilding-a-classic-to-truly-understand-it-d8bca777a8d0",
-        "tags": [
-          "Technologie",
-          "Persönlich",
-          "Lernen"
-        ],
+        "tags": ["Technologie", "Persönlich", "Lernen"],
         "coverImage": "https://images.unsplash.com/photo-1639431682289-72b9ebb75895?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "themeColor": "#4A90E2"
       }
