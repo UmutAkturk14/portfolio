@@ -53,7 +53,12 @@
         "level": 2
       }
     ],
-    "interests": ["Escritura", "Ejercicio", "Caminatas largas", "Lectura"],
+    "interests": [
+      "Escritura",
+      "Ejercicio",
+      "Caminatas largas",
+      "Lectura"
+    ],
     "photo": "https://avatars.githubusercontent.com/u/84997345?v=4",
     "contact": {
       "email": "umut.akturk14@gmail.com",
@@ -102,6 +107,57 @@
   },
   "projects": [
     {
+      "id": "Delphi",
+      "title": "Delphi",
+      "color": "#ba0d9a",
+      "date": "En curso",
+      "icon": "estrella",
+      "subTechs": [
+        "AWS Lambda",
+        "AWS S3",
+        "AWS DynamoDB",
+        "AWS Cognito",
+        "AWS AppSync",
+        "AWS CloudWatch",
+        "AWS TrustedAdvisor",
+        "Diseño elegante",
+        "UI/UX",
+        "Enfoque centrado en el usuario"
+      ],
+      "tags": [
+        "Producto"
+      ],
+      "text": "Delphi es un \"oráculo digital\" cinematográfico de React + TypeScript + Vite que combina múltiples experiencias de adivinación: chat guiado por IA, horóscopos diarios (con rueda interactiva y paneles de detalle), tiradas de tarot, numerología, lecturas de sueños y café, lanzamiento de runas, quiromancia, y perfiles/historial/favoritos guardados, todo en una única aplicación cohesiva. La interfaz de usuario utiliza Tailwind CSS v4, Framer Motion, íconos de Lucide, y renderizado de Markdown para superficies ricas y animadas, mientras que React Router 7 gestiona el flujo de múltiples páginas. Bajo el capó (y planificado), es GraphQL-first con Apollo, AWS AppSync, DynamoDB, Lambda y S3 (desarrollo local a través de LocalStack) para lecturas personalizadas y persistentes; AWS Cognito para autenticación (planificado, utilizando jwt para el entorno de desarrollo).",
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+          "tool": "TypeScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+          "tool": "React"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/448266/aws.svg",
+          "tool": "AWS"
+        },
+        {
+          "tool": "OpenAI",
+          "icon": ""
+        },
+        {
+          "tool": "GraphQL",
+          "icon": ""
+        }
+      ],
+      "links": {
+        "github": {
+          "buttonTitle": "Ver el código",
+          "link": "https://gitlab.com/Zookeeper14/Delphi"
+        }
+      }
+    },
+    {
       "id": "PersonalChatbot",
       "title": "Chatbot Personal",
       "color": "#000000",
@@ -112,7 +168,10 @@
         "renderización de Markdown",
         "reconocimiento de voz"
       ],
-      "tags": ["Chatbot", "Portafolio"],
+      "tags": [
+        "Chatbot",
+        "Portafolio"
+      ],
       "text": "Una aplicación de una sola página en React 19 + Vite que responde preguntas sobre ti. El chat se basa en tu propio contenido JSON y se sirve a través de una función de Vercel que llama a OpenAI.",
       "stack": [
         {
@@ -157,7 +216,10 @@
         "EdTech",
         "Repetición espaciada"
       ],
-      "tags": ["Aplicación", "Educación"],
+      "tags": [
+        "Aplicación",
+        "Educación"
+      ],
       "text": "Entrenador de lectura en alemán de pila completa con generación de párrafos respaldada por IA, verificaciones de comprensión, búsqueda de palabras y seguimiento de progreso. La interfaz de usuario se ejecuta en React + Vite + Tailwind; la API es Express + GraphQL Yoga + Prisma (SQLite).",
       "stack": [
         {
@@ -199,7 +261,9 @@
       "date": "Noviembre 2025",
       "icon": "estrella",
       "subTechs": [],
-      "tags": ["Educación"],
+      "tags": [
+        "Educación"
+      ],
       "text": "Aplicación de aprendizaje de idiomas de pila completa con dos modos de estudio (tarjetas de memoria y opción múltiple), autenticación JWT, generación de contenido impulsada por OpenAI y seguimiento de progreso respaldado por PostgreSQL + Prisma. Construido con React + Vite en el front-end y funciones sin servidor de Vercel + GraphQL Yoga en el back-end.",
       "stack": [
         {
@@ -233,7 +297,10 @@
       "date": "Octubre 2025",
       "icon": "cave",
       "subTechs": [],
-      "tags": ["CLI", "Juego"],
+      "tags": [
+        "CLI",
+        "Juego"
+      ],
       "text": "Un compacto, juego de rol basado en turnos en una mazmorras construido en Ruby mientras se repasan los fundamentos del lenguaje. Lucha contra monstruos generados aleatoriamente, reúne botines y nivela a tu aventurero hasta que derrotes al Guardián Eclipsado y escapes de las profundidades.",
       "stack": [
         {
@@ -422,7 +489,12 @@
         "Vitest",
         "Enfocado en el rendimiento"
       ],
-      "tags": ["Frontend", "Backend", "Herramienta", "Biblioteca"],
+      "tags": [
+        "Frontend",
+        "Backend",
+        "Herramienta",
+        "Biblioteca"
+      ],
       "text": "QuokkaJS es una biblioteca moderna y rica en funciones en desarrollo, inspirada en jQuery y construida con TypeScript. El objetivo es crear una biblioteca robusta, modular y amigable para el desarrollador para manipulación del DOM, acceso a almacenamiento, utilidades asíncronas y más, aprovechando el poder de TypeScript.",
       "title": "Quokka JS"
     },
@@ -469,7 +541,12 @@
         "Hooks personalizados",
         "Almacenamiento local"
       ],
-      "tags": ["Front end", "Open Source", "Herramientas", "Código abierto"],
+      "tags": [
+        "Front end",
+        "Open Source",
+        "Herramientas",
+        "Código abierto"
+      ],
       "text": "Productivity Timer es una herramienta de productividad diseñada para ayudar a los usuarios a gestionar eficazmente sus sesiones de estudio. Desarrollada con TypeScript y React, ofrece una interfaz sencilla para establecer intervalos de estudio, hacer seguimiento del progreso, tomar notas, gestionar tareas, obtener análisis detallados del trabajo, seguir hábitos, configurar recordatorios, usar un modo Kanban para tareas y almacenar los datos localmente. La arquitectura modular de la aplicación permite una fácil personalización y expansión.",
       "title": "Temporizador de Productividad"
     },
@@ -762,7 +839,11 @@
         "description": "Reconstruyendo un clásico para aprender en profundidad: cómo creé Quokka JS, una biblioteca de utilidades moderna y flexible inspirada en jQuery y potenciada por TypeScript.",
         "date": "May 2025",
         "link": "https://medium.com/@zookeeper14/from-jquery-to-quokkajs-rebuilding-a-classic-to-truly-understand-it-d8bca777a8d0",
-        "tags": ["Tecnología", "Personal", "Aprendizaje"],
+        "tags": [
+          "Tecnología",
+          "Personal",
+          "Aprendizaje"
+        ],
         "coverImage": "https://images.unsplash.com/photo-1639431682289-72b9ebb75895?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "themeColor": "#4A90E2"
       }
