@@ -107,6 +107,51 @@
   },
   "projects": [
     {
+      "id": "PersonalChatbot",
+      "title": "Kişisel Chatbot",
+      "color": "#000000",
+      "date": "Aralık 2025",
+      "icon": "star",
+      "subTechs": [
+        "Sunucusuz API on Vercel",
+        "Markdown renderleme",
+        "Konuşma tanıma"
+      ],
+      "tags": [
+        "Chatbot",
+        "Portföy"
+      ],
+      "text": "Hakkınızda sorulara cevap veren tek sayfalık bir React 19 + Vite uygulaması. Sohbet, kendi JSON içeriğinize dayanıyor ve OpenAI'yi çağıran bir Vercel işlevi tarafından sunuluyor.",
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+          "tool": "TypeScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+          "tool": "React"
+        },
+        {
+          "tool": "OpenAI",
+          "icon": ""
+        },
+        {
+          "tool": "Vercel",
+          "icon": ""
+        }
+      ],
+      "links": {
+        "github": {
+          "buttonTitle": "Kodu Gör",
+          "link": "https://github.com/UmutAkturk14/PersonalChatbot"
+        },
+        "deployment": {
+          "buttonTitle": "Web Sitesi",
+          "link": "umutakturk.dev"
+        }
+      }
+    },
+    {
       "id": "GermanReadingExercises",
       "title": "Almanca Okuma Egzersizleri",
       "color": "#ad032b",

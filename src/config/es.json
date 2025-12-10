@@ -107,6 +107,51 @@
   },
   "projects": [
     {
+      "id": "PersonalChatbot",
+      "title": "Chatbot Personal",
+      "color": "#000000",
+      "date": "Diciembre 2025",
+      "icon": "estrella",
+      "subTechs": [
+        "API sin servidor en Vercel",
+        "renderización de Markdown",
+        "reconocimiento de voz"
+      ],
+      "tags": [
+        "Chatbot",
+        "Portafolio"
+      ],
+      "text": "Una aplicación de una sola página en React 19 + Vite que responde preguntas sobre ti. El chat se basa en tu propio contenido JSON y se sirve a través de una función de Vercel que llama a OpenAI.",
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+          "tool": "TypeScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+          "tool": "React"
+        },
+        {
+          "tool": "OpenAI",
+          "icon": ""
+        },
+        {
+          "tool": "Vercel",
+          "icon": ""
+        }
+      ],
+      "links": {
+        "github": {
+          "buttonTitle": "Ver el código",
+          "link": "https://github.com/UmutAkturk14/PersonalChatbot"
+        },
+        "deployment": {
+          "buttonTitle": "Sitio web",
+          "link": "umutakturk.dev"
+        }
+      }
+    },
+    {
       "id": "GermanReadingExercises",
       "title": "Ejercicios de Lectura en Alemán",
       "color": "#ad032b",
