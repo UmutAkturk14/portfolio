@@ -117,7 +117,7 @@ export default function ProjectsSection() {
           >
             {/* Top Section */}
             <div>
-              <div className="flex items-center justify-between mb-3">
+              <div className="flex items-center justify-between mb-3 min-h-[5svh]">
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                   {project.title}
                 </h3>
