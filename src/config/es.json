@@ -53,7 +53,12 @@
         "level": 2
       }
     ],
-    "interests": ["Escritura", "Ejercicio", "Caminatas largas", "Lectura"],
+    "interests": [
+      "Escritura",
+      "Ejercicio",
+      "Caminatas largas",
+      "Lectura"
+    ],
     "photo": "https://avatars.githubusercontent.com/u/84997345?v=4",
     "contact": {
       "email": "umut.akturk14@gmail.com",
@@ -102,13 +107,67 @@
   },
   "projects": [
     {
+      "id": "GermanReadingExercises",
+      "title": "Ejercicios de Lectura en Alemán",
+      "color": "#ad032b",
+      "date": "Octubre 2025",
+      "icon": "estrella",
+      "subTechs": [
+        "Iniciar sesión / Registrarse",
+        "Autenticación",
+        "Interfaz Responsiva",
+        "Amigable para el usuario",
+        "EdTech",
+        "Repetición espaciada"
+      ],
+      "tags": [
+        "Aplicación",
+        "Educación"
+      ],
+      "text": "Entrenador de lectura en alemán de pila completa con generación de párrafos respaldada por IA, verificaciones de comprensión, búsqueda de palabras y seguimiento de progreso. La interfaz de usuario se ejecuta en React + Vite + Tailwind; la API es Express + GraphQL Yoga + Prisma (SQLite).",
+      "stack": [
+        {
+          "icon": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+          "tool": "TypeScript"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg",
+          "tool": "React"
+        },
+        {
+          "icon": "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
+          "tool": "Tailwind"
+        },
+        {
+          "tool": "Express",
+          "icon": ""
+        },
+        {
+          "tool": "GraphQL",
+          "icon": ""
+        },
+        {
+          "tool": "OpenAI",
+          "icon": ""
+        }
+      ],
+      "links": {
+        "github": {
+          "buttonTitle": "Ver el código",
+          "link": "https://github.com/UmutAkturk14/GermanReadingExercises/"
+        }
+      }
+    },
+    {
       "id": "Práctica de Alemán",
       "title": "Práctica de Alemán",
       "color": "#000000",
       "date": "Noviembre 2025",
       "icon": "estrella",
       "subTechs": [],
-      "tags": ["Educación"],
+      "tags": [
+        "Educación"
+      ],
       "text": "Aplicación de aprendizaje de idiomas de pila completa con dos modos de estudio (tarjetas de memoria y opción múltiple), autenticación JWT, generación de contenido impulsada por OpenAI y seguimiento de progreso respaldado por PostgreSQL + Prisma. Construido con React + Vite en el front-end y funciones sin servidor de Vercel + GraphQL Yoga en el back-end.",
       "stack": [
         {
@@ -142,7 +201,10 @@
       "date": "Octubre 2025",
       "icon": "cave",
       "subTechs": [],
-      "tags": ["CLI", "Juego"],
+      "tags": [
+        "CLI",
+        "Juego"
+      ],
       "text": "Un compacto, juego de rol basado en turnos en una mazmorras construido en Ruby mientras se repasan los fundamentos del lenguaje. Lucha contra monstruos generados aleatoriamente, reúne botines y nivela a tu aventurero hasta que derrotes al Guardián Eclipsado y escapes de las profundidades.",
       "stack": [
         {
@@ -331,7 +393,12 @@
         "Vitest",
         "Enfocado en el rendimiento"
       ],
-      "tags": ["Frontend", "Backend", "Herramienta", "Biblioteca"],
+      "tags": [
+        "Frontend",
+        "Backend",
+        "Herramienta",
+        "Biblioteca"
+      ],
       "text": "QuokkaJS es una biblioteca moderna y rica en funciones en desarrollo, inspirada en jQuery y construida con TypeScript. El objetivo es crear una biblioteca robusta, modular y amigable para el desarrollador para manipulación del DOM, acceso a almacenamiento, utilidades asíncronas y más, aprovechando el poder de TypeScript.",
       "title": "Quokka JS"
     },
@@ -378,7 +445,12 @@
         "Hooks personalizados",
         "Almacenamiento local"
       ],
-      "tags": ["Front end", "Open Source", "Herramientas", "Código abierto"],
+      "tags": [
+        "Front end",
+        "Open Source",
+        "Herramientas",
+        "Código abierto"
+      ],
       "text": "Productivity Timer es una herramienta de productividad diseñada para ayudar a los usuarios a gestionar eficazmente sus sesiones de estudio. Desarrollada con TypeScript y React, ofrece una interfaz sencilla para establecer intervalos de estudio, hacer seguimiento del progreso, tomar notas, gestionar tareas, obtener análisis detallados del trabajo, seguir hábitos, configurar recordatorios, usar un modo Kanban para tareas y almacenar los datos localmente. La arquitectura modular de la aplicación permite una fácil personalización y expansión.",
       "title": "Temporizador de Productividad"
     },
@@ -671,7 +743,11 @@
         "description": "Reconstruyendo un clásico para aprender en profundidad: cómo creé Quokka JS, una biblioteca de utilidades moderna y flexible inspirada en jQuery y potenciada por TypeScript.",
         "date": "May 2025",
         "link": "https://medium.com/@zookeeper14/from-jquery-to-quokkajs-rebuilding-a-classic-to-truly-understand-it-d8bca777a8d0",
-        "tags": ["Tecnología", "Personal", "Aprendizaje"],
+        "tags": [
+          "Tecnología",
+          "Personal",
+          "Aprendizaje"
+        ],
         "coverImage": "https://images.unsplash.com/photo-1639431682289-72b9ebb75895?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "themeColor": "#4A90E2"
       }
