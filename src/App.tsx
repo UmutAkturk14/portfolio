@@ -9,7 +9,7 @@ import About from "./components/about/About";
 import Footer from "./components/footer/Footer";
 import GoToTop from "./components/ui/GoToTop";
 import { useEffect } from "react";
-import { $ } from "quokka-js";
+import { $ } from "quokka-toolkit";
 import Projects from "./components/projects/Projects";
 
 export default function App() {
